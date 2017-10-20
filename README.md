@@ -5,10 +5,11 @@ Acest "repozitory" contine exercitii pe care le vom parcurge in cadrul laborator
 Exercitiile sunt impartite dupa cum urmeaza:
 
 * [Laborator 3 - Selectori CSS](doc/laborator-3)
+* [Laborator 4 - Layout](doc/laborator-4)
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 
-# Cerinte
+## Cerinte
 
 Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de exemplu:
 

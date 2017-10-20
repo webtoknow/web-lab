@@ -1,15 +1,15 @@
 # Laborator 3 - Selectori CSS
 ## Design website personal
 
-![Design website personal](personal-website.png)
+![Design website personal - resume](personal-website-resume.png)
 
 ## Exercitiul 3.1
 
-Creati un document HTML (index.html) cu descrierea personala (incluzand si o poza a voastra) folosind tagurile semantice cunoscute: ``<img>``, ``<br>``,``<article>``, ``<section>``, ``<p>``, ``<h1>``, …, ``<h6>``, … .
+Creati un document HTML (*index.html*) cu descrierea personala (incluzand si o poza a voastra) folosind tagurile semantice cunoscute: ``<img>``, ``<br>``,``<article>``, ``<section>``, ``<p>``, ``<h1>``, …, ``<h6>``, … .
 
 ## Exercitiul 3.2
 
-Creati un document HTML (cv.html) cu CV-ul personal care va contine cel putin 2 sectiuni (Experienta profesionala, Educatie) cuprinzand o lista cu cel putin 3 elemente (pozitii ocupate, formele de invatamand absolvite etc.).
+Creati un document HTML (*cv.html*) cu CV-ul personal care va contine cel putin 2 sectiuni (Experienta profesionala, Educatie) cuprinzand o lista cu cel putin 3 elemente (pozitii ocupate, formele de invatamand absolvite etc.).
 
 Stilizati acelasi document in doua moduri diferite folosind:
 
@@ -32,7 +32,7 @@ Adaugati si stilizati in pagina ce contine CV-ul tabelul de descriere a limbilor
 
 ## Exercitiul 3.6
 
- Creati un nou fisier HTML (final.html) si populati-l cu tagurile obligatorii folosind [Emmet](https://emmet.io/)
+ Creati un nou fisier HTML (*final.html*) si populati-l cu tagurile obligatorii folosind [Emmet](https://emmet.io/)
  (``
  ! + TAB
  ``)
