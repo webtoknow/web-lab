@@ -1,6 +1,6 @@
 # Exercitii laborator Tehnici Web
 
-Acest "repozitory" contine exercitii pe care le vom parcurge in cadrul laboratorului de Tehnici Web.
+Acest repository contine exercitii pe care le vom parcurge in cadrul laboratorului de Tehnici Web.
 
 Exercitiile sunt impartite dupa cum urmeaza:
 
