@@ -11,11 +11,11 @@ Pentru a facilita rezolvarea acestui exercitiu, puteti consulta intructiunile di
 ## Exercitiul 5.2
 
  Folositi *CSS media queries* pentru a schimba pozitionarea elementelor in functie de rezolutia dispozitivelor:
- * telefon mobil - > 360x640 pixeli
- * tableta - > 768x1024 pixeli
- * desktop - > 1280x800 pixeli
- 
- In continuare, creati un stil specific pentru printare.
+* telefon mobil - > 360x640 pixeli
+* tableta - > 768x1024 pixeli
+* desktop - > 1280x800 pixeli
+
+In continuare, creati un stil specific pentru printare.
 
 ## Exercitiul 5.3
 

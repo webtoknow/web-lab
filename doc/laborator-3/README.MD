@@ -54,11 +54,16 @@ Adaugati si stilizati in pagina ce contine CV-ul tabelul de descriere a limbilor
 
 In ``<body>`` creati template-ul de mai jos folosind [Emmet](https://emmet.io/):
 
-```
-h1{Titlul}+(p>lorem80)+(p>lorem120)+h2{Subtitlul_1}+h3{Subtitlul_1_1}+(p>lorem170)+h3{Subtitlul_1_2}+(p>lorem70)+h2{Subtitlul_2}+(p>lorem50)+(p>lorem140)+h2{Subtitlul_3}+(p>lorem150)+(p>lorem210)
-```
-sau copiati-l:
 ```html
+
+h1{Titlul}+(p>lorem80)+(p>lorem120)+h2{Subtitlul_1}+h3{Subtitlul_1_1}+(p>lorem170)+h3{Subtitlul_1_2}+(p>lorem70)+h2{Subtitlul_2}+(p>lorem50)+(p>lorem140)+h2{Subtitlul_3}+(p>lorem150)+(p>lorem210)
+
+```
+
+sau copiati-l:
+
+```html
+
 <h1>Titlul</h1>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem natus animi provident id quam consequuntur est similique neque, ducimus, assumenda corrupti? Consequuntur eius aperiam ipsa rem dolor nostrum ad quasi recusandae, vitae vel ullam voluptas incidunt necessitatibus similique reprehenderit possimus, iure, sed eos consequatur? Dicta in nobis quaerat, suscipit sint officia! Nesciunt nemo magnam culpa porro adipisci totam quos possimus aliquam velit! Fugit ipsam distinctio maxime eligendi quidem laudantium vero maiores adipisci necessitatibus corrupti nihil ullam, quis quaerat, aspernatur error?</p>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam ipsa hic omnis porro sunt dolor in? Veritatis placeat odit mollitia reiciendis harum porro eum eligendi alias eos iusto accusantium sint provident reprehenderit hic dolorum sequi, adipisci doloribus numquam eveniet vitae. Fugit delectus reiciendis a deleniti, commodi vitae earum sed molestiae laboriosam nam. Doloremque repudiandae minus consectetur laborum dicta odit, at nulla ullam ut! Assumenda, a eaque, similique rerum aut debitis placeat, porro modi culpa incidunt quod cumque. Enim incidunt dolore a velit provident quasi error ipsa possimus illum officia! Rerum eligendi temporibus quam sequi suscipit architecto harum voluptatem impedit beatae laboriosam quasi labore, dicta eos unde necessitatibus ad nostrum? Consequatur facere dolorum rerum minima blanditiis unde excepturi porro, quod earum.</p>
@@ -73,6 +78,7 @@ sau copiati-l:
 <h2>Subtitlul_3</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio expedita eaque laudantium quis saepe aperiam suscipit excepturi aspernatur provident reprehenderit voluptatum, placeat mollitia. Voluptatem fuga voluptates beatae unde debitis at amet nam odio quibusdam eaque maiores molestias, laborum obcaecati ea cum optio alias facere quaerat eum. Nisi natus ab minus eveniet commodi, consectetur qui, similique vitae a labore veritatis amet adipisci voluptate debitis dicta aspernatur reprehenderit unde. Iure, eum. Corporis, quo. Rem dolor beatae minima maxime? Pariatur eos ipsa odio quibusdam vitae, iusto est laudantium repellat placeat, aperiam, quis voluptatum dolorem autem soluta rem earum sequi! Excepturi recusandae delectus fugiat consequatur veniam necessitatibus repudiandae expedita, modi praesentium. Dignissimos officiis ipsum doloremque facilis aliquid, eaque vitae ad repudiandae at voluptatum non dolorem aut deserunt eveniet ex accusantium eos enim aliquam numquam quod quae sint distinctio nam! Necessitatibus, alias molestias inventore consectetur, rem accusamus recusandae iste illum dolor nisi laborum temporibus.</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta a magnam dignissimos voluptate architecto cumque et eos quis aliquid at voluptates, facere dicta delectus error numquam accusantium odit minus consequuntur ipsa excepturi nihil praesentium unde. Quidem alias vitae harum nulla quam distinctio exercitationem perferendis non, ratione omnis deleniti. Eum, consequuntur veniam. Sequi dolorem excepturi voluptas sunt explicabo itaque facilis exercitationem et eaque, dolore rem harum illo dolorum vero. Dicta sit aspernatur cumque illo ipsam omnis voluptatem ea earum eveniet! Cupiditate iure eius debitis laboriosam, autem labore, sapiente velit rerum perspiciatis cum dolorum optio officia aperiam omnis fuga iste quaerat nostrum repudiandae dignissimos quam libero! Quod eligendi reprehenderit illo facere dolor animi eveniet itaque error atque nihil. Enim, natus harum nihil repudiandae cum, voluptatem in facilis quasi numquam rerum voluptate similique amet sequi totam omnis illo doloribus eligendi ea excepturi quam aut asperiores ducimus maiores quo? Vero adipisci praesentium dolorem in debitis ratione voluptate quod dicta quam enim! Perferendis aspernatur asperiores voluptas molestiae ab adipisci dolorum quam deleniti fuga. Nihil, ducimus. Ut sed, labore officia incidunt cum natus eius modi ducimus at cumque nulla vitae expedita perspiciatis rerum soluta amet quos doloremque nesciunt nostrum numquam veritatis ex facilis asperiores. Officia commodi eum reprehenderit tempora? Dignissimos sunt vero optio laudantium cum tenetur?</p>
+
 ```
 
  Creati un nou fisier CSS (final.css), conectati-l la pagina html si efectuati urmatoarele exercitii:
