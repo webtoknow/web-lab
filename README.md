@@ -29,11 +29,17 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale
 
-* fisiere separate pentru HTML si CSS;
-* HTML: proiectul sa foloseasca tagurile semantice prezentate la curs/laborator si sa treaca testul de [validare](http://validator.w3.org).
-* siteul sa fie responsive;
-* layout-ul sa fie realizat fara tabele;
-* sa se foloseasca transformari CSS;
+* fisiere separate pentru HTML si CSS
+* HTML: proiectul sa foloseasca tagurile semantice prezentate la curs/laborator si sa treaca testul de [validare](http://validator.w3.org)
+* stilurile CSS sa fie definite folosind clase
+* siteul sa fie responsive respectand rezolutiile dispozitivelor:
+
+  * telefon mobil - latime mai mica 768px
+  * tableta - latime intre 768px si 1280px
+  * desktop - latime mai mare de 1280px
+
+* layout-ul sa fie realizat fara tabele
+* sa se foloseasca transformari CSS
 
 > **Atentie!** Nu puteti folosi framework-uri front-end pentru realizarea siteului.
 
@@ -43,10 +49,10 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale
 
-* fisier separat JavaScript;
-* modificarea stilului unui element sau al unui grup de elemente;
-* manevrarea DOM-ului;
-* crearea dinamica de elemente;
-* folosirea evenimentelor de mouse si tastatura (ex pozitia mouse sau tasta apasata); modificare dinamica a pozitiei unui element;
-* scriptarea formelor;
+* fisier separat JavaScript
+* modificarea stilului unui element sau al unui grup de elemente
+* manevrarea DOM-ului
+* crearea dinamica de elemente
+* folosirea evenimentelor de mouse si tastatura (ex pozitia mouse sau tasta apasata); modificare dinamica a pozitiei unui element
+* scriptarea formelor
 * folosirea setTimeout si setInterval;
