@@ -24,16 +24,16 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 ## Informatii proiecte
 > **!** Condul sursa al celor doua proiecte trebuie sa fie salvat pe [GitHub](https://github.com/).
-### Primul proiect
+### Primul proiect (20 puncte)
 
 **Tema:** Construiti un site respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
 
 #### Cerinte minimale:
 
 * Fisiere separate pentru HTML si CSS;
-* In interiorul documentelor HTML, sa se foloseasca taguri semantice prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org);
-* Stilurile CSS sa fie definite folosind clase;
-* Site-ul sa fie responsive, respectand rezolutiile urmatoarelor dispozitive:
+* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org);
+* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/);
+* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive:
 
   * telefon mobil - latime mai mica 768px;
   * tableta - latime intre 768px si 1280px;
@@ -44,9 +44,9 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 > **Atentie!** Nu puteti folosi framework-uri front-end pentru realizarea site-ului.
 
-### Al doilea proiect
+### Al doilea proiect (20 puncte)
 
-**Tema:** Adaugati elemente JavaScript site-ului creat in primul proiect sau construiti  un mic joculet.
+**Tema:** Adaugati site-ului creat la primul proiect noi functionalitati folosind JavaScript sau construiti un mini-joc.
 
 #### Cerinte:
 
@@ -54,3 +54,5 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML);
 * Folosirea evenimentelor JavaScript declansate de mouse/tastatura;
 * Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp)
+
+> **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com).
