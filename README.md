@@ -11,6 +11,11 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 5 - CSS Grid](doc/laborator-5)
 * [Laborator 6 - Trucuri CSS](doc/laborator-6)
 * [Laborator 7 - Basic JavaScript](doc/laborator-7)
+* [Laborator 8 - Obiecte si functii](doc/laborator-8)
+* Laborator 9 - DOM
+* Laborator 10 - Events
+* Laborator 11 - Ajax
+* Laborator 12 - Programare functionala
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 
