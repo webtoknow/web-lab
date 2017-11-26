@@ -12,7 +12,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 6 - Trucuri CSS](doc/laborator-6)
 * [Laborator 7 - Basic JavaScript](doc/laborator-7)
 * [Laborator 8 - Obiecte si functii](doc/laborator-8)
-* Laborator 9 - DOM
+* [Laborator 9 - DOM](doc/laborator-9)
 * Laborator 10 - Events
 * Laborator 11 - Ajax
 * Laborator 12 - Programare functionala
@@ -35,17 +35,20 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale:
 
-* Fisiere separate pentru HTML si CSS;
-* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org);
-* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/);
-* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive:
+* Fisiere separate pentru HTML si CSS; (2 puncte)
+* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org); (3 + 3 = 5 puncte)
+* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/); (2 puncte)
+* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (6 puncte)
 
   * telefon mobil - latime mai mica 768px;
   * tableta - latime intre 768px si 1280px;
   * desktop - latime mai mare de 1280px;
 
-* Layout-ul sa fie realizat fara tabele;
-* Sa se foloseasca animatii;
+* Layout-ul sa fie realizat cu: (2 puncte)
+  * [Float](https://www.w3schools.com/css/css_float.asp);
+  * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/);
+  * [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/);
+* Sa se foloseasca animatii; (2 puncte)
 
 > **Atentie!** Nu puteti folosi framework-uri front-end pentru realizarea site-ului.
 
