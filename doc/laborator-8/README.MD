@@ -49,6 +49,7 @@ var blackFridayCart = {
 // Output
 getCartValue(blackFridayCart)); // 1103.3
 ```
+
 ## Exercitiul 8.4
 
 ### Map
