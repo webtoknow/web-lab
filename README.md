@@ -36,7 +36,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 #### Cerinte minimale:
 
 * Fisiere separate pentru HTML si CSS; (2 puncte)
-* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org); (3 + 3 = 5 puncte)
+* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org); (3 + 3 = 6 puncte)
 * Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/); (2 puncte)
 * Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (6 puncte)
 
