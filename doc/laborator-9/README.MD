@@ -1,12 +1,12 @@
 # Laborator 9 - DOM
 
-DOM (Document Object Model) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, iar eventualele schimbari vizibile aparute ca urmare pot fi reflectate în afisarea documentului.
+DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor pot fi reflectate in afisarea documentului.
 
 ## Exercitiul 9.1
 
 ### Hack Google
 
-* Deschideti [google.com](www.google.com) in Chrome sau Firefox astfel incat sa aveti acces la consola.
+* Deschideti [google.com](www.google.com) in Chrome sau Firefox si afisati consola.
 * Gasiti logo-ul Google si stocati-l intr-o variabila.
 * Modificati sursa imaginii astfel incat sa apara logo-ul de la Yahoo.
 * Gasiti butonul de search Google si stocati-l intr-o variabila.
@@ -16,7 +16,7 @@ DOM (Document Object Model) este o interfata de programare (API) a aplicatiilor 
 
 ### Toate site-urile ar trebui sa aiba o sectiune "Despre noi"
 
-* Creati un document HTML (*aboutme.html*) cu template-ul de mai jos inclus `<body>`:
+* Creati un document HTML (*aboutme.html*) cu template-ul de mai jos inclus in `<body>`:
 
 ```html
 <h1>About Me</h1>
@@ -28,10 +28,10 @@ DOM (Document Object Model) este o interfata de programare (API) a aplicatiilor 
 ```
 
 * Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
-* Scrimbati stilul din `<body>` astfel incat sa avem font-family: "Arial, sans-serif".
-* Inlocuiti ficare `<span>` (nickname, favorites, hometown) cu informatiile voastre
-* Iterati prin fiecare `<li>` si adaugati clasa "list-item".
-* Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei "list-item" pentru a avea un text rosu.
+* Scrimbati stilul din `<body>` astfel incat sa avem font-family: *Arial, sans-serif*.
+* Inlocuiti ficare `<span>` (*nickname, favorites, hometown*) cu informatiile voastre.
+* Iterati prin fiecare `<li>` si adaugati clasa *list-item*.
+* Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei *list-item* pentru a avea un text rosu.
 * Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acel element in pagina.
 
 ## Exercitiul 9.3
@@ -40,8 +40,8 @@ DOM (Document Object Model) este o interfata de programare (API) a aplicatiilor 
 
 * Creati un document HTML (*filme.html*) care sa contina `<h1>` cu textul "Filmele mele favorite:".
 * Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
-* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa `titlu` (string), `durata` (number) si `actori` (array of strings).
-* Iterati prin vector si creati elemente `<p>` care sa contina numele filmului adaugandu-le in pagina.
+* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number) si *actori* (array of strings).
+* Iterati prin vector si creati elemente `<p>` care sa contina numele filmului, adaugandu-le in pagina.
 
 ### Bonus
 
