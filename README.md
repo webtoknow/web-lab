@@ -13,7 +13,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 7 - Basic JavaScript](doc/laborator-7)
 * [Laborator 8 - Obiecte si functii](doc/laborator-8)
 * [Laborator 9 - DOM](doc/laborator-9)
-* Laborator 10 - Events
+* [Laborator 10 - Events](doc/laborator-10)
 * Laborator 11 - Ajax
 * Laborator 12 - Programare functionala
 
