@@ -14,8 +14,9 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 8 - Obiecte si functii](doc/laborator-8)
 * [Laborator 9 - DOM](doc/laborator-9)
 * [Laborator 10 - Events](doc/laborator-10)
-* Laborator 11 - Ajax
-* Laborator 12 - Programare functionala
+* [Laborator 11 - Event loop](doc/laborator-11)
+* Laborator 12 - Ajax
+* Laborator 13 - Programare functionala
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 
