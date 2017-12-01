@@ -30,7 +30,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 ## Informatii proiecte
 > **!** Condul sursa al celor doua proiecte trebuie sa fie salvat pe [GitHub](https://github.com/).
-### Primul proiect (20 puncte)
+### Proiect HTML si CSS (20 puncte)
 
 **Tema:** Construiti un site respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
 
@@ -53,7 +53,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 > **Atentie!** Nu puteti folosi framework-uri front-end pentru realizarea site-ului.
 
-### Al doilea proiect (20 puncte)
+### Proiect Javascript (20 puncte)
 
 **Tema:** Adaugati site-ului creat la primul proiect noi functionalitati folosind JavaScript sau construiti un mini-joc.
 
