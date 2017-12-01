@@ -46,7 +46,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 * Creati un document HTML (*calculator.html*) cu template-ul de mai jos inclus in `<body>`:
 
 ```html
- <label>1. Radical din numar:
+ <label>1. Ridicare la patrat  a numarului:
     <input type="number" id="square-input" size="2">
   </label>
   <button id="square-button">Calculeaza</button>
