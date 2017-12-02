@@ -16,7 +16,6 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 10 - Events](doc/laborator-10)
 * [Laborator 11 - Event loop](doc/laborator-11)
 * Laborator 12 - Ajax
-* Laborator 13 - Programare functionala
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 

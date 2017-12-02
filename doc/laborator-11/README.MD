@@ -1,5 +1,8 @@
 # Laborator 11 - Event loop
 
+Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-loop”, “non-blocking”, “callback”, “asynchronous”, “single-threaded” si “concurrency”. Pentru a ne familiariza cu aceste notiuni, propun sa urmarim urmatorul video:
+[Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=420s).
+
 ## Exercitiul 11.1
 
 ### Catelus cu parul cret
@@ -39,13 +42,15 @@
 </script>
 ```
 
+* Mutati script-ul din documentul HTML intr-un fisier separat.
 * Adaugati un eveniment pe butonul *Start* si creati functia pentru a porni miscarea catelului.
 * Adaugati un eveniment pe butonul *Stop* si creati functia pentru a opri miscarea catelului.
 * Adaugati un eveniment pe butonul *Go Faster!* si creati functia pentru a mari viteza de miscare a catelului.
 * Afisati in tag-ul identificat prin id-ul *info* viteza de miscare, calculata in pixeli pe secunda (Viteza: 300px/secunda).
-* Dezactivati butoanele in urmatoarele situatii:
-  * Butonul *Start* atunci cand catelul este in miscare;
-  * Butoanele *Stop*, *Go Faster!* si *Reset speed* atunci cand catelul este in repaos;
+* Creati dinamic butonul *Reset speed* cu id-ul *reset-button*.
+* Adaugati un eveniment pe butonul *Reset speed* si creati functia pentru a reseta viteza.
+* Simulati functionalitatea de expirare a sesiunii astfel incat dupa 30 secunde de inactivitate (nu a fost apasat niciun buton) sa fie afisata o alerta cu mesajul "Sesiune expirata". Folositi functia *setTimeout*.
+* Dezactivati butonul *Start* folosind atributul *disabled* atunci cand catelul este in miscare;
 
 ## Exercitiul 11.2
 
