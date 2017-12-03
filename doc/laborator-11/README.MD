@@ -54,4 +54,6 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 
 ## Exercitiul 11.2
 
+### Catelus cu parul cret eXtreme
+
 * Folositi *[Object literal pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript)* pentru a rescrie exerciutul anterior.

@@ -21,7 +21,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 <h1>Povesti de calatorie</h1>
 
  <ul>
-  <li>Locuri vizitate: <input type="text" id="noun">
+  <li>Locuri vizitate: <input type="text" id="places">
   <li>Adjective: <input type="text" id="adjective">
   <li>Nume: <input type="text" id="person">
  </ul>
@@ -36,7 +36,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 * In functia `makeStory` executati urmatoarele actiuni:
 
   * luati valorile din input-uri;
-  * creati o poveste cu ajutorul lor (ex: "Diana adora frumoasa Barcelona");
+  * creati o poveste cu ajutorul lor (ex: "Diana a vizitat frumoasa Barcelona");
   * afisati povestea in tag-ul identificat prin id-ul *story*;
 
 ## Exercitiul 10.2
@@ -46,7 +46,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 * Creati un document HTML (*calculator.html*) cu template-ul de mai jos inclus in `<body>`:
 
 ```html
- <label>1. Ridicare la patrat  a numarului:
+ <label>1. Ridicare la patrat:
     <input type="number" id="square-input" size="2">
   </label>
   <button id="square-button">Calculeaza</button>
@@ -84,4 +84,4 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 
 ### Bonus
 
-* Folositi evenimentul *keypress* astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.
+* Folositi evenimentul *keypress* pe unul dintre input-uri astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.

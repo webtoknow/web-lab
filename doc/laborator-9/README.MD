@@ -38,13 +38,13 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 
 ### My IMDB
 
-* Creati un document HTML (*filme.html*) care sa contina `<h1>` cu textul "Filmele mele favorite:".
+* Creati un document HTML (*filme.html*) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
 * Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
-* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number) si *actori* (array of strings).
-* Iterati prin vector si creati elemente `<p>` care sa contina numele filmului, adaugandu-le in pagina.
+* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number),*actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
+* Iterati prin vector si creati dinamic in pagina elemente `<p>` care sa contina titlul filmului.
 
 ### Bonus
 
-* Folositi `<ul>` si `<li>` pentru a afisa filmele.
-* Adaugati in fiecare obiect din vector proprietatea cu imaginea filmului si reflectati schimbarea in pagina.
-* Schimbati stilurile filmelor in functie de categoria in care este plasat (actiune, comedie, animatie, etc).
+* Folositi `<ul>` si `<li>` pentru a afisa filmele, alaturi de celelalte informatii despre acestea.
+* Adaugati in fiecare obiect din vector o proprietate reprezentand imaginea filmului si reflectati schimbarea in pagina.
+* Adaugati proprietati CSS care sa diferentieze filmele vizualizate de cele nevizualizate din lista.
