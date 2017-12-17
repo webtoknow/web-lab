@@ -15,7 +15,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 9 - DOM](doc/laborator-9)
 * [Laborator 10 - Events](doc/laborator-10)
 * [Laborator 11 - Event loop](doc/laborator-11)
-* Laborator 12 - Ajax
+* [Laborator 12 - Ajax](doc/laborator-12)
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 
@@ -54,13 +54,14 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 ### Proiect Javascript (20 puncte)
 
-**Tema:** Adaugati site-ului creat la primul proiect noi functionalitati folosind JavaScript sau construiti un mini-joc.
+**Tema:** Adaugati site-ului creat la primul proiect noi functionalitati folosind JavaScript sau construiti un mini-joc/mini-aplicatie.
 
 #### Cerinte:
 
-* Fisier separat JavaScript;
-* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML);
-* Folosirea evenimentelor JavaScript declansate de mouse/tastatura;
-* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp)
+* Fisier separat JavaScript; (1 punct)
+* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML); (3 puncte)
+* Folosirea evenimentelor JavaScript declansate de mouse/tastatura; (3 puncte)
+* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) (8 puncte)
+* Utilitatea aplicatiei (5 puncte)
 
 > **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com).
