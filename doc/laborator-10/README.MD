@@ -31,7 +31,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
  <div id="story"></div>
 ```
 
-* Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 * Adaugati un *event listener* butonului astfel incat de fiecare data cand este apasat functia `makeStory` sa fie apelata.
 * In functia `makeStory` executati urmatoarele actiuni:
 
@@ -77,7 +77,7 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
   <div id="solution"></div>
 ```
 
-* Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 * Adaugati evenimente pe butoane astfel incat de fiecare data cand sunt apasate sa cheme functiile de calcul.
 * Creati functiile care returneaza rezultatele corecte pentru toate cazurile de mai sus.
 * Afisati rezultatele calculelor in tag-ul identificat prin id-ul *solution*.

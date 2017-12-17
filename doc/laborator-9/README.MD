@@ -27,8 +27,8 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 </ul>
 ```
 
-* Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
-* Scrimbati stilul din `<body>` astfel incat sa avem font-family: *Arial, sans-serif*.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
+* Schimbati stilul din `<body>` astfel incat sa avem font-family: *Arial, sans-serif*.
 * Inlocuiti ficare `<span>` (*nickname, favorites, hometown*) cu informatiile voastre.
 * Iterati prin fiecare `<li>` si adaugati clasa *list-item*.
 * Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei *list-item* pentru a avea un text rosu.
@@ -39,7 +39,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 ### My IMDB
 
 * Creati un document HTML (*filme.html*) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
-* Creati un fisier JavaScript folosind `<script>` la sfarsitul documentului HTML.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 * Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number),*actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
 * Iterati prin vector si creati dinamic in pagina elemente `<p>` care sa contina titlul filmului.
 
