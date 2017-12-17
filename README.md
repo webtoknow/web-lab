@@ -61,7 +61,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * Fisier separat JavaScript; (1 punct)
 * Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML); (3 puncte)
 * Folosirea evenimentelor JavaScript declansate de mouse/tastatura; (3 puncte)
-* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) (8 puncte)
-* Utilitatea aplicatiei (5 puncte)
+* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)); (8 puncte)
+* Utilitatea aplicatiei; (5 puncte)
 
 > **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com).
