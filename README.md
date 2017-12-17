@@ -35,22 +35,23 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale:
 
-* Fisiere separate pentru HTML si CSS; (2 puncte)
-* In interiorul documentelor HTML, sa se foloseasca [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) prezentate la curs/laborator, astfel incat sa treaca testul de [validare](http://validator.w3.org); (3 + 3 = 6 puncte)
-* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/); (2 puncte)
+* Fisiere separate pentru HTML si CSS; (1 punct)
+* Website-ul sa contina minim 2 pagini; (2 puncte)
+* Toate paginile create sa treaca testul de [validare](http://validator.w3.org) (paginile sa nu aiba erori sau warning-uri); (1 punct)
+* In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp); (2 puncte)
+* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/) (minim  70% din selectori); (2 puncte)
 * Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (6 puncte)
-
   * telefon mobil - latime mai mica 768px;
   * tableta - latime intre 768px si 1280px;
   * desktop - latime mai mare de 1280px;
-
 * Layout-ul sa fie realizat cu: (2 puncte)
   * [Float](https://www.w3schools.com/css/css_float.asp);
   * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/);
   * [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/);
-* Sa se foloseasca animatii; (2 puncte)
+* Sa se foloseasca animatii; (1 punct)
+* Impresie artistica; (3 puncte)
 
-> **Atentie!** Nu puteti folosi framework-uri front-end pentru realizarea site-ului.
+> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) pentru realizarea site-ului.
 
 ### Proiect Javascript (20 puncte)
 
@@ -61,7 +62,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * Fisier separat JavaScript; (1 punct)
 * Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML); (3 puncte)
 * Folosirea evenimentelor JavaScript declansate de mouse/tastatura; (3 puncte)
-* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)); (8 puncte)
-* Utilitatea aplicatiei; (5 puncte)
+* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular; (10 puncte)
+* Utilitatea aplicatiei; (3 puncte)
 
-> **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com).
+> **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com), proiectul nu va fi acceptat daca sunt folosite framework-uri JavaScript.
