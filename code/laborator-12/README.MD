@@ -1,7 +1,7 @@
 
 # Laborator 12 - rezolvare
 
-## Pornire serverul
+## Pornire server
 
 * Instalati [nodeJS](https://nodejs.org/en/) daca este necesar.
 
@@ -31,6 +31,6 @@ json-server --watch db.json
 }
 ```
 
-## POSTMAN
+## Testare server cu POSTMAN
 
 Putem testa serverul web folosind [POSTMAN](https://www.getpostman.com/) si importand colectia *laborator-12 AJAX.postman_collection.json*
