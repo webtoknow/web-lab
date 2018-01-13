@@ -33,4 +33,4 @@ json-server --watch db.json
 
 ## Testare server cu POSTMAN
 
-Putem testa serverul web folosind [POSTMAN](https://www.getpostman.com/) si importand colectia *laborator-12 AJAX.postman_collection.json*
+Putem testa servarul web folosind [POSTMAN](https://www.getpostman.com/) si importand colectia *laborator-12 AJAX.postman_collection.json*.
