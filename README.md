@@ -6,18 +6,18 @@ Acest repository contine exercitii pe care le vom parcurge in cadrul laboratorul
 
 Exercitiile sunt impartite dupa cum urmeaza:
 
-* [Laborator 3 - Selectori CSS](doc/laborator-3)
-* [Laborator 4 - Layout](doc/laborator-4)
-* [Laborator 5 - CSS Grid](doc/laborator-5)
-* [Laborator 6 - Trucuri CSS](doc/laborator-6)
-* [Laborator 7 - Basic JavaScript](doc/laborator-7)
-* [Laborator 8 - Obiecte si functii](doc/laborator-8)
-* [Laborator 9 - DOM](doc/laborator-9)
-* [Laborator 10 - Events](doc/laborator-10)
-* [Laborator 11 - Event loop](doc/laborator-11)
-* [Laborator 12 - Ajax](doc/laborator-12)
-
-Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
+* [Laborator 1 - [HTML] - Introducere](doc/laborator-1)
+* [Laborator 2 - [CSS] - Introducere](doc/laborator-2)
+* [Laborator 3 - [CSS] - Selectori](doc/laborator-3)
+* [Laborator 4 - [CSS] - Layout si Flexbox](doc/laborator-4)
+* [Laborator 5 - [CSS] - CSS Grid](doc/laborator-5)
+* [Laborator 6 - [JS] - Introducere](doc/laborator-6)
+* [Laborator 7 - [JS] - Obiecte si functii](doc/laborator-7)
+* [Laborator 8 - [JS] - DOM](doc/laborator-8)
+* [Laborator 9 - [JS] - Evenimente](doc/laborator-9)
+* [Laborator 10 - [JS] - Event loop](doc/laborator-10)
+* [Laborator 11 - [JS] - AJAX - Partea intai](doc/laborator-11)
+* [Laborator 12 - [JS] - AJAX - Partea a doua](doc/laborator-12)
 
 ### Cerinte
 
@@ -28,41 +28,33 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * [Brackets](http://brackets.io/)
 
 ## Informatii proiecte
-> **!** Condul sursa al celor doua proiecte trebuie sa fie salvat pe [GitHub](https://github.com/).
-### Proiect HTML si CSS (20 puncte)
 
-**Tema:** Construiti un site respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
+> **!** Condul sursa al celor doua proiecte trebuie sa fie salvat pe [GitHub](https://github.com/).
+
+### Proiect (30 puncte)
+
+**Tema:** Construiti un site/mini aplicatie respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
 
 #### Cerinte minimale:
 
-* Fisiere separate pentru HTML si CSS; (1 punct)
-* Website-ul sa contina minim 2 pagini; (2 puncte)
-* Toate paginile create sa treaca testul de [validare](http://validator.w3.org) (paginile sa nu aiba erori sau warning-uri); (1 punct)
-* In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp); (2 puncte)
-* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/) (minim  70% din selectori); (2 puncte)
-* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (6 puncte)
-  * telefon mobil - latime mai mica 768px;
-  * tableta - latime intre 768px si 1280px;
-  * desktop - latime mai mare de 1280px;
-* Layout-ul sa fie realizat cu: (2 puncte)
-  * [Float](https://www.w3schools.com/css/css_float.asp);
-  * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/);
-  * [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/);
-* Sa se foloseasca animatii; (1 punct)
-* Impresie artistica; (3 puncte)
+##### HTML si CSS (15 puncte)
 
-> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) pentru realizarea site-ului.
+* Fisiere separate pentru HTML si CSS (1 punct)
+* Website-ul sa contina minim 2 pagini (2 puncte)
+* Toate paginile create sa treaca testul de [validare](http://validator.w3.org) (paginile sa nu aiba erori sau warning-uri) (1 punct)
+* In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (2 puncte)
+* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/) (minim  80% din selectori) (2 puncte)
+* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (5 puncte)
+  * telefon mobil - latime mai mica 768px
+  * tableta - latime intre 768px si 1280px
+  * desktop - latime mai mare de 1280px
+* Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
 
-### Proiect Javascript (20 puncte)
+##### Javascript (15 puncte)
 
-**Tema:** Adaugati site-ului creat la primul proiect noi functionalitati folosind JavaScript sau construiti un mini-joc/mini-aplicatie.
+* Fisier separat JavaScript (1 punct)
+* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
+* Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
+* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
 
-#### Cerinte:
-
-* Fisier separat JavaScript; (1 punct)
-* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML); (3 puncte)
-* Folosirea evenimentelor JavaScript declansate de mouse/tastatura; (3 puncte)
-* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular; (10 puncte)
-* Utilitatea aplicatiei; (3 puncte)
-
-> **Atentie!** Folositi numai [VanillaJS](http://vanilla-js.com), proiectul nu va fi acceptat daca sunt folosite framework-uri JavaScript.
+> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.

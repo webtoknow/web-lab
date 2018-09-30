@@ -1,8 +1,6 @@
-# Laborator 4 - Layout
+# Laborator 4 - [CSS] - Layout si Flexbox
 
 Observatie: In rezolvarea exercitiilor de mai jos ne vom axa pe implementarea continutului paginilor, nu pe designul din exterior (fundal, container, tab-uri etc.).
-
-[CSS Diner](https://flukeout.github.io/) ne ajuta sa recapitulam selectorii CSS exersati in laboratoarele trecute.
 
 ## Exercitiul 4.1
 
@@ -10,7 +8,6 @@ Creati un document HTML (*portfolio.html*) al carui layout va contine mai multe 
 
 * [Inline block](https://iamsteve.me/blog/entry/inline_block)
 * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ![Design website personal - portfolio](personal-website-portfolio.png)
 

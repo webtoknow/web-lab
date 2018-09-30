@@ -1,36 +1,10 @@
-# Laborator 3 - Selectori CSS
-## Design website personal
-
-![Design website personal - resume](personal-website-resume.png)
+# Laborator 3 - [CSS] - Selectori
 
 ## Exercitiul 3.1
 
-Creati un document HTML (*index.html*) cu descrierea personala (incluzand si o poza a voastra) folosind tagurile semantice cunoscute: ``<img>``, ``<br>``,``<article>``, ``<section>``, ``<p>``, ``<h1>``, …, ``<h6>``, … .
+[CSS Diner](https://flukeout.github.io/) ne ajuta sa invatam selectorii CSS. Hai sa ne jucam!
 
 ## Exercitiul 3.2
-
-Creati un document HTML (*cv.html*) cu CV-ul personal care va contine cel putin 2 sectiuni (Experienta profesionala, Educatie) cuprinzand o lista cu cel putin 3 elemente (pozitii ocupate, formele de invatamand absolvite etc.).
-
-Stilizati acelasi document in doua moduri diferite folosind:
-
-* atributul ``style`` pe tag-urile de HTML
-* fisiere CSS
-
-## Exercitiul 3.3
-
-Creati si stilizati meniul de navigare dintre cele doua pagini.
-
-## Exercitiul 3.4
-
-Alegeti si aplicati in paginile voastre un font folosind serviul [Google Fonts](https://fonts.google.com/).
-
-## Exercitiul 3.5
-
-Adaugati si stilizati in pagina ce contine CV-ul tabelul de descriere a limbilor vorbite, precum in exemplul de mai jos:
-
-![Tabel limbi vorbite](table.png)
-
-## Exercitiul 3.6
 
  Creati un nou fisier HTML (*final.html*) si populati-l cu tagurile obligatorii folosind [Emmet](https://emmet.io/)
  (``

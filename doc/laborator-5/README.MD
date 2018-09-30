@@ -1,4 +1,4 @@
-# Laborator 5 - CSS Grid
+# Laborator 5 - [CSS] - CSS Grid
 
 ## Exercitiul 5.1
 
@@ -16,7 +16,3 @@ Pentru a facilita rezolvarea acestui exercitiu, puteti consulta intructiunile di
 * desktop - latime mai mare de 1280px
 
 In continuare, creati un stil specific pentru printare.
-
-## Exercitiul 5.3
-
- Exersati [regulile CSS specifice animatiilor](https://css-tricks.com/almanac/properties/a/animation/), modificand dimensiunea si culoarea unui element din pagina.

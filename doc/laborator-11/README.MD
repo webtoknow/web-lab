@@ -1,59 +1,50 @@
-# Laborator 11 - Event loop
+# Laborator 11 - [JS] - AJAX - Partea intai
 
-Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-loop”, “non-blocking”, “callback”, “asynchronous”, “single-threaded” si “concurrency”. Pentru a ne familiariza cu aceste notiuni, propun sa urmarim urmatorul video:
-[Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=420s).
+AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in continutul sau.
+
+![Ajax](ajax.gif)
 
 ## Exercitiul 11.1
 
-### Catelus cu parul cret
+### My server
 
-* Creati un document HTML (*index.html*) cu template-ul de mai jos inclus in `<body>`:
+* Instalati [JSON Server](https://github.com/typicode/json-server) folosind comanda de mai jos:
 
-```html
-
-<div id='buttons'>
-  <button id="start-button">Start</button>
-  <button id="speed-button">Go Faster!</button>
-  <button id="stop-button">Stop</button>
-</div>
-<div id="info"></div>
-<img style="position:absolute; left: 0px; top: 80px;" src="https://raw.githubusercontent.com/bmnicolae/laborator-tehnici-web/master/doc/laborator-11/dog.gif">
-
-<script>
-  var movePixels = 10; // number of pixels
-  var delayMs = 50; // number of miliseconds
-  var dogTimer = null;
-
-  // Move the image on screen with 10px
-  function dogWalk() {
-    var img = document.getElementsByTagName('img')[0];
-    var currentLeft = parseInt(img.style.left);
-    img.style.left = (currentLeft + movePixels) + 'px';
-    // reset image position to start
-    if (currentLeft > (window.innerWidth-img.width)) {
-      img.style.left = '0px';
-    }
-  }
-
-  // Call dogWalk function every 50 ms
-  function startDogWalk() {
-    dogTimer = window.setInterval(dogWalk, delayMs);
-  }
-</script>
+```bash
+npm install -g json-server
 ```
 
-* Mutati script-ul din documentul HTML intr-un fisier separat.
-* Adaugati un eveniment pe butonul *Start* si creati functia pentru a porni miscarea catelului.
-* Adaugati un eveniment pe butonul *Stop* si creati functia pentru a opri miscarea catelului.
-* Adaugati un eveniment pe butonul *Go Faster!* si creati functia pentru a mari viteza de miscare a catelului.
-* Afisati in tag-ul identificat prin id-ul *info* viteza de miscare, calculata in pixeli pe secunda (Viteza: 300px/secunda).
-* Creati dinamic butonul *Reset speed* cu id-ul *reset-button*.
-* Adaugati un eveniment pe butonul *Reset speed* si creati functia pentru a reseta viteza.
-* Simulati functionalitatea de expirare a sesiunii astfel incat dupa 30 secunde de inactivitate (nu a fost apasat niciun buton) sa fie afisata o alerta cu mesajul "Sesiune expirata". Folositi functia *setTimeout*.
-* Dezactivati butonul *Start* folosind atributul *disabled* atunci cand catelul este in miscare;
+* Creati un fisier `db.json` cu continutul de mai jos:
+
+```json
+{
+  "dogs": [
+    { "id": 1, "name": "AFFENPINSCHER", "img": "https:\/\/dog.ceo\/api\/img\/affenpinscher\/n02110627_11584.jpg" },
+    { "id": 2, "name": "AKITA", "img": "https:\/\/dog.ceo\/api\/img\/akita\/Akita_Inu_dog.jpg" },
+    { "id": 3, "name": "CHIHUAHUA", "img": "https:\/\/dog.ceo\/api\/img\/chihuahua\/n02085620_8578.jpg" },
+    { "id": 4, "name": "LHASA", "img": "https://dog.ceo//api//img//lhasa//n02098413_3033.jpg" },
+    { "id": 5, "name": "MINIATURE SCHNAUZER", "img": "https://dog.ceo//api//img//schnauzer//n02097209_920.jpg" }
+  ]
+}
+```
+
+* Porniti JSON Server folosind comanda de mai jos:
+
+```bash
+json-server --watch db.json
+```
+
+* Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), veti vedea:
+
+```json
+{ "id": 1, "title": "json-server", "author": "typicode" }
+```
 
 ## Exercitiul 11.2
 
-### Catelus cu parul cret eXtreme
+### Dogs
 
-* Folositi *[Object literal pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript)* pentru a rescrie exerciutul anterior.
+* Creati un document HTML `index.html`.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
+* Aduceti de la server lista de entitati *dog* folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get).
+* Afisati lista de entitati in pagina.
