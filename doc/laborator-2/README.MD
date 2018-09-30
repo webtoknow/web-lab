@@ -1,3 +1,1 @@
-# Laborator 2 - CSS
-## Design website personal
-
+# Laborator 2 - [CSS] - Introducere

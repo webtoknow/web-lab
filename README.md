@@ -6,18 +6,18 @@ Acest repository contine exercitii pe care le vom parcurge in cadrul laboratorul
 
 Exercitiile sunt impartite dupa cum urmeaza:
 
-* [Laborator 1 - HTML](doc/laborator-1)
-* [Laborator 2 - CSS](doc/laborator-2)
-* [Laborator 3 - Selectori CSS](doc/laborator-3)
-* [Laborator 4 - Layout](doc/laborator-4)
-* [Laborator 5 - CSS Grid](doc/laborator-5)
-* [Laborator 6 - Trucuri CSS](doc/laborator-6)
-* [Laborator 7 - Basic JavaScript](doc/laborator-7)
-* [Laborator 8 - Obiecte si functii](doc/laborator-8)
-* [Laborator 9 - DOM](doc/laborator-9)
-* [Laborator 10 - Events](doc/laborator-10)
-* [Laborator 11 - Event loop](doc/laborator-11)
-* [Laborator 12 - Ajax](doc/laborator-12)
+* [Laborator 1 - [HTML] - Introducere](doc/laborator-1)
+* [Laborator 2 - [CSS] - Introducere](doc/laborator-2)
+* [Laborator 3 - [CSS] - Selectori](doc/laborator-3)
+* [Laborator 4 - [CSS] - Layout si Flexbox](doc/laborator-4)
+* [Laborator 5 - [CSS] - CSS Grid](doc/laborator-5)
+* [Laborator 6 - [JS] - Introducere](doc/laborator-6)
+* [Laborator 7 - [JS] - Obiecte si functii](doc/laborator-7)
+* [Laborator 8 - [JS] - DOM](doc/laborator-8)
+* [Laborator 9 - [JS] - Evenimente](doc/laborator-9)
+* [Laborator 10 - [JS] - Event loop](doc/laborator-10)
+* [Laborator 11 - [JS] - AJAX - Partea intai](doc/laborator-11)
+* [Laborator 12 - [JS] - AJAX - Partea a doua](doc/laborator-12)
 
 Nota: Orice propunere de imbunatatire a exercitiilor este bine venita.
 

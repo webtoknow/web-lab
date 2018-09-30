@@ -1,4 +1,4 @@
-# Laborator 5 - CSS Grid
+# Laborator 5 - [CSS] - CSS Grid
 
 ## Exercitiul 5.1
 

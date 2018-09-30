@@ -1,4 +1,4 @@
-# Laborator 4 - Layout
+# Laborator 4 - [CSS] - Layout si Flexbox
 
 Observatie: In rezolvarea exercitiilor de mai jos ne vom axa pe implementarea continutului paginilor, nu pe designul din exterior (fundal, container, tab-uri etc.).
 

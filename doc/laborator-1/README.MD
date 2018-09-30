@@ -1,3 +1,1 @@
-# Laborator 1 - HTML
-## Design website personal
-
+# Laborator 1 - [HTML] - Introducere

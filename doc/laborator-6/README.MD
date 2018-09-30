@@ -1,19 +1,5 @@
-# Laborator 6 - Trucuri CSS
+# Laborator 6 - [JS] - Introducere
 
-[GRID GARDEN](http://cssgridgarden.com/) ne ajuta sa recapitulam propietatile CSS Grid exersate in laboratorul trecut.
+[JavaScript](https://ro.wikipedia.org/wiki/JavaScript) (JS) este unul dintre cele mai populare limbaje de programare din lume, fiind utilizat atat pe partea de client ([browser](https://en.wikipedia.org/wiki/Web_browser)) cat si pe partea de server ([NodeJs](https://nodejs.org/en/)).
 
-## Exercitiul 6.1
-
-Intr-un document html creati designul unei sectiuni de comentarii, ca mai jos, folosind propietatile de [positionare](https://developer.mozilla.org/en-US/docs/Web/CSS/position) si [pseudoselectorii](https://www.smashingmagazine.com/2011/07/learning-to-use-the-before-and-after-pseudo-elements-in-css/) `:before` sau `:after`.
-
-![Comments box](box.jpg)
-
-## Exercitiul 6.2
-
-Creati layout-ul de mai jos, folosind cel putin doua metode de aliniere central-verticala:
-
-![Vertical aligment layout](vertical.png)
-
-## Exercitiul 6.3
-
-Folosind doar HTML si CSS, creati si stilizati un meniu drop-down.
+Pentru a ne putea familiariza cu limbajul, in laboratorul de astazi o sa rezolvam exercitiile din sectiunea *Basic JavaScript* de pe platforma [Free Code Camp](https://www.freecodecamp.org/challenges/comment-your-javascript-code).

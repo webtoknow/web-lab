@@ -1,4 +1,5 @@
-# Laborator 3 - Selectori CSS
+# Laborator 3 - [CSS] - Selectori
+
 ## Design website personal
 
 ![Design website personal - resume](personal-website-resume.png)
