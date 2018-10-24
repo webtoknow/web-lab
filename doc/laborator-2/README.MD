@@ -15,7 +15,7 @@ Stilizati acelasi document in doua moduri diferite folosind:
 
 ## Exercitiul 2.2
 
-Creati si stilizati meniul de navigare dintre cele doua pagini.
+Creati si stilizati meniul de navigare.
 
 ## Exercitiul 2.3
 
