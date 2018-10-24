@@ -57,11 +57,11 @@ sau copiati-l:
 
  Creati un nou fisier CSS (final.css), conectati-l la pagina html si efectuati urmatoarele exercitii:
 
-* definiti o regula CSS astfel incat toate textele din pagina sa aiba culoarea ``#4e4e4e`
-* definiti o regula CSS astfel incat toate paragrafele sa aiba textul "justify"
-* definiti o regula CSS astfel incat fundalul paginii sa aiba culoarea ``#f3f3f3` sau o imagine folosind o clasa
+* definiti o regula CSS astfel incat toate textele din pagina sa aiba culoarea ``#4e4e4e``
+* definiti o regula CSS astfel incat toate paragrafele sa aiba textul "[justify](https://practicaltypography.com/justified-text.html)"
+* definiti o regula CSS astfel incat fundalul paginii sa aiba culoarea ``#f3f3f3`` sau o imagine folosind o clasa
 * definiti o regula CSS astfel incat titlul "Subtitlul_1_2" sa fie taiat cu o linie folosind pseudo selectori
 * definiti o regula CSS astfel incat numai paragrafele care se situeaza dupa primul ``<h3>`` sa aiba "border" albastru 2px
 * definiti o regula CSS astfel incat numai paragraful situat imediat dupa al doilea ``<h3>`` sa aiba trasparenta 50%
-* definiti o clasa "italic" astfel incat paragrafele care o contin sa aiba font italic
+* definiti o clasa "italic" astfel incat paragrafele care o contin sa aiba stilul font-ului "italic"
 * definiti o regula CSS astfel incat numai paragrafele care contin clasa "italic" sa aiba o distanta dintre randuri 25px
