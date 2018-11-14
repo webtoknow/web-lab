@@ -61,7 +61,7 @@ function multiplicator(element) {
     return 2 * element;
 }
 
-Array.prototype.myMap = function(callback) {
+Array.prototype.myMap = function(callbackFunction) {
   let newArray = [];
   ...
   return newArray
