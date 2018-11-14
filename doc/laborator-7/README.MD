@@ -47,7 +47,7 @@ var blackFridayCart = {
 };
 
 // Output
-getCartValue(blackFridayCart)); // 1103.3
+getCartValue(blackFridayCart); // 1103.3
 ```
 
 ## Exercitiul 7.4
