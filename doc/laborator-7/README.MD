@@ -54,12 +54,19 @@ getCartValue(blackFridayCart)); // 1103.3
 
 ### Map
 
-* Implementati functia *map*, astfel incat aceasta sa se comporte ca mai jos:
+* Implementati functia *[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)*, astfel incat aceasta sa se comporte ca mai jos:
 
 ```JS
 function multiplicator(element) {
     return 2 * element;
 }
 
+Array.prototype.myMap = function(callback) {
+  let newArray = [];
+  ...
+  return newArray
+}
+
 [1,2,3].map(multiplicator); // [2,4,6]
+[1,2,3].myMap(multiplicator); // [2,4,6]
 ```
