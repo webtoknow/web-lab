@@ -27,9 +27,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * [Atom](https://atom.io)
 * [Brackets](http://brackets.io/)
 
-## Informatii proiecte
-
-> **!** Condul sursa al celor doua proiecte trebuie sa fie salvat pe [GitHub](https://github.com/).
+## Informatii proiect
 
 ### Proiect (30 puncte)
 
@@ -58,3 +56,6 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
 
 > **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
+
+> **Atentie!** Condul sursa al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/).
+
