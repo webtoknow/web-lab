@@ -33,6 +33,10 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 **Tema:** Construiti un site/mini aplicatie respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
 
+> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
+
+> **Atentie!** Condul sursa al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/).
+
 #### Cerinte minimale:
 
 ##### HTML si CSS (15 puncte)
@@ -54,8 +58,3 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
 * Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
 * Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
-
-> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
-
-> **Atentie!** Condul sursa al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/).
-
