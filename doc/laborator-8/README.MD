@@ -6,7 +6,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 
 ### Hack Google
 
-* Deschideti [google.com](www.google.com) in Chrome sau Firefox si afisati consola.
+* Deschideti [google.com](https://www.google.com) in Chrome sau Firefox si afisati consola.
 * Gasiti logo-ul Google si stocati-l intr-o variabila.
 * Modificati sursa imaginii astfel incat sa apara logo-ul de la Yahoo.
 * Gasiti butonul de search Google si stocati-l intr-o variabila.
