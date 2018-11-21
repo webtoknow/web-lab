@@ -8,7 +8,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 
 * Deschideti [google.com](https://www.google.com) in Chrome sau Firefox si afisati consola.
 * Gasiti logo-ul Google si stocati-l intr-o variabila.
-* Modificati sursa imaginii astfel incat sa apara logo-ul de la Yahoo.
+* Modificati sursa imaginii (url-ul) astfel incat sa apara logo-ul de la Yahoo. Puteti cauta url-ul logo-ului de la Yahoo intr-un motor de cautare. 
 * Gasiti butonul de search Google si stocati-l intr-o variabila.
 * Modificati textul buttonului astfel incat sa scrie Yahoo.
 
