@@ -40,7 +40,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 
 * Creati un document HTML (*filme.html*) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
 * Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number),*actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
+* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number), *actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
 * Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina elemente `<p>` care sa contina titlul filmului.
 
 ### Bonus
