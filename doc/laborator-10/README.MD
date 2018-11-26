@@ -17,7 +17,7 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
   <button id="stop-button">Stop</button>
 </div>
 <div id="info"></div>
-<img style="position:absolute; left: 0px; top: 80px;" src="https://raw.githubusercontent.com/bmnicolae/laborator-tehnici-web/master/doc/laborator-11/dog.gif">
+<img style="position:absolute; left: 0px; top: 80px;" src="https://raw.githubusercontent.com/WebToLearn/laborator-tehnici-web/master/doc/laborator-10/dog.gif">
 
 <script>
   var movePixels = 10; // number of pixels
