@@ -1,65 +1,50 @@
-# Laborator 8 - Obiecte si functii
+# Laborator 8 - [JS] - DOM
 
-Intr-un document HTML, link-uiti cate un fisier JavaScript pentru fiecare exercitiu de mai jos (*ex1.js*, *ex2.js* etc.).
+DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor DOM](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor pot fi reflectate in afisarea documentului.
 
 ## Exercitiul 8.1
 
-### Care sunt oamenii care v-au influentat viata?
+### Hack Google
 
-* Creati un obiect care sa contina informatiile unei persoane ce v-a influentat viata. Obiectul trebuie sa contina: `nume` (string), `varsta` (number) si `calitati` (array of strings).
-* Afisati in consola pe linii separate (cate un `console.log` pentru fiecare linie), informatiile persoanei, ca mai jos:
-
-```JS
-Gabriela Boboc
-Varsta: 50
-Calitati:
-Empatica
-Sincera
-Iubitoare de animale
-```
+* Deschideti [google.com](https://www.google.com) in Chrome sau Firefox si afisati consola.
+* Gasiti logo-ul Google si stocati-l intr-o variabila.
+* Modificati sursa imaginii (url-ul) astfel incat sa apara logo-ul de la Yahoo. Puteti cauta url-ul logo-ului de la Yahoo intr-un motor de cautare. 
+* Gasiti butonul de search Google si stocati-l intr-o variabila.
+* Modificati textul buttonului astfel incat sa scrie Yahoo.
 
 ## Exercitiul 8.2
 
-### E ca IMDB-ul, dar mult mai mic...
+### Toate site-urile ar trebui sa aiba o sectiune "Despre noi"
 
-* Creati un obiect care sa contina informatiile unui film favorit. Obiectul trebuie sa includa `titlu` (string), `durata` (number) si `actori` (array of strings).
-* Creati o functie care sa primeasca ca parametru obiectul de mai sus si sa printeze in consola informatiile filmului favorit, ca mai jos:
+* Creati un document HTML (*aboutme.html*) cu template-ul de mai jos inclus in `<body>`:
 
+```html
+<h1>About Me</h1>
+<ul>
+  <li>Nickname: <span id="nickname"></span>
+  <li>Favorites:  <span id="favorites"></span>
+  <li>Hometown: <span id="hometown"></span>
+</ul>
 ```
-"La Moara cu noroc" a durat 130 minute. Actori: Constantin Codrescu, Olga Tudorache, Geo Barton"
-```
+
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
+* Schimbati stilul din `<body>` astfel incat sa avem font-family: *Arial, sans-serif*.
+* Inlocuiti ficare `<span>` (*nickname, favorites, hometown*) cu informatiile voastre.
+* Iterati prin fiecare `<li>` si adaugati clasa *list-item*.
+* Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei *list-item* pentru a avea un text rosu.
+* Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acel element in pagina.
 
 ## Exercitiul 8.3
 
-### E Black Friday!
+### My IMDB
 
-* Creati o functie care sa primeasca ca parametru obiectul corespunzator cosului de cumparaturi si sa returneze valoarea totala a acestuia, ca in exemplul de mai jos:
+* Creati un document HTML (*filme.html*) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
+* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
+* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number), *actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
+* Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina elemente `<p>` care sa contina titlul filmului.
 
-```JS
-// Input
-var blackFridayCart = {
-  telefon: "350",
-  consola: "250",
-  televizor: "450",
-  iepurasPlus: "10.60",
-  cercei: "20.34",
-  geanta: "22.36"
-};
+### Bonus
 
-// Output
-getCartValue(blackFridayCart)); // 1103.3
-```
-
-## Exercitiul 8.4
-
-### Map
-
-* Implementati functia *map*, astfel incat aceasta sa se comporte ca mai jos:
-
-```JS
-function multiplicator(element) {
-    return 2 * element;
-}
-
-[1,2,3].map(multiplicator); // [2,4,6]
-```
+* Folositi `<ul>` si `<li>` pentru a afisa filmele, alaturi de celelalte informatii despre acestea.
+* Adaugati in fiecare obiect din vector o proprietate reprezentand imaginea filmului si reflectati schimbarea in pagina.
+* Adaugati proprietati CSS care sa diferentieze filmele vizualizate de cele nevizualizate din lista.

@@ -1,36 +1,10 @@
-# Laborator 3 - Selectori CSS
-## Design website personal
-
-![Design website personal - resume](personal-website-resume.png)
+# Laborator 3 - [CSS] - Selectori
 
 ## Exercitiul 3.1
 
-Creati un document HTML (*index.html*) cu descrierea personala (incluzand si o poza a voastra) folosind tagurile semantice cunoscute: ``<img>``, ``<br>``,``<article>``, ``<section>``, ``<p>``, ``<h1>``, …, ``<h6>``, … .
+[CSS Diner](https://flukeout.github.io/) ne ajuta sa invatam selectorii CSS. Hai sa ne jucam!
 
 ## Exercitiul 3.2
-
-Creati un document HTML (*cv.html*) cu CV-ul personal care va contine cel putin 2 sectiuni (Experienta profesionala, Educatie) cuprinzand o lista cu cel putin 3 elemente (pozitii ocupate, formele de invatamand absolvite etc.).
-
-Stilizati acelasi document in doua moduri diferite folosind:
-
-* atributul ``style`` pe tag-urile de HTML
-* fisiere CSS
-
-## Exercitiul 3.3
-
-Creati si stilizati meniul de navigare dintre cele doua pagini.
-
-## Exercitiul 3.4
-
-Alegeti si aplicati in paginile voastre un font folosind serviul [Google Fonts](https://fonts.google.com/).
-
-## Exercitiul 3.5
-
-Adaugati si stilizati in pagina ce contine CV-ul tabelul de descriere a limbilor vorbite, precum in exemplul de mai jos:
-
-![Tabel limbi vorbite](table.png)
-
-## Exercitiul 3.6
 
  Creati un nou fisier HTML (*final.html*) si populati-l cu tagurile obligatorii folosind [Emmet](https://emmet.io/)
  (``
@@ -83,11 +57,11 @@ sau copiati-l:
 
  Creati un nou fisier CSS (final.css), conectati-l la pagina html si efectuati urmatoarele exercitii:
 
-* definiti o regula CSS astfel incat toate textele din pagina sa aiba culoarea ``#4e4e4e`
-* definiti o regula CSS astfel incat toate paragrafele sa aiba textul "justify"
-* definiti o regula CSS astfel incat fundalul paginii sa aiba culoarea ``#f3f3f3` sau o imagine folosind o clasa
+* definiti o regula CSS astfel incat toate textele din pagina sa aiba culoarea ``#4e4e4e``
+* definiti o regula CSS astfel incat toate paragrafele sa aiba textul "[justify](https://practicaltypography.com/justified-text.html)"
+* definiti o regula CSS astfel incat fundalul paginii sa aiba culoarea ``#f3f3f3`` sau o imagine folosind o clasa
 * definiti o regula CSS astfel incat titlul "Subtitlul_1_2" sa fie taiat cu o linie folosind pseudo selectori
 * definiti o regula CSS astfel incat numai paragrafele care se situeaza dupa primul ``<h3>`` sa aiba "border" albastru 2px
 * definiti o regula CSS astfel incat numai paragraful situat imediat dupa al doilea ``<h3>`` sa aiba trasparenta 50%
-* definiti o clasa "italic" astfel incat paragrafele care o contin sa aiba font italic
+* definiti o clasa "italic" astfel incat paragrafele care o contin sa aiba stilul font-ului "italic"
 * definiti o regula CSS astfel incat numai paragrafele care contin clasa "italic" sa aiba o distanta dintre randuri 25px
