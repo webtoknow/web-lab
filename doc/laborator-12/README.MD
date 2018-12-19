@@ -22,7 +22,7 @@ json-server --watch db.json
 
 Pornind de la codul scris in cadrul laboratorului precedent:
 
-* Creati un formular care sa contina campurile *name* si *img* pentru a adauga noi entitati in lista de catei.
+* Adaugati in pagina voastra doua taguri [input](https://www.w3schools.com/tags/tag_input.asp) care sa contina informatiile *name* si *img* pentru a putea modifica lista de catei.
 * Salvati entitatile pe server - actiune de tip [POST](https://spring.io/understanding/REST#post).
 * Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://spring.io/understanding/REST#put).
 * Stergeti una din entitatile existente din lista si de pe server - actiune de tip [DELETE](https://spring.io/understanding/REST#delete).
