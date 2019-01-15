@@ -19,6 +19,11 @@ Exercitiile sunt impartite dupa cum urmeaza:
 * [Laborator 11 - [JS] - AJAX - Partea intai](doc/laborator-11)
 * [Laborator 12 - [JS] - AJAX - Partea a doua](doc/laborator-12)
 
+Workshop
+
+* [Workshop Angular](doc/workshop-angular-laborator-11-12)
+* [Workshop React](doc/workshop-react-laborator-11-12)
+
 ### Cerinte
 
 Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de exemplu:
