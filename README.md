@@ -38,28 +38,32 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 **Tema:** Construiti un site/mini aplicatie respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
 
-> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
+> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) (JQuery, Bootstrap, Angular, React, Vue etc.) pentru realizarea aplicatiei.
 
 > **Atentie!** Condul sursa al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/).
 
 #### Cerinte minimale:
 
-##### HTML si CSS (15 puncte)
+##### Scop si User Experience (10 puncte)
+
+* Aplicatia sa aiba un scop bine definit si sa rezolve o problema reala (5 puncte)
+* [User Experience](https://www.interaction-design.org/literature/topics/ux-design) si Design (5 puncte)
+
+##### HTML si CSS (10 puncte)
 
 * Fisiere separate pentru HTML si CSS (1 punct)
-* Website-ul sa contina minim 2 pagini (2 puncte)
-* Toate paginile create sa treaca testul de [validare](http://validator.w3.org) (paginile sa nu aiba erori sau warning-uri) (1 punct)
-* In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (2 puncte)
-* Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/) (minim  80% din selectori) (2 puncte)
-* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (5 puncte)
+* Website-ul sa contina minim 2 pagini (1 punct)
+* In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) diferite (1 punct)
+* Stilurile CSS sa fie definite folosind doar clase (minim  80% din selectori) (1 punct)
+* Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), folosind media queries, astfel incat stilurile sa se schimbe pentru cel putin 5 elemente din pagina. Respectati rezolutiile urmatoarelor dispozitive: (4 puncte)
   * telefon mobil - latime mai mica 768px
   * tableta - latime intre 768px si 1280px
   * desktop - latime mai mare de 1280px
 * Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
 
-##### Javascript (15 puncte)
+##### Javascript (10 puncte)
 
 * Fisier separat JavaScript (1 punct)
-* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
-* Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
-* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
+* Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (2 puncte)
+* Folosirea evenimentelor JavaScript declansate de mouse/tastatura (1 punct)
+* Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (6 puncte)
