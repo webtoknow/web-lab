@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -42,7 +41,7 @@ const styles = theme => ({
 class App extends Component {
   constructor(props){
     super(props);
-    this.state ={ 
+    this.state = {
       dogs: [],
       openModal: false,
       id: null,
@@ -83,7 +82,7 @@ class App extends Component {
     const { id, name, img } = this.state
     const url = id ===  null ? 'http://localhost:4000/dogs' : `http://localhost:4000/dogs/${id}`;
     const method = id === null ? 'POST' : 'PUT';
-    const postObject = id === null ? { name, img } : { id, name, img } 
+    const postObject = id === null ? { name, img } : { id, name, img }
     const self = this;
 
     fetch(url, {
@@ -193,10 +192,10 @@ class App extends Component {
           </DialogContent>
           <DialogActions>
             <Button onClick={this.closeModal} color="primary">
-              Cancel
+              Anulare
             </Button>
             <Button onClick={this.saveDogs} color="primary">
-              Save
+              Salvare
             </Button>
           </DialogActions>
         </Dialog>
@@ -204,9 +203,5 @@ class App extends Component {
     )
   }
 }
-
-App.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
 export default withStyles(styles)(App);
