@@ -34,9 +34,11 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 ## Informatii proiect
 
-### Proiect (30 puncte)
+### Activitate laborator (10 puncte)
 
-**Tema:** Construiti un site/mini aplicatie respectand cerintele de mai jos. Tematica site-ului este lasata la alegerea voastra.
+### Proiect (40 puncte)
+
+**Tema:** Construiti un site/mini-aplicatie respectand cerintele de mai jos. Tematica site-ului este la alegerea voastra.
 
 > **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
 
@@ -44,7 +46,9 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale:
 
-##### HTML si CSS (15 puncte)
+##### Front-end (Client side) (30 puncte)
+
+###### HTML si CSS (15 puncte)
 
 * Fisiere separate pentru HTML si CSS (1 punct)
 * Website-ul sa contina minim 2 pagini (2 puncte)
@@ -57,9 +61,13 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
   * desktop - latime mai mare de 1280px
 * Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
 
-##### Javascript (15 puncte)
+###### Javascript (15 puncte)
 
 * Fisier separat JavaScript (1 punct)
 * Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
 * Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
 * Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
+
+##### Back-end (Server side) (10 puncte)
+
+* Crearea unui API pentru a servi Client side (10 puncte)
