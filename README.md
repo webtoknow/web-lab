@@ -32,7 +32,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 * [Atom](https://atom.io)
 * [Brackets](http://brackets.io/)
 
-## Informatii proiect
+## Informatii laborator si proiect
 
 ### Activitate laborator (10 puncte)
 
