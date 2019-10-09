@@ -1,5 +1,6 @@
 # Laborator 2 - [CSS] - Introducere
-CSS sau Cascading Style Sheets este limbajul descriptiv ce se foloseste pentru stilizarea documentului HTML (paginii web):
+
+CSS sau `Cascading Style Sheets` este limbajul descriptiv ce se foloseste pentru stilizarea documentului HTML (paginii web):
 
 ```CSS
 body {
@@ -25,7 +26,7 @@ h1, h2, h3 {
 
 ![CSS Rules](https://www.teaching-materials.org/css/img/cssrule.png)
 
-Pentru a invata mai usor propietatile CSS putem folosi un [Cheet Sheet](https://toptal-email-assets.s3.amazonaws.com/css-cheat-sheet.pdf).
+Pentru a invata mai usor propietatile CSS putem folosi un [Cheat Sheet](https://toptal-email-assets.s3.amazonaws.com/css-cheat-sheet.pdf).
 
 ## Exercitiul 2.1
 
@@ -37,6 +38,7 @@ Stilizati acelasi document in doua moduri diferite folosind:
 * fisiere CSS
 
 ### Exemplu de website care contine si CV-ul personal
+
 ![Design website personal - resume](personal-website-resume.png)
 
 ## Exercitiul 2.2
