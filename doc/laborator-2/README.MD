@@ -33,17 +33,17 @@ nav {
 Iata cum adaugam stiluri paginilor web:
 
 ```HTML
+<!-- Inline Style -->
+<tag style="property: value;">
+```
+
+```HTML
 <!-- Embedded Style -->
 <head>
   <style type="text/css">
     selector { property: value; }
   </style>
 </head>
- ```
-
-```HTML
-<!-- Inline Style -->
-<tag style="property: value;">
 ```
 
 ```HTML
@@ -51,7 +51,7 @@ Iata cum adaugam stiluri paginilor web:
 <head>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
- ```
+```
 
 Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-cheat-sheet.pdf).
 
@@ -61,7 +61,7 @@ Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-che
 
 ## Exercitiul 2.2
 
-Creati un document HTML (*cv.html*) cu markup-ul de mai jos si 2 fisiere CSS (*style.css* si *resume-style.css*) care vor contine stilurile.
+Creati un document HTML (_cv.html_) cu markup-ul de mai jos si 2 fisiere CSS (_style.css_ si _resume-style.css_) care vor contine stilurile.
 
 ```HTML
 <!DOCTYPE html>
@@ -187,7 +187,7 @@ Creati un document HTML (*cv.html*) cu markup-ul de mai jos si 2 fisiere CSS (*s
 </html>
 ```
 
-Pentru inceput, adaugam urmatoarele stiluri in *style.css*:
+Pentru inceput, adaugam urmatoarele stiluri in _style.css_:
 
 ```CSS
 * {
@@ -236,22 +236,24 @@ Aplicati in pagina voastra fonturile `Open Sans` si `Lato`, folosind [Google Fon
 
 Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
 
-* marginea sa fie `0`
-* marimea fontului sa fie de `38px`
-* grosimea fontului sa fie `700`
-* textul sa fie scris numai cu litere mari
-* textul sa fie aliniat la centru
+- marginea sa fie `0`
+- tipul fontului sa fie `Lato`
+- marimea fontului sa fie de `38px`
+- grosimea fontului sa fie `700`
+- textul sa fie scris numai cu litere mari
+- textul sa fie aliniat la centru
 
 ## Exercitiul 2.5
 
 Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
 
-* culoarea textului sa fie `#999`
-* marginea de jos sa fie de `1em`
-* marimea fontului sa fie de `1.5em`
-* distanta intre randuri sa fie de `1em`
-* textul sa fie scris numai cu litere mari
-* textul sa fie aliniat la centru
+- culoarea textului sa fie `#999`
+- marginea de jos sa fie de `1em`
+- tipul fontului sa fie `Lato`
+- marimea fontului sa fie de `1.5em`
+- distanta intre randuri sa fie de `1em`
+- textul sa fie scris numai cu litere mari
+- textul sa fie aliniat la centru
 
 ## Exercitiul 2.6
 
@@ -259,43 +261,44 @@ Stilizati meniul de navigare astfel incat sa aiba urmatoarele proprietati:
 
 Containerul meniului:
 
-* lungimea sa fie de `990px`
-* marginile sa fie de `80px auto 0 auto`
-* textul sa fie aliniat la centru
+- lungimea sa fie de `990px`
+- marginile sa fie de `80px auto 0 auto`
+- textul sa fie aliniat la centru
 
 Optiunile din meniu:
 
-* elementul sa fie de tip `inline-block`
-* marginea din dreapta sa fie de `10px`
-* marginea din stanga sa fie de `20px`
-* padding-ul sa fie de `10px 40px 10px 40px`
-* fundalul sa fie alb
-* scoateti *text-decoration*
-* grosimea fontului sa fie `bold`
-* textul sa fie scris numai cu litere mari
-* marimea fontului sa fie de `14px`
-* culoarea sa fie `#999`
-* alinierea verticala sa fie la baza de jos
+- elementul sa fie de tip `inline-block`
+- marginea din dreapta sa fie de `10px`
+- marginea din stanga sa fie de `20px`
+- padding-ul sa fie de `10px 40px 10px 40px`
+- fundalul sa fie alb
+- scoateti _text-decoration_
+- grosimea fontului sa fie `bold`
+- textul sa fie scris numai cu litere mari
+- tipul fontului sa fie `Lato`
+- marimea fontului sa fie de `14px`
+- culoarea sa fie `#999`
+- alinierea verticala sa fie la baza de jos
 
 Optiune meniu activa:
 
-* pozitia sa fie relativa
-* elementul sa fie mai jos cu `1px` (*buttom*: `-1px`)
-* culoarea sa fie `#c0392b`
-* padding-ul sa fie de `15px 40px 15px 40px;`
-* marginea de sus sa fie `0`
+- pozitia sa fie relativa
+- elementul sa fie mai jos cu `1px` (_buttom_: `-1px`)
+- culoarea sa fie `#c0392b`
+- padding-ul sa fie de `15px 40px 15px 40px;`
+- marginea de sus sa fie `0`
 
 ## Exercitiul 2.7
 
 Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
 
-* marginea de sus si de jos sa fie de `25px`
-* border-ul sa fie de `1px`, `solid` si sa aiba culoarea `#f1f1f1`
+- marginea de sus si de jos sa fie de `25px`
+- border-ul sa fie de `1px`, `solid` si sa aiba culoarea `#f1f1f1`
 
 ## Exercitiul 2.8
 
-Stilizati sectiunea *Experienta profesionala* si *Educatie*.
+Stilizati sectiunea _Experienta profesionala_ si _Educatie_.
 
 ## Exercitiul 2.9
 
-Stilizati sectiunea *Aptitudini*.
+Stilizati sectiunea _Aptitudini_.

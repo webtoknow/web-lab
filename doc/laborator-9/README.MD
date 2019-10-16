@@ -1,87 +1,28 @@
-# Laborator 9 - [JS] - Evenimente
-
-[Evenimentele](https://developer.mozilla.org/en-US/docs/Web/Events) in JavaScript sunt actiuni sau intamplari care sunt declansate de utilizator sau de browser.
-Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
-
-* utilizatorul da click pe un element din pagina;
-* utilizatorul pune cursorul pe un element din pagina;
-* utilizatorul apasa o tasta de la tastatura;
-* utilizatorul modifica marimea ferestrei browser-ului sau o inchide;
-* un formular a fost trimis (submitted);
-* pagina s-a terminat de incarcat;
-* a aparut o eroare;
+# Laborator 9 - [JS] - AJAX - Partea a doua
 
 ## Exercitiul 9.1
 
-### Povesti de calatorie
+### Start my server
 
-* Creati un document HTML (*calatorii.html*) cu template-ul de mai jos inclus in `<body>`:
+- Porniti JSON Server folosind comanda de mai jos:
 
-```html
-<h1>Povesti de calatorie</h1>
-
- <ul>
-  <li>Locuri vizitate: <input type="text" id="places">
-  <li>Adjective: <input type="text" id="adjective">
-  <li>Nume: <input type="text" id="person">
- </ul>
-
- <button id="story-button">Creaza povestea!</button>
-
- <div id="story"></div>
+```bash
+json-server --watch db.json
 ```
 
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Adaugati un *event listener* butonului astfel incat de fiecare data cand este apasat functia `makeStory` sa fie apelata.
-* In functia `makeStory` executati urmatoarele actiuni:
+- Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), veti vedea:
 
-  * luati valorile din input-uri;
-  * creati o poveste cu ajutorul lor (ex: "Diana a vizitat frumoasa Barcelona");
-  * afisati povestea in tag-ul identificat prin id-ul *story*;
+```json
+{ "id": 1, "title": "json-server", "author": "typicode" }
+```
 
 ## Exercitiul 9.2
 
-### Calculator
+### Dogs
 
-* Creati un document HTML (*calculator.html*) cu template-ul de mai jos inclus in `<body>`:
+Pornind de la codul scris in cadrul laboratorului precedent:
 
-```html
- <label>1. Ridicare la patrat:
-    <input type="number" id="square-input" size="2">
-  </label>
-  <button id="square-button">Calculeaza</button>
-  <br><br>
-
-  <label>2. Jumatate din numar:
-    <input type="number" id="half-input" size="2">
-  </label>
-  <button id="half-button">Calculeaza</button>
-  <br><br>
-
-  <label>
-    3. Procent:
-    <input type="number" id="percent1-input" size="2">
-  </label>
-  <label>
-    Numar:
-    <input type="number" id="percent2-input" size="2">
-  </label>
-  <button id="percent-button">Calculeaza</button>
-  <br><br>
-
-  <label>4. Aria unui cerc cu raza:
-    <input type="number" id="area-input" size="2">
-  </label>
-  <button id="area-button">Calculeaza</button>
-  <br><br>
-  <div id="solution"></div>
-```
-
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Adaugati evenimente pe butoane astfel incat de fiecare data cand sunt apasate sa cheme functiile de calcul.
-* Creati functiile care returneaza rezultatele corecte pentru toate cazurile de mai sus.
-* Afisati rezultatele calculelor in tag-ul identificat prin id-ul *solution*.
-
-### Bonus
-
-* Folositi evenimentul *keypress* pe unul dintre input-uri astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.
+- Adaugati in pagina voastra doua taguri [input](https://www.w3schools.com/tags/tag_input.asp) care sa contina informatiile _name_ si _img_ pentru a putea modifica lista de catei.
+- Salvati entitatile pe server - actiune de tip [POST](https://spring.io/understanding/REST#post).
+- Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://spring.io/understanding/REST#put).
+- Stergeti una din entitatile existente din lista si de pe server - actiune de tip [DELETE](https://spring.io/understanding/REST#delete).
