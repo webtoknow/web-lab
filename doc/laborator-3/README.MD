@@ -1,6 +1,6 @@
 # Laborator 3 - [CSS] - Layout si Flexbox
 
-Observatie: In rezolvarea exercitiilor de mai jos ne vom axa pe implementarea continutului paginilor, nu pe designul din exterior (fundal, container, tab-uri etc.).
+> Exercitiile din acest laborator reprezinta o continuare a exercitiilor din laboratorul trecut.
 
 ## Exercitiul 3.1
 
