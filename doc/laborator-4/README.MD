@@ -1,5 +1,7 @@
 # Laborator 4 - [CSS] - CSS Grid
 
+> Exercitiile din acest laborator reprezinta o continuare a exercitiilor din laboratoarele 2 si 3.
+
 ## Exercitiul 4.1
 
 [GRID GARDEN](http://cssgridgarden.com/) ne ajuta sa invatam CSS Grid. Hai sa ne jucam!
