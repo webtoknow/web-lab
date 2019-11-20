@@ -1,8 +1,14 @@
 # Laborator 8 - [JS] - AJAX - Partea intai
 
+HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
+
+![HTTP](http.png)
+![HTTP](http-request.png)
+![HTTP](http-response.png)
+
 AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in continutul sau.
 
-![Ajax](ajax.gif)
+![Ajax](ajax.png)
 
 ## Exercitiul 8.1
 
