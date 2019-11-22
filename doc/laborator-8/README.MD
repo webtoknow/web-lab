@@ -60,10 +60,36 @@ npm install -g json-server
 json-server --watch db.json
 ```
 
-- Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), veti vedea:
+- Accesand link-ul [http://localhost:3000/dogs](http://localhost:3000/dogs), veti vedea lista de catei:
 
 ```json
-{ "id": 1, "title": "json-server", "author": "typicode" }
+[
+  {
+    "id": 1,
+    "name": "AFFENPINSCHER",
+    "img": "https:\/\/images.dog.ceo\/breeds\/affenpinscher\/n02110627_8099.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AKITA",
+    "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CHIHUAHUA",
+    "img": "https:\/\/images.dog.ceo\/breeds\/chihuahua\/n02085620_7613.jpg"
+  },
+  {
+    "id": 4,
+    "name": "LHASA",
+    "img": "https:\/\/images.dog.ceo\/breeds\/lhasa\/n02098413_7358.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HOUND",
+    "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+  }
+]
 ```
 
 ## Exercitiul 8.2
