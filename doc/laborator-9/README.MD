@@ -28,7 +28,7 @@ json-server --watch db.json
 
 ## Exercitiul 9.2
 
-### CRUD on Dogs
+### Operatii CRUD pe endoint-ul /dogs
 
 Pornind de la codul scris in cadrul laboratorului precedent:
 
