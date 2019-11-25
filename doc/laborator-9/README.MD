@@ -20,7 +20,7 @@ In tabelul de mai jos avem operatiile CRUD (*Create*, *Read*, *Update* si *Delet
 json-server --watch db.json
 ```
 
-- Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), veti vedea:
+- Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), daca servarul este pornit corect, veti vedea:
 
 ```json
 { "id": 1, "title": "json-server", "author": "typicode" }
@@ -28,7 +28,7 @@ json-server --watch db.json
 
 ## Exercitiul 9.2
 
-### Dogs
+### CRUD on Dogs
 
 Pornind de la codul scris in cadrul laboratorului precedent:
 
