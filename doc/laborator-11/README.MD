@@ -20,7 +20,7 @@ In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delet
 npm init
 ```
 
-- Instalati toate pachetele [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), cors, [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/), folosind comenzile de mai jos:
+- Instalati toate pachetele [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), [cors](https://expressjs.com/en/resources/middleware/cors.html), [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/), folosind comenzile de mai jos:
 
 ```bash
 npm install  --save express bodyParser cors uuid
