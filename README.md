@@ -16,8 +16,8 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - [Laborator 8 - [JS] - AJAX - Partea intai](doc/laborator-8)
 - [Laborator 9 - [JS] - AJAX - Partea a doua](doc/laborator-9)
 - [Laborator 10 - [NodeJS] - Introducere](doc/laborator-10)
-- [Laborator 11 - [NodeJS] - Server side rendering](doc/laborator-11)
-- [Laborator 12 - [NodeJS] - API](doc/laborator-12)
+- [Laborator 11 - [NodeJS] - API](doc/laborator-11)
+- [Laborator 12 - [NodeJS] - Server side rendering](doc/laborator-12)
 
   Workshop
 
