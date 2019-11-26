@@ -6,7 +6,7 @@
       {
         "url": "http://localhost:3000",
         "path": "/dogs",
-        "method": "GET",
+        "method": "POST",
         "auth": "None",
         "httpUser": "",
         "httpPassword": "",
@@ -15,11 +15,11 @@
         "headers": [],
         "params": [],
         "bodyParams": [],
-        "rawParams": "",
-        "rawInput": false,
-        "contentType": "",
+        "rawParams": "{\n  \"name\": \"SMALL LHASA\",\n  \"img\": \"https://dog.ceo//api//img//lhasa//n02098413_3033.jpg\"\n}",
+        "rawInput": true,
+        "contentType": "application/json",
         "requestType": "",
-        "name": "Read all",
+        "name": "Create",
         "collection": 0
       },
       {
@@ -44,7 +44,7 @@
       {
         "url": "http://localhost:3000",
         "path": "/dogs",
-        "method": "POST",
+        "method": "GET",
         "auth": "None",
         "httpUser": "",
         "httpPassword": "",
@@ -53,11 +53,11 @@
         "headers": [],
         "params": [],
         "bodyParams": [],
-        "rawParams": "{\n  \"name\": \"SMALL LHASA\",\n  \"img\": \"https://dog.ceo//api//img//lhasa//n02098413_3033.jpg\"\n}",
-        "rawInput": true,
-        "contentType": "application/json",
+        "rawParams": "",
+        "rawInput": false,
+        "contentType": "",
         "requestType": "",
-        "name": "Create",
+        "name": "Read all",
         "collection": 0
       },
       {
