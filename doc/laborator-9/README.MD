@@ -2,13 +2,15 @@
 
 In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
-| CRUD Operation | HTTP method | URL       | URL params | Request body | example                  |
-| -------------- | ----------- | --------- | ---------- | ------------ | ------------------------ |
-| _Create_       | POST        | /dogs     |            | body: {...}  | POST /dogs body: {...}   |
-| _Read One_     | GET         | /dogs/:id | :id        |              | GET /dogs/123            |
-| _Read All_     | GET         | /dogs     |            |              | GET /dogs                |
-| _Update_       | PUT         | /dogs/:id | :id        | body: {...}  | PUT /dogs/123 body:{...} |
-| _Delete_       | DELETE      | /dogs/:id | :id        |              | DELETE /dogs/123         |
+| Operatii CRUD  | Metode HTTP | URL       | Parametrii URL | Request body | Exemple                  |
+| -------------- | ----------- | --------- | -------------- | ------------ | ------------------------ |
+| _Create_       | POST        | /dogs     |                | body: {...}  | POST /dogs body: {...}   |
+| _Read One_     | GET         | /dogs/:id | :id            |              | GET /dogs/123            |
+| _Read All_     | GET         | /dogs     |                |              | GET /dogs                |
+| _Update_       | PUT         | /dogs/:id | :id            | body: {...}  | PUT /dogs/123 body:{...} |
+| _Delete_       | DELETE      | /dogs/:id | :id            |              | DELETE /dogs/123         |
+
+Metodele POST si PUT trebuie sa contine in header Content-Type: application/json alaturi de informatiile din `body`.
 
 ## Exercitiul 9.1
 
