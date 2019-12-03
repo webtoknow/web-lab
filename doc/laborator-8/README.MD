@@ -1,4 +1,4 @@
-# Laborator 8 - [JS] - AJAX - Partea intai
+# Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
 
 HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
 

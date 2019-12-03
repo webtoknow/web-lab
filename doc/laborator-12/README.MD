@@ -1,11 +1,7 @@
-# Laborator 12 - [NodeJS] - API
+# Laborator 12 - [NodeJS] - Randare pe server (Server side rendering)
 
-We can map basic operations like CRUD to certain HTTP methods:
+Randarea pe server al continutului unei pagini web a existat de la inceputul internetului, mai exact de cand au aparut primele servere web care puteau sa ruleze Java, PHP, Python, sau Ruby.
 
-| CRUD Operation | HTTP method	| URL       | URL params | Request body     | example                       |
-|----------------|--------------|-----------|------------|------------------|-------------------------------|
-| Create         | POST         | /dogs     |            | body: {...}      | POST /dogs body: {...}        |
-| Read One       | GET          | /dogs/:id | :id        |                  | GET /dogs/123                 |
-| Read All       | GET          | /dogs     |            |                  | GET /dogs                     |
-| Update         | PUT          | /dogs/:id | :id        | body: {...}      | PUT /dogs/123 body:{...}      |
-| Delete         | DELETE       | /dogs/:id | :id        |                  | DELETE /dogs/123              |
+## Exercitiul 12.1
+
+Pentru a ne putea familiariza randarea pe server si totodata cu autentificarea prin sesiune in laboratorul de astazi o sa continuam rezolvarea exercitiile din sectiunea _Advanced Node and Express Challenges_ de pe platforma [Free Code Camp](https://www.freecodecamp.org/learn/information-security-and-quality-assurance/advanced-node-and-express/).
