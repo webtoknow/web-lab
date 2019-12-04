@@ -178,7 +178,6 @@ Creati un document HTML (_cv.html_) cu markup-ul de mai jos si 2 fisiere CSS (_s
         <li class="skills-item"><span class="skills-bg javascript">jQuery/JavaScript</span></li>
         <li class="skills-item"><span class="skills-bg ruby">Ruby</span></li>
         <li class="skills-item"><span class="skills-bg python">Python</span></li>
-
       </ul>
     </aside>
   </div>
@@ -302,3 +301,9 @@ Stilizati sectiunea _Experienta profesionala_ si _Educatie_.
 ## Exercitiul 2.9
 
 Stilizati sectiunea _Aptitudini_.
+> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator: 
+
+```css
+background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+background-size: 5rem 5rem;
+```
