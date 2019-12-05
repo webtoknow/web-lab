@@ -13,11 +13,11 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - [Laborator 5 - [JS] - Obiecte si functii](doc/laborator-5)
 - [Laborator 6 - [JS] - DOM](doc/laborator-6)
 - [Laborator 7 - [JS] - Evenimente si Event loop](doc/laborator-7)
-- [Laborator 8 - [JS] - AJAX - Partea intai](doc/laborator-8)
-- [Laborator 9 - [JS] - AJAX - Partea a doua](doc/laborator-9)
+- [Laborator 8 - [JS] - AJAX si randarea pe client - Partea intai](doc/laborator-8)
+- [Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua](doc/laborator-9)
 - [Laborator 10 - [NodeJS] - Introducere](doc/laborator-10)
 - [Laborator 11 - [NodeJS] - API](doc/laborator-11)
-- [Laborator 12 - [NodeJS] - Server side rendering](doc/laborator-12)
+- [Laborator 12 - [NodeJS] - Randare pe server](doc/laborator-12)
 
   Workshop
 
@@ -46,7 +46,7 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 
 #### Cerinte minimale:
 
-##### Front-end (Client side) (30 puncte)
+##### Frontend (Client side) (30 puncte)
 
 ###### HTML si CSS (15 puncte)
 
@@ -64,10 +64,10 @@ Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de 
 ###### Javascript (15 puncte)
 
 - Fisier separat JavaScript (1 punct)
-- Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
+- Manipularea DOM-ului  (crearea, editarea si stergerea elementelor/nodurilor HTML - randare in browser) (3 puncte)
 - Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
 - Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
 
-##### Back-end (Server side) (10 puncte)
+##### Backend (Server side) (10 puncte)
 
-- Crearea unui API pentru a servi Client side (10 puncte)
+- Crearea unui API pentru a servi Frontend-ului (Client side) (10 puncte)

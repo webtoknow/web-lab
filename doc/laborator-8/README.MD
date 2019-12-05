@@ -1,10 +1,10 @@
-# Laborator 8 - [JS] - AJAX - Partea intai
+# Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
 
 HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
 
 ![HTTP](http.png)
-![HTTP](http-request.png)
-![HTTP](http-response.png)
+![HTTP Request](http-request.png)
+![HTTP Response](http-response.png)
 
 AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in continutul sau.
 
@@ -24,34 +24,34 @@ npm install -g json-server
 
 ```json
 {
-    "dogs": [
-      {
-        "id": 1,
-        "name": "AFFENPINSCHER",
-        "img": "https:\/\/images.dog.ceo\/breeds\/affenpinscher\/n02110627_8099.jpg"
-      },
-      {
-        "id": 2,
-        "name": "AKITA",
-        "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
-      },
-      {
-        "id": 3,
-        "name": "CHIHUAHUA",
-        "img": "https:\/\/images.dog.ceo\/breeds\/chihuahua\/n02085620_7613.jpg"
-      },
-      {
-        "id": 4,
-        "name": "LHASA",
-        "img": "https:\/\/images.dog.ceo\/breeds\/lhasa\/n02098413_7358.jpg"
-      },
-      {
-        "id": 5,
-        "name": "HOUND",
-        "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
-      }
-    ]
-  }
+  "dogs": [
+    {
+      "id": 1,
+      "name": "AFFENPINSCHER",
+      "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AKITA",
+      "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+    },
+    {
+      "id": 3,
+      "name": "CHIHUAHUA",
+      "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LHASA",
+      "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
+    },
+    {
+      "id": 5,
+      "name": "HOUND",
+      "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+    }
+  ]
+}
 ```
 
 - Porniti JSON Server folosind comanda de mai jos:
@@ -67,7 +67,7 @@ json-server --watch db.json
   {
     "id": 1,
     "name": "AFFENPINSCHER",
-    "img": "https:\/\/images.dog.ceo\/breeds\/affenpinscher\/n02110627_8099.jpg"
+    "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg"
   },
   {
     "id": 2,
@@ -77,12 +77,12 @@ json-server --watch db.json
   {
     "id": 3,
     "name": "CHIHUAHUA",
-    "img": "https:\/\/images.dog.ceo\/breeds\/chihuahua\/n02085620_7613.jpg"
+    "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
   },
   {
     "id": 4,
     "name": "LHASA",
-    "img": "https:\/\/images.dog.ceo\/breeds\/lhasa\/n02098413_7358.jpg"
+    "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
   },
   {
     "id": 5,

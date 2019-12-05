@@ -1,4 +1,4 @@
-# Laborator 9 - [JS] - AJAX - Partea a doua
+# Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua
 
 In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
