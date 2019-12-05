@@ -1,87 +1,40 @@
-# Laborator 9 - [JS] - Evenimente
+# Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua
 
-[Evenimentele](https://developer.mozilla.org/en-US/docs/Web/Events) in JavaScript sunt actiuni sau intamplari care sunt declansate de utilizator sau de browser.
-Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
+In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
-* utilizatorul da click pe un element din pagina;
-* utilizatorul pune cursorul pe un element din pagina;
-* utilizatorul apasa o tasta de la tastatura;
-* utilizatorul modifica marimea ferestrei browser-ului sau o inchide;
-* un formular a fost trimis (submitted);
-* pagina s-a terminat de incarcat;
-* a aparut o eroare;
+| Operatii CRUD  | Metode HTTP | URL       | Parametrii URL | Request body | Exemple                  |
+| -------------- | ----------- | --------- | -------------- | ------------ | ------------------------ |
+| _Create_       | POST        | /dogs     |                | body: {...}  | POST /dogs body: {...}   |
+| _Read One_     | GET         | /dogs/:id | :id            |              | GET /dogs/123            |
+| _Read All_     | GET         | /dogs     |                |              | GET /dogs                |
+| _Update_       | PUT         | /dogs/:id | :id            | body: {...}  | PUT /dogs/123 body:{...} |
+| _Delete_       | DELETE      | /dogs/:id | :id            |              | DELETE /dogs/123         |
+
+Metodele POST si PUT trebuie sa contine in header `Content-Type: application/json` alaturi de informatiile din `body`.
 
 ## Exercitiul 9.1
 
-### Povesti de calatorie
+### Pornire mock server
 
-* Creati un document HTML (*calatorii.html*) cu template-ul de mai jos inclus in `<body>`:
+- Porniti JSON Server folosind comanda de mai jos (fisierul db.json a fost creat in laboratorul trecut):
 
-```html
-<h1>Povesti de calatorie</h1>
-
- <ul>
-  <li>Locuri vizitate: <input type="text" id="places">
-  <li>Adjective: <input type="text" id="adjective">
-  <li>Nume: <input type="text" id="person">
- </ul>
-
- <button id="story-button">Creaza povestea!</button>
-
- <div id="story"></div>
+```bash
+json-server --watch db.json
 ```
 
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Adaugati un *event listener* butonului astfel incat de fiecare data cand este apasat functia `makeStory` sa fie apelata.
-* In functia `makeStory` executati urmatoarele actiuni:
+- Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), daca servarul este pornit corect, veti vedea:
 
-  * luati valorile din input-uri;
-  * creati o poveste cu ajutorul lor (ex: "Diana a vizitat frumoasa Barcelona");
-  * afisati povestea in tag-ul identificat prin id-ul *story*;
+```json
+{ "id": 1, "title": "json-server", "author": "typicode" }
+```
 
 ## Exercitiul 9.2
 
-### Calculator
+### Operatii CRUD pe endoint-ul /dogs
 
-* Creati un document HTML (*calculator.html*) cu template-ul de mai jos inclus in `<body>`:
+Pornind de la codul scris in cadrul laboratorului precedent:
 
-```html
- <label>1. Ridicare la patrat:
-    <input type="number" id="square-input" size="2">
-  </label>
-  <button id="square-button">Calculeaza</button>
-  <br><br>
-
-  <label>2. Jumatate din numar:
-    <input type="number" id="half-input" size="2">
-  </label>
-  <button id="half-button">Calculeaza</button>
-  <br><br>
-
-  <label>
-    3. Procent:
-    <input type="number" id="percent1-input" size="2">
-  </label>
-  <label>
-    Numar:
-    <input type="number" id="percent2-input" size="2">
-  </label>
-  <button id="percent-button">Calculeaza</button>
-  <br><br>
-
-  <label>4. Aria unui cerc cu raza:
-    <input type="number" id="area-input" size="2">
-  </label>
-  <button id="area-button">Calculeaza</button>
-  <br><br>
-  <div id="solution"></div>
-```
-
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Adaugati evenimente pe butoane astfel incat de fiecare data cand sunt apasate sa cheme functiile de calcul.
-* Creati functiile care returneaza rezultatele corecte pentru toate cazurile de mai sus.
-* Afisati rezultatele calculelor in tag-ul identificat prin id-ul *solution*.
-
-### Bonus
-
-* Folositi evenimentul *keypress* pe unul dintre input-uri astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.
+- Adaugati in pagina voastra doua taguri [input](https://www.w3schools.com/tags/tag_input.asp) care sa contina informatiile _name_ si _img_ pentru a putea modifica lista de catei.
+- Salvati noi entitati pe server - actiune de tip [POST](https://spring.io/understanding/REST#post) - _Create_.
+- Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://spring.io/understanding/REST#put) - _Update_.
+- Stergeti una din entitatile existente din lista, dar si de pe server - actiune de tip [DELETE](https://spring.io/understanding/REST#delete) - _Delete_.

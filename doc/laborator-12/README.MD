@@ -1,28 +1,9 @@
-# Laborator 12 - [JS] - AJAX - Partea a doua
+# Laborator 12 - [NodeJS] - Randare pe server (Server side rendering)
+
+Randarea pe server a continutului unei pagini web a existat de la inceputul internetului, mai exact de cand au aparut primele servere web care puteau sa ruleze Java, PHP, Python sau Ruby.
+
+![Server side Rendering](server-side-rendering.png)
 
 ## Exercitiul 12.1
 
-### Start my server
-
-* Porniti JSON Server folosind comanda de mai jos:
-
-```bash
-json-server --watch db.json
-```
-
-* Accesand link-ul [http://localhost:3000/dogs/1](http://localhost:3000/dogs/1), veti vedea:
-
-```json
-{ "id": 1, "title": "json-server", "author": "typicode" }
-```
-
-## Exercitiul 12.2
-
-### Dogs
-
-Pornind de la codul scris in cadrul laboratorului precedent:
-
-* Creati un formular care sa contina campurile *name* si *img* pentru a adauga noi entitati in lista de catei.
-* Salvati entitatile pe server - actiune de tip [POST](https://spring.io/understanding/REST#post).
-* Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://spring.io/understanding/REST#put).
-* Stergeti una din entitatile existente din lista si de pe server - actiune de tip [DELETE](https://spring.io/understanding/REST#delete).
+Pentru a ne putea familiariza cu randarea pe server si totodata cu autentificarea prin sesiune, in laboratorul de astazi o sa rezolvam exercitiile din sectiunea _Advanced Node and Express Challenges_ de pe platforma [Free Code Camp](https://www.freecodecamp.org/learn/information-security-and-quality-assurance/advanced-node-and-express/).

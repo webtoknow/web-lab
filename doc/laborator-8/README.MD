@@ -1,50 +1,102 @@
-# Laborator 8 - [JS] - DOM
+# Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
 
-DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor DOM](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor pot fi reflectate in afisarea documentului.
+HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
+
+![HTTP](http.png)
+![HTTP Request](http-request.png)
+![HTTP Response](http-response.png)
+
+AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in continutul sau.
+
+![Ajax](AJAX.png)
 
 ## Exercitiul 8.1
 
-### Hack Google
+### My server
 
-* Deschideti [google.com](https://www.google.com) in Chrome sau Firefox si afisati consola.
-* Gasiti logo-ul Google si stocati-l intr-o variabila.
-* Modificati sursa imaginii (url-ul) astfel incat sa apara logo-ul de la Yahoo. Puteti cauta url-ul logo-ului de la Yahoo intr-un motor de cautare. 
-* Gasiti butonul de search Google si stocati-l intr-o variabila.
-* Modificati textul buttonului astfel incat sa scrie Yahoo.
+- Instalati [JSON Server](https://github.com/typicode/json-server) folosind comanda de mai jos:
+
+```bash
+npm install -g json-server
+```
+
+- Creati un fisier `db.json` cu continutul de mai jos:
+
+```json
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "AFFENPINSCHER",
+      "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AKITA",
+      "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+    },
+    {
+      "id": 3,
+      "name": "CHIHUAHUA",
+      "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LHASA",
+      "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
+    },
+    {
+      "id": 5,
+      "name": "HOUND",
+      "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+    }
+  ]
+}
+```
+
+- Porniti JSON Server folosind comanda de mai jos:
+
+```bash
+json-server --watch db.json
+```
+
+- Accesand link-ul [http://localhost:3000/dogs](http://localhost:3000/dogs), veti vedea lista de catei:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "AFFENPINSCHER",
+    "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AKITA",
+    "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CHIHUAHUA",
+    "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
+  },
+  {
+    "id": 4,
+    "name": "LHASA",
+    "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HOUND",
+    "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+  }
+]
+```
 
 ## Exercitiul 8.2
 
-### Toate site-urile ar trebui sa aiba o sectiune "Despre noi"
+### Get all Dogs
 
-* Creati un document HTML (*aboutme.html*) cu template-ul de mai jos inclus in `<body>`:
-
-```html
-<h1>About Me</h1>
-<ul>
-  <li>Nickname: <span id="nickname"></span>
-  <li>Favorites:  <span id="favorites"></span>
-  <li>Hometown: <span id="hometown"></span>
-</ul>
-```
-
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Schimbati stilul din `<body>` astfel incat sa avem font-family: *Arial, sans-serif*.
-* Inlocuiti ficare `<span>` (*nickname, favorites, hometown*) cu informatiile voastre.
-* Iterati prin fiecare `<li>` si adaugati clasa *list-item*.
-* Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei *list-item* pentru a avea un text rosu.
-* Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acel element in pagina.
-
-## Exercitiul 8.3
-
-### My IMDB
-
-* Creati un document HTML (*filme.html*) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
-* Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-* Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa *titlu* (string), *durata* (number), *actori* (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
-* Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina elemente `<p>` care sa contina titlul filmului.
-
-### Bonus
-
-* Folositi `<ul>` si `<li>` pentru a afisa filmele, alaturi de celelalte informatii despre acestea.
-* Adaugati in fiecare obiect din vector o proprietate reprezentand imaginea filmului si reflectati schimbarea in pagina.
-* Adaugati proprietati CSS care sa diferentieze filmele vizualizate de cele nevizualizate din lista.
+- Creati un document HTML `index.html`.
+- Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
+- Aduceti de la server lista de entitati _dog_ folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get).
+- Creati dinamic si afisati lista de entitati in pagina (nume si imagine) folosind [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement).
