@@ -23,13 +23,16 @@ npm init
 - Instalati toate pachetele [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), [cors](https://expressjs.com/en/resources/middleware/cors.html), [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/), folosind comenzile de mai jos:
 
 ```bash
-npm install  --save express body-parser cors uuid
+npm install --save express body-parser cors uuid
 ```
 
 ```bash
 npm install --save-dev morgan nodemon
 ```
 
+```bash
+npm install -g nodemon
+```
 - Creati un fisier `db.json` cu continutul de mai jos:
 
 ```json
