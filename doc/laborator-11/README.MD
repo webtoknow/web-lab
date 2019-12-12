@@ -150,6 +150,8 @@ nodemon index.js
 
 sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
 
+> Putem sa comparam rezultatele noastre cu solutia finala folosind serverul: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs).
+
 ## Exercitiul 11.2
 
 Pornind de la codul scris in `index.js`, creati un API urmarind pasii de mai jos:
