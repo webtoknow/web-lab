@@ -1,4 +1,4 @@
-# Laborator 12 - rezolvare
+# Laborator 9 - rezolvare
 
 ## Pornire server
 
@@ -50,7 +50,7 @@ json-server --watch db.json
 }
 ```
 
-## Testare server cu POSTMAN
+## Testare server cu POSTMAN sau POSTWOMAN
 
 Putem testa servarul web folosind [POSTMAN](https://www.getpostman.com/) si importand colectia [dogs-API-postman-collection.json](dogs-API-postwoman-collection.json). sau folosind
 [Postwoman](https://postwoman.io/) importand [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json).
