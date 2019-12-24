@@ -10,7 +10,7 @@ In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delet
 | _Update_       | PUT         | /dogs/:id | :id        | body: {...}  | PUT /dogs/123 body:{...} |
 | _Delete_       | DELETE      | /dogs/:id | :id        |              | DELETE /dogs/123         |
 
-## Exercitiul 12.1
+## Exercitiul 11.1
 
 ### Creare proiect si instalare pachete
 
@@ -23,13 +23,16 @@ npm init
 - Instalati toate pachetele [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), [cors](https://expressjs.com/en/resources/middleware/cors.html), [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/), folosind comenzile de mai jos:
 
 ```bash
-npm install  --save express bodyParser cors uuid
+npm install --save express body-parser cors uuid
 ```
 
 ```bash
 npm install --save-dev morgan nodemon
 ```
 
+```bash
+npm install -g nodemon
+```
 - Creati un fisier `db.json` cu continutul de mai jos:
 
 ```json
@@ -147,7 +150,9 @@ nodemon index.js
 
 sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
 
-## Exercitiul 12.2
+> Putem sa comparam rezultatele noastre cu solutia finala folosind serverul: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs).
+
+## Exercitiul 11.2
 
 Pornind de la codul scris in `index.js`, creati un API urmarind pasii de mai jos:
 
