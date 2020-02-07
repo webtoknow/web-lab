@@ -1,6 +1,6 @@
-# Laborator 11 - [NodeJS] - API
+# Laborator 11 - [NodeJS] - CRUD API
 
-In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
+In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles/what-is-crud) (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
 | CRUD Operation | HTTP method | URL       | URL params | Request body | example                  |
 | -------------- | ----------- | --------- | ---------- | ------------ | ------------------------ |
@@ -33,6 +33,7 @@ npm install --save-dev morgan nodemon
 ```bash
 npm install -g nodemon
 ```
+
 - Creati un fisier `db.json` cu continutul de mai jos:
 
 ```json
