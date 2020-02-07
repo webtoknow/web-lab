@@ -16,58 +16,93 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - [Laborator 8 - [JS] - AJAX si randarea pe client - Partea intai](doc/laborator-8)
 - [Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua](doc/laborator-9)
 - [Laborator 10 - [NodeJS] - Introducere](doc/laborator-10)
-- [Laborator 11 - [NodeJS] - API](doc/laborator-11)
+- [Laborator 11 - [NodeJS] - CRUD API](doc/laborator-11)
 - [Laborator 12 - [NodeJS] - Randare pe server](doc/laborator-12)
-
-  Workshop
-
-- [Workshop Angular](doc/workshop-angular-laborator-11-12)
-- [Workshop React](doc/workshop-react-laborator-11-12)
+- Laborator 13 - Prezentare proiecte
+- Laborator 14 - Workshop Frontend
+  - [Workshop Angular](doc/workshop-angular-laborator-11-12)
+  - [Workshop React](doc/workshop-react-laborator-11-12)
 
 ### Cerinte
 
-Pentru efectuarea exercitiilor de laborator este nevoie de un text editor ca de exemplu:
+Pentru efectuarea exercitiilor de laborator este nevoie de:
 
-- [Visual Studio Code](https://code.visualstudio.com/Download)
-- [Atom](https://atom.io)
-- [Brackets](http://brackets.io/)
+- un text editor, ca de exemplu:
+  - [Visual Studio Code](https://code.visualstudio.com/Download)
+  - [Atom](https://atom.io)
+  - [Brackets](http://brackets.io/)
+- [Nodejs](https://nodejs.org/en/) instalat pe calculator
 
 ## Informatii laborator si proiect
 
-### Activitate laborator (10 puncte)
+Punctajul maxim care poate fi obtinut in cadrul laboratorului este de 50 puncte: 10 puncte activitate laborator si 40 puncte proiect.
+Punctajul minim de intrare in examen este 25 puncte.
 
-### Proiect (40 puncte)
+### Activitate laborator (maxim 10 puncte)
 
-**Tema:** Construiti un site/mini-aplicatie respectand cerintele de mai jos. Tematica site-ului este la alegerea voastra.
+Punctele pentru activitatea din cadrul laboratorului se pot obtine astfel:
 
-> **Atentie!** Nu puteti folosi [framework-uri CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [framework-uri JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) pentru realizarea aplicatiei.
+a. minim 10 prezente (maxim 5 puncte)
 
-> **Atentie!** Condul sursa al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/).
+b. toate laboratoarele rezolvate (maxim 5 puncte)
 
-#### Cerinte minimale:
+c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn) din sectiunile:
 
-##### Frontend (Client side) (30 puncte)
+- Responsive Web Design Certification (3 puncte)
+- JavaScript Algorithms and Data Structures Certification (3 puncte)
 
-###### HTML si CSS (15 puncte)
+d. maxim 2 prezentari tehnice (in Power Point sau un program similar) de 5-7 minute legate de cate o problema intampinata la proiect (maxim 2 puncte/prezentare)
+
+e. raspuns la intrebarile bonus adresate pe parcurs (2 puncte/raspuns corect)
+
+> Se acorda punctaje partiale **doar** pentru a, b si d.
+
+### Proiect (maxim 40 puncte)
+
+**Tema:** Construiti o aplicatie web care respecte criteriile de acceptanta si cerintele de mai jos. Tematica site-ului este la libera alegere.
+
+**Criterii de acceptanta:**
+
+- aplicatia sa fie [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application)
+- codul sursa (nearhivat) al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/)
+- nu puteti folosi librarii, framework-uri [CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) (cum ar fi jQuery, Bootstrap, Angular, React, etc) pentru realizarea frontend-ului
+
+> **Atentie!** Orice proiect care nu respecta criteriile de acceptanta este evaluat la 0 puncte.
+
+#### Frontend (maxim 20 puncte)
+
+##### HTML si CSS (maxim 10 puncte)
 
 - Fisiere separate pentru HTML si CSS (1 punct)
-- Website-ul sa contina minim 2 pagini (2 puncte)
-- Toate paginile create sa treaca testul de [validare](http://validator.w3.org) (paginile sa nu aiba erori sau warning-uri) (1 punct)
-- In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (2 puncte)
-- Stilurile CSS sa fie definite folosind [clase](https://screwlewse.com/2010/07/dont-use-id-selectors-in-css/) (minim 80% din selectori) (2 puncte)
-- Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive: (5 puncte)
+- In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (1 punct)
+- Stilurile CSS sa fie definite folosind clase direct pe elementele care trebuie stilizate (minim 80% din selectori) (1 punct)
+- Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) si/sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
+- Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive folosind [media queries](https://www.uxpin.com/studio/blog/media-queries-responsive-web-design/): (5 puncte)
   - telefon mobil - latime mai mica 768px
   - tableta - latime intre 768px si 1280px
   - desktop - latime mai mare de 1280px
-- Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
 
-###### Javascript (15 puncte)
+##### Javascript (maxim 10 puncte)
 
 - Fisier separat JavaScript (1 punct)
-- Manipularea DOM-ului  (crearea, editarea si stergerea elementelor/nodurilor HTML - randare in browser) (3 puncte)
-- Folosirea evenimentelor JavaScript declansate de mouse/tastatura (2 puncte)
-- Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) si cel putin a unui formular (9 puncte)
+- Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
+- Folosirea evenimentelor JavaScript declansate de mouse/tastatura (1 punct)
+- Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) (4 puncte)
+- Folosirea localStorage (1 punct)
 
-##### Backend (Server side) (10 puncte)
+#### Backend API (maxim 10 puncte)
 
-- Crearea unui API pentru a servi Frontend-ului (Client side) (10 puncte)
+- Creare server Backend (2 puncte)
+- CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului (8 puncte)
+
+#### Punctaj subiectiv (maxim 10 puncte)
+
+Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de exemplu:
+
+- calitatea sustinerii prezentarii proiectului
+- designul (sa arate placut si ingrijit)
+- utilitatea (sa rezolve probleme reale)
+- stabilitatea (sa NU contina defecte evidente)
+- complexitatea (sa aiba mai multe pagini)
+
+> Pana in saptamana 12 inclusiv, studentii pot veni cu intrebari legate de proiect pentru a fi ajutati. Dupa aceea, criteriile de acceptanta si cerintele vor fi considerate ca fiind intelese pe deplin.
