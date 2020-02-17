@@ -35,8 +35,8 @@ Pentru efectuarea exercitiilor de laborator este nevoie de:
 
 ## Informatii laborator si proiect
 
-Punctajul maxim care poate fi obtinut in cadrul laboratorului este de 50 puncte: 10 puncte activitate laborator si 40 puncte proiect.
-Punctajul minim de intrare in examen este 25 puncte.
+Punctajul maxim care poate fi obtinut in cadrul laboratorului este de 40 puncte: 10 puncte activitate laborator si 30 puncte proiect.
+Punctajul minim de intrare in examen este 20 puncte.
 
 ### Activitate laborator (maxim 10 puncte)
 
@@ -57,7 +57,7 @@ e. raspuns la intrebarile bonus adresate pe parcurs (2 puncte/raspuns corect)
 
 > Se acorda punctaje partiale **doar** pentru a, b si d.
 
-### Proiect (maxim 40 puncte)
+### Proiect (maxim 30 puncte)
 
 **Tema:** Construiti o aplicatie web care respecte criteriile de acceptanta si cerintele de mai jos. Tematica site-ului este la libera alegere.
 
@@ -69,33 +69,33 @@ e. raspuns la intrebarile bonus adresate pe parcurs (2 puncte/raspuns corect)
 
 > **Atentie!** Orice proiect care nu respecta criteriile de acceptanta este evaluat la 0 puncte.
 
-#### Frontend (maxim 20 puncte)
+#### Frontend (maxim 17 puncte)
 
-##### HTML si CSS (maxim 10 puncte)
+##### HTML si CSS (maxim 8 puncte)
 
-- Fisiere separate pentru HTML si CSS (1 punct)
+- Fisiere separate pentru HTML si CSS (0.5 puncte)
 - In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (1 punct)
-- Stilurile CSS sa fie definite folosind clase direct pe elementele care trebuie stilizate (minim 80% din selectori) (1 punct)
-- Layout-ul sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) si/sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
-- Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive folosind [media queries](https://www.uxpin.com/studio/blog/media-queries-responsive-web-design/): (5 puncte)
+- Stilurile CSS sa fie definite folosind clase direct pe elementele care trebuie stilizate (minim 80% din selectori) (0.5 punct)
+- Layout-ul sa fie impartit in minim 2 coloane si sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) si/sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
+- Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive folosind [media queries](https://www.uxpin.com/studio/blog/media-queries-responsive-web-design/): (4 puncte)
   - telefon mobil - latime mai mica 768px
   - tableta - latime intre 768px si 1280px
   - desktop - latime mai mare de 1280px
 
-##### Javascript (maxim 10 puncte)
+##### Javascript (maxim 9 puncte)
 
-- Fisier separat JavaScript (1 punct)
+- Fisier separat JavaScript (0.5 puncte)
 - Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
 - Folosirea evenimentelor JavaScript declansate de mouse/tastatura (1 punct)
 - Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) (4 puncte)
-- Folosirea localStorage (1 punct)
+- Folosirea localStorage (0.5 puncte)
 
-#### Backend API (maxim 10 puncte)
+#### Backend API (maxim 8 puncte)
 
 - Creare server Backend (2 puncte)
-- CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului (8 puncte)
+- CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului (6 puncte)
 
-#### Punctaj subiectiv (maxim 10 puncte)
+#### Punctaj subiectiv (maxim 5 puncte)
 
 Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de exemplu:
 
@@ -103,6 +103,6 @@ Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de 
 - designul (sa arate placut si ingrijit)
 - utilitatea (sa rezolve probleme reale)
 - stabilitatea (sa NU contina defecte evidente)
-- complexitatea (sa aiba mai multe pagini)
+- complexitatea (sa aiba mai multe pagini, layout-ul sa fie mai complex etc.)
 
 > Pana in saptamana 12 inclusiv, studentii pot veni cu intrebari legate de proiect pentru a fi ajutati. Dupa aceea, criteriile de acceptanta si cerintele vor fi considerate ca fiind intelese pe deplin.
