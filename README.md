@@ -46,7 +46,7 @@ a. minim 10 prezente (maxim 5 puncte)
 
 b. toate laboratoarele rezolvate (maxim 5 puncte)
 
-c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn) din sectiunile:
+c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn) din sectiunile pana in saptamana 7:
 
 - Responsive Web Design Certification (3 puncte)
 - JavaScript Algorithms and Data Structures Certification (3 puncte)
@@ -103,6 +103,6 @@ Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de 
 - designul (sa arate placut si ingrijit)
 - utilitatea (sa rezolve probleme reale)
 - stabilitatea (sa NU contina defecte evidente)
-- complexitatea (sa aiba mai multe pagini, layout-ul sa fie mai complex etc.)
+- complexitatea (sa aiba mai multe ecrane, layout-ul sa fie mai complex etc.)
 
 > Pana in saptamana 12 inclusiv, studentii pot veni cu intrebari legate de proiect pentru a fi ajutati. Dupa aceea, criteriile de acceptanta si cerintele vor fi considerate ca fiind intelese pe deplin.
