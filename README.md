@@ -46,7 +46,7 @@ a. minim 10 prezente (maxim 5 puncte)
 
 b. toate laboratoarele rezolvate (maxim 5 puncte)
 
-c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn) din sectiunile pana in saptamana 7:
+c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn), pana in saptamana 7, din sectiunile:
 
 - Responsive Web Design Certification (3 puncte)
 - JavaScript Algorithms and Data Structures Certification (3 puncte)
