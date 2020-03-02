@@ -8,10 +8,7 @@
 
 ## Exercitiul 3.2
 
-Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe imagini (ca in exemplu) folosind, pe rand, metodele de mai jos:
-
-- [Inline block](https://iamsteve.me/blog/entry/inline_block)
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe imagini (ca in exemplu) folosind [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Putem folosi serviciul [picsum.photos](https://picsum.photos/) pentru URL-ul imaginilor.
 
 ![Design website personal - portfolio](personal-website-portfolio.png)
 
