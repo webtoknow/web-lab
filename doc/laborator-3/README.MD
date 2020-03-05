@@ -198,7 +198,7 @@ hr {
 
 ## Exercitiul 3.1
 
-[Flexbox froggy](https://flexboxfroggy.com/) ne ajuta sa invatam Flexbox. Hai sa ne jucam!
+[Flexbox froggy](https://flexboxfroggy.com/) ne ajuta sa invatam [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Hai sa ne jucam!
 
 ## Exercitiul 3.2
 
