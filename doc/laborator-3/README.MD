@@ -222,7 +222,7 @@ Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in funct
 
 ## Exercitiul 3.3
 
-Creati un document HTML (_contact.html_) si includeti libraria [Font Awesome](http://fontawesome.io/) folosind-o pentru a afisa o iconita in pagina.
+Creati un document HTML (_contact.html_) si includeti libraria [Font Awesome](https://fontawesome.com/v4.7.0/get-started/) folosind-o pentru a afisa o iconita in pagina.
 
 ## Exercitiul 3.4
 
