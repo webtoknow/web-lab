@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -7,16 +6,17 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-import DeleteIcon from '@material-ui/icons/Delete';
+
 import EditIcon from '@material-ui/icons/Edit';
+import DeleteIcon from '@material-ui/icons/Delete';
+import { withStyles } from '@material-ui/core/styles';
+
 import AddIcon from '@material-ui/icons/Add';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
-
-import './App.css';
 
 const styles = theme => ({
   root: {
@@ -39,7 +39,7 @@ const styles = theme => ({
 });
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       dogs: [],
@@ -48,7 +48,6 @@ class App extends Component {
       name: '',
       img: '',
     }
-    this.saveDogs = this.saveDogs.bind(this)
   }
 
   componentDidMount() {
@@ -57,18 +56,27 @@ class App extends Component {
 
   getDogs() {
     fetch('http://localhost:4000/dogs')
-    .then((response) => response.json())
-    .then((responseJson) => {
+      .then((response) => response.json())
+      .then((responseJson) => {
 
-      this.setState({
-        dogs: responseJson,
+        this.setState({
+          dogs: responseJson,
+        })
       })
-    })
-    .catch((error) =>{
-      console.error(error);
-    });
+      .catch((error) => {
+        console.error(error);
+      });
   }
 
+  deleteDog(id) {
+    const self = this;
+
+     fetch(`http://localhost:4000/dogs/${id}`, {
+      method: 'DELETE',
+      }).then(function () {
+        self.getDogs();
+    });
+  }
 
   addDog = () => {
     this.setState({ openModal: true, id: null, name: '', img: '' });
@@ -76,6 +84,16 @@ class App extends Component {
 
   editDog(dog) {
     this.setState({ openModal: true, id: dog.id, name: dog.name, img: dog.img });
+  }
+
+  handleFieldChange = name => event => {
+    this.setState({
+      [name]: event.target.value,
+    });
+  }
+
+  closeModal = () => {
+    this.setState({ openModal: false });
   }
 
   saveDogs = () => {
@@ -96,38 +114,18 @@ class App extends Component {
       self.closeModal();
     });
   }
-  
-  deleteDog(id) {
-    const self = this;
-
-     fetch(`http://localhost:4000/dogs/${id}`, {
-      method: 'DELETE',
-      }).then(function () {
-        self.getDogs();
-        self.closeModal();
-    });
-  }
-
-
-  closeModal = () => {
+   closeModal = () => {
     this.setState({ openModal: false });
   };
 
-  handleFieldChange = name => event => {
-    this.setState({
-      [name]: event.target.value,
-    });
-  };
-
-
   render() {
-    const { classes } = this.props;
     const { dogs, openModal } = this.state;
+    const { classes } = this.props;
 
     return (
-      <Paper className={classes.root}>
+      <Paper>
         <Button color="secondary" variant="contained" className={classes.addButton} onClick={this.addDog}>
-          <AddIcon />
+            <AddIcon />
           Adauga
         </Button>
         <Table className={classes.table}>
@@ -151,12 +149,12 @@ class App extends Component {
                   <TableCell align="right">
                     <Button className={classes.editButton} onClick={() => this.editDog(dog)}>
                       <EditIcon />
-                       Editeaza
-                    </Button>
+                     Editeaza
+                  </Button>
                     <Button onClick={() => this.deleteDog(dog.id)}>
                       <DeleteIcon />
-                       Sterge
-                    </Button>
+                     Sterge
+                  </Button>
                   </TableCell>
                 </TableRow>
               );
@@ -164,43 +162,43 @@ class App extends Component {
           </TableBody>
         </Table>
         <Dialog
-          open={openModal}
-          onClose={this.closeModal}
-          aria-labelledby="form-dialog-title"
-        >
-          <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
-          <DialogContent>
-            <TextField
-              autoFocus
-              margin="dense"
-              id="name"
-              label="Dog name"
-              type="text"
-              value={this.state.name}
-              onChange={this.handleFieldChange('name')}
-              fullWidth
-            />
-            <TextField
-              margin="dense"
-              id="img"
-              label="Image Url"
-              type="img"
-              value={this.state.img}
-              onChange={this.handleFieldChange('img')}
-              fullWidth
-            />
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={this.closeModal} color="primary">
-              Anulare
-            </Button>
-            <Button onClick={this.saveDogs} color="primary">
-              Salvare
-            </Button>
-          </DialogActions>
-        </Dialog>
+        open={openModal}
+        onClose={this.closeModal}
+        aria-labelledby="form-dialog-title"
+      >
+        <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
+        <DialogContent>
+          <TextField
+            autoFocus
+            margin="dense"
+            id="name"
+            label="Dog name"
+            type="text"
+            value={this.state.name}
+            onChange={this.handleFieldChange('name')}
+            fullWidth
+          />
+          <TextField
+            margin="dense"
+            id="img"
+            label="Image Url"
+            type="img"
+            value={this.state.img}
+            onChange={this.handleFieldChange('img')}
+            fullWidth
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={this.closeModal} color="primary">
+            Anulare
+          </Button>
+          <Button onClick={this.saveDogs} color="primary">
+            Salvare
+          </Button>
+        </DialogActions>
+      </Dialog>
       </Paper>
-    )
+    );
   }
 }
 
