@@ -1,4 +1,4 @@
-# Aplicatia My dogs cu React
+# Aplicatia "My dogs" cu React
 
 ## Cuprins
 
