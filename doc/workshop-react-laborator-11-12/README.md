@@ -1,4 +1,4 @@
-# Aplicatia My dogs cu React
+# Aplicatia "My dogs" cu React
 
 ## Cuprins
 
@@ -25,11 +25,31 @@ Creati un fisier `db.json` avand continutul de mai jos:
 ```json
 {
   "dogs": [
-    { "id": 1, "name": "AFFENPINSCHER", "img": "https:\/\/dog.ceo\/api\/img\/affenpinscher\/n02110627_11584.jpg" },
-    { "id": 2, "name": "AKITA", "img": "https:\/\/dog.ceo\/api\/img\/akita\/Akita_Inu_dog.jpg" },
-    { "id": 3, "name": "CHIHUAHUA", "img": "https:\/\/dog.ceo\/api\/img\/chihuahua\/n02085620_8578.jpg" },
-    { "id": 4, "name": "LHASA", "img": "https://dog.ceo//api//img//lhasa//n02098413_3033.jpg" },
-    { "id": 5, "name": "MINIATURE SCHNAUZER", "img": "https://dog.ceo//api//img//schnauzer//n02097209_920.jpg" }
+    {
+      "id": 1,
+      "name": "AFFENPINSCHER",
+      "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg"
+    },
+    {
+      "id": 2,
+      "name": "AKITA",
+      "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+    },
+    {
+      "id": 3,
+      "name": "CHIHUAHUA",
+      "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LHASA",
+      "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
+    },
+    {
+      "id": 5,
+      "name": "HOUND",
+      "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+    }
   ]
 }
 ```
@@ -296,10 +316,12 @@ Adaugam in `state` noile proprietati de care avem nevoie:
 Inseram butonul de *Adaugare* deasupra tabelului:
 
 ```js
- <Button color="secondary" variant="contained" className={classes.addButton} onClick={this.addDog}>
-    <AddIcon />
-  Adauga
-</Button>
+<Paper>
+  <Button color="secondary" variant="contained" className={classes.addButton} onClick={this.addDog}>
+      <AddIcon />
+    Adauga
+  </Button>
+  <Table className={classes.table}>
 ...
 ```
 
@@ -338,43 +360,44 @@ Adaugam modala in functia `render` dupa tabel:
   ...
   return (
     ...
-    <Dialog
-        open={openModal}
-        onClose={this.closeModal}
-        aria-labelledby="form-dialog-title"
-      >
-        <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
-        <DialogContent>
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Dog name"
-            type="text"
-            value={this.state.name}
-            onChange={this.handleFieldChange('name')}
-            fullWidth
-          />
-          <TextField
-            margin="dense"
-            id="img"
-            label="Image Url"
-            type="img"
-            value={this.state.img}
-            onChange={this.handleFieldChange('img')}
-            fullWidth
-          />
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={this.closeModal} color="primary">
-            Anulare
-          </Button>
-          <Button onClick={this.saveDogs} color="primary">
-            Salvare
-          </Button>
-        </DialogActions>
-      </Dialog>
-      ...
+      </Table>
+      <Dialog
+          open={openModal}
+          onClose={this.closeModal}
+          aria-labelledby="form-dialog-title"
+        >
+          <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
+          <DialogContent>
+            <TextField
+              autoFocus
+              margin="dense"
+              id="name"
+              label="Dog name"
+              type="text"
+              value={this.state.name}
+              onChange={this.handleFieldChange('name')}
+              fullWidth
+            />
+            <TextField
+              margin="dense"
+              id="img"
+              label="Image Url"
+              type="img"
+              value={this.state.img}
+              onChange={this.handleFieldChange('img')}
+              fullWidth
+            />
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={this.closeModal} color="primary">
+              Anulare
+            </Button>
+            <Button onClick={this.saveDogs} color="primary">
+              Salvare
+            </Button>
+          </DialogActions>
+        </Dialog>
+      </Paper>
     )
  }  
 ```

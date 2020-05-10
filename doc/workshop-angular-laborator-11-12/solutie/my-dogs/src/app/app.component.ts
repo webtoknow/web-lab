@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { DogsService } from './dogs.service';
 import { Dog } from './dog';
 import { FormComponent } from './form/form.component';
@@ -16,19 +16,19 @@ export class AppComponent implements OnInit {
   constructor(
     private dogsService: DogsService,
     public dialog: MatDialog
-    ) { }
-  
-  ngOnInit() { 
-    this.getDogs();
-   }
+  ) { }
 
-   getDogs() {
+  ngOnInit() {
+    this.getDogs();
+  }
+
+  getDogs() {
     this.dogsService.getDogs().subscribe((response) => {
       this.dogs = response;
     })
-   }
+  }
 
-   editDog(dog: Dog) {
+  editDog(dog: Dog) {
     const dialogRef = this.dialog.open(FormComponent, {
       width: '650px',
       data: { ...dog }
@@ -36,19 +36,19 @@ export class AppComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       this.getDogs();
     });
-   }
+  }
 
-   addDog() {
+  addDog() {
     const dialogRef = this.dialog.open(FormComponent, {
       width: '650px',
-      data: { name: '', img: ''}
+      data: { name: '', img: '' }
     });
     dialogRef.afterClosed().subscribe(result => {
       this.getDogs();
     });
-   }
+  }
 
-   deleteDog(id: number) {
+  deleteDog(id: number) {
     this.dogsService.deleteDog(id).subscribe(() => {
       this.getDogs()
     });
