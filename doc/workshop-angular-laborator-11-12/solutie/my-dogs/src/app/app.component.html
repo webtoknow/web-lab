@@ -1,4 +1,4 @@
-<button mat-raised-button class="addButton" (click)="addDog()">Add</button>
+<button mat-raised-button class="addButton" (click)="addDog()">Adaugare</button>
 <table mat-table [dataSource]="dogs" class="mat-elevation-z8">
 
   <ng-container matColumnDef="name">
@@ -14,8 +14,8 @@
     <ng-container matColumnDef="actions">
       <th mat-header-cell *matHeaderCellDef> Action </th>
       <td mat-cell *matCellDef="let element"> 
-        <button class="editButton" mat-raised-button color="primary" (click)="editDog(element)">Edit</button>
-        <button mat-raised-button color="primary" (click)="deleteDog(element.id)">Delete</button>
+        <button class="editButton" mat-raised-button color="primary" (click)="editDog(element)">Editare</button>
+        <button mat-raised-button color="primary" (click)="deleteDog(element.id)">Stergere</button>
       </td>
     </ng-container>
 
