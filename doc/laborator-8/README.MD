@@ -1,5 +1,12 @@
 # Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
 
+## Cuprins
+
+- [🦉 Introducere](#🦉-Introducere)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
 HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
 
 ![HTTP](http.png)
@@ -10,9 +17,11 @@ AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML
 
 ![Ajax](AJAX.png)
 
-## Exercitiul 8.1
+## 🎢 Exercitii
 
-### My server
+### 💪  Exercitiul 8.1
+
+#### My server
 
 - Instalati [JSON Server](https://github.com/typicode/json-server) folosind comanda de mai jos:
 
@@ -92,9 +101,9 @@ json-server --watch db.json
 ]
 ```
 
-## Exercitiul 8.2
+### 💪  Exercitiul 8.2
 
-### Get all Dogs
+#### Get all Dogs
 
 - Creati un document HTML `index.html`.
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.

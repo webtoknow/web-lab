@@ -1,10 +1,10 @@
 # Exercitii laborator Tehnici Web + Informatii proiecte
 
-Un dezvoltator web are nevoie sa inteleaga in profunzime multe concepte din diverse subdomenii ale industriei IT, precum operare pe calculator, administrare servere web/Linux/Windows, retelistica si, nu in ultimul rand, limbaje de programare necesare pentru dezvoltarea aplicatiilor (HTML, CSS, Javascript, Java, PHP, Nodejs, Python etc.). 
+Un dezvoltator web are nevoie sa inteleaga in profunzime multe concepte din diverse subdomenii ale industriei IT, precum operare pe calculator, administrare servere web/Linux/Windows, retelistica si, nu in ultimul rand, limbaje de programare necesare pentru dezvoltarea aplicatiilor (HTML, CSS, Javascript, Java, PHP, Nodejs, Python etc.).
 
 Iata aici un exemplu de ce trebuie urmarit ca [frontend developer](https://frontendchecklist.io) si [backend developer](https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture) in dezvoltarea unei aplicatii web.
 
-## Exercitii
+## 🎢  Exercitii
 
 Acest repository contine exercitiile pe care le vom parcurge in cadrul laboratorului de Tehnici Web.
 
@@ -26,6 +26,14 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - Laborator 14 - Workshop Frontend
   - [Workshop Angular](doc/workshop-angular-laborator-11-12)
   - [Workshop React](doc/workshop-react-laborator-11-12)
+
+### Iconite ajutatoare
+
+- 🦉 - "Bufnita Atena" ne aduce informatiile necesare pentru rezolvarea exercitiilor
+- 🚀 - "Racheta Musk" ne arata ca e timpul sa ne jucam
+- 🎢 - "Caruselul Kody" ne indica zona unde se afla exercitiile
+- 💪 - "Domnul Muschi" marcheaza exercitiile pe care trebuie sa le rezolvam
+- 🎁 - "Cadoul Bonus" ne ajuta sa ne depasim limitele cu exercitii avansate
 
 ### Cerinte
 

@@ -1,5 +1,25 @@
 # Laborator 3 - [CSS] - Layout si Flexbox
 
+## Cuprins
+
+- [🦉 Introducere](#🦉-Introducere)
+- [🚀 Playground](#🚀-Playground)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
+Ghidul complet de folosire al flexbox-ului il putem gasi pe [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+Pe [web.dev](https://web.dev/) putem gasi toate informatiile de baza legate de [responsive web design](https://web.dev/responsive-web-design-basics/).
+
+Iar Vojtech Ruzicka a scris un articol bun despre [CSS positioning](https://www.vojtechruzicka.com/css-position).
+
+## 🚀 Playground
+
+[Flexbox froggy](https://flexboxfroggy.com/) ne ajuta sa invatam [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp). Hai sa ne jucam!
+
+## 🎢 Exercitii
+
 Exercitiile din acest laborator reprezinta o continuare a exercitiilor din laboratorul trecut.
 Pentru completarea exercitiilor folositi markup-ul si stilurile, de mai jos, in crearea paginilor.
 
@@ -196,11 +216,7 @@ hr {
 /* Adaugati aici stiluri rezultate din rezolvarea exercitiilor */
 ```
 
-## Exercitiul 3.1
-
-[Flexbox froggy](https://flexboxfroggy.com/) ne ajuta sa invatam [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Hai sa ne jucam!
-
-## Exercitiul 3.2
+### 💪 Exercitiul 3.1
 
 Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe imagini (ca in exemplu). Putem folosi serviciul [picsum.photos](https://picsum.photos/) pentru URL-ul imaginilor:
 
@@ -212,7 +228,7 @@ Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe 
 - https://picsum.photos/seed/f/400/400"
 
 Stilizati imaginile cu ajutorul [Flexbox-ului](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) astfel incat sa respecte aspectul designul de mai jos.
-Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in functie de rezolutie:
+Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in functie de rezolutie (folositi [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries)):
 
 - rezolutie mai mica de 768px - 1 coloana (telefon mobil)
 - rezolutie mai mica de 990px - 2 coloane (tableta)
@@ -220,12 +236,18 @@ Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in funct
 
 ![Design website personal - portfolio](personal-website-portfolio.png)
 
-## Exercitiul 3.3
+### 💪 Exercitiul 3.2
 
 Creati un document HTML (_contact.html_) si includeti libraria [Font Awesome](https://fontawesome.com/v4.7.0/get-started/) folosind-o pentru a afisa o iconita in pagina.
 
-## Exercitiul 3.4
+### 💪 Exercitiul 3.3
 
 Completati si stilizati _contact.html_ pentru a arata ca in designul de mai jos:
 
 ![Design website personal - contact](personal-website-contact.png)
+
+### 💪 Exercitiul 3.4
+
+Folosing proprietatea [CSS position](https://www.vojtechruzicka.com/css-position), [Font Awesome](https://fontawesome.com/v4.7.0/icon/bell-o) si imaginea [background](https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/background.jpg), construiti si stilizati _position.html_ astfel incat sa arate ca mai jos.
+
+![Design website personal - contact](position.png)
