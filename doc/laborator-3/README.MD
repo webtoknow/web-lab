@@ -245,3 +245,9 @@ Creati un document HTML (_contact.html_) si includeti libraria [Font Awesome](ht
 Completati si stilizati _contact.html_ pentru a arata ca in designul de mai jos:
 
 ![Design website personal - contact](personal-website-contact.png)
+
+### 💪 Exercitiul 3.4
+
+Folosing propietatea [CSS position](https://www.vojtechruzicka.com/css-position), [Font Awesome](https://fontawesome.com/v4.7.0/icon/bell-o) si imaginea [background](https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/background.jpg), construiti si stilizati _position.html_ astfel incat sa arate ca mai jos.
+
+![Design website personal - contact](position.png)
