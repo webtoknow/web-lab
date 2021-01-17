@@ -63,7 +63,7 @@ Iata cum adaugam stiluri paginilor web:
 
 Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-cheat-sheet.pdf).
 
-Totodata, ne putem ajuta developer.mozilla.org pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
+Totodata, ne putem ajuta de developer.mozilla.org pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
 
 ## 🚀 Playground
 

@@ -27,7 +27,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
   - [Workshop Angular](doc/workshop-angular-laborator-11-12)
   - [Workshop React](doc/workshop-react-laborator-11-12)
 
-### 🦉 Iconite ajutatoare
+### Iconite ajutatoare
 
 - 🦉 - "Bufnita Atena" ne aduce informatiile necesare pentru rezolvarea exercitiilor
 - 🚀 - "Racheta Musk" ne arata ca e timpul sa ne jucam

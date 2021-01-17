@@ -159,4 +159,4 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 
 ## 🚀 Playground
 
-[Elevator Saga](https://play.elevatorsaga.com/) ne ajuta sa ne obisnuim cu functiile si evenimentele din Javascript. Pana data viitoare, sa vedem cine rezolva cele mai multe nivele.
+[Elevator Saga](https://play.elevatorsaga.com/) ne ajuta sa ne obisnuim cu functiile si evenimentele din Javascript. Pana data viitoare, sa vedem cine rezolva cele mai multe nivele!
