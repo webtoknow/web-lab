@@ -28,10 +28,12 @@ Pentru a facilita rezolvarea acestui exercitiu, puteti consulta intructiunile di
 
 ### 💪 Exercitiul 4.2
 
-Folositi _CSS media queries_ pentru a schimba pozitionarea elementelor in functie de rezolutia dispozitivelor:
+Folositi _CSS media queries_ pentru a schimba pozitionarea elementelor in functie de rezolutia dispozitivelor (folositi [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries)):
 
 - telefon mobil - latime mai mica 768px
 - tableta - latime intre 768px si 1280px
 - desktop - latime mai mare de 1280px
+
+### 🎁 Exercitiul 4.3
 
 In continuare, creati un stil specific pentru printare.
