@@ -1,12 +1,24 @@
 # Laborator 4 - [CSS] - CSS Grid
 
-> Exercitiile din acest laborator reprezinta o continuare a exercitiilor din laboratoarele 2 si 3.
+## Cuprins
 
-## Exercitiul 4.1
+- [🦉 Introducere](#🦉-Introducere)
+- [🚀 Playground](#🚀-Playground)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
+Ghidul complet de folosire al css-grid-ului il putem gasi pe [CSS tricks](https://css-tricks.com/snippets/css/complete-guide-grid/).
+
+## 🚀 Playground
 
 [GRID GARDEN](http://cssgridgarden.com/) ne ajuta sa invatam CSS Grid. Hai sa ne jucam!
 
-## Exercitiul 4.2
+## 🎢 Exercitii
+
+Exercitiile din acest laborator reprezinta o continuare a exercitiilor din laboratoarele 2 si 3.
+
+### 💪 Exercitiul 4.1
 
 Creati fisierul _index.html_ astfel incat sa arate precum imaginea de mai jos, folosind [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/):
 
@@ -14,7 +26,7 @@ Creati fisierul _index.html_ astfel incat sa arate precum imaginea de mai jos, f
 
 Pentru a facilita rezolvarea acestui exercitiu, puteti consulta intructiunile din workshop-ul [CSS-Workshop-Personal-Page](https://github.com/bmnicolae/CSS-Workshop-Personal-Page/tree/master/doc/exercise-1).
 
-## Exercitiul 4.3
+### 💪 Exercitiul 4.2
 
 Folositi _CSS media queries_ pentru a schimba pozitionarea elementelor in functie de rezolutia dispozitivelor:
 

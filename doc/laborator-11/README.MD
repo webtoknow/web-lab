@@ -1,5 +1,12 @@
 # Laborator 11 - [NodeJS] - CRUD API
 
+## Cuprins
+
+- [🦉 Introducere](#🦉-Introducere)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
 In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles/what-is-crud) (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
 | CRUD Operation | HTTP method | URL       | URL params | Request body | example                  |
@@ -10,9 +17,11 @@ In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles
 | _Update_       | PUT         | /dogs/:id | :id        | body: {...}  | PUT /dogs/123 body:{...} |
 | _Delete_       | DELETE      | /dogs/:id | :id        |              | DELETE /dogs/123         |
 
-## Exercitiul 11.1
+## 🎢 Exercitii
 
-### Creare proiect si instalare pachete
+### 💪 Exercitiul 11.1
+
+#### Creare proiect si instalare pachete
 
 - Creati un nou proiect folosind npm:
 
@@ -153,7 +162,7 @@ sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs
 
 > Putem sa comparam rezultatele noastre cu solutia finala folosind serverul: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs).
 
-## Exercitiul 11.2
+### 💪 Exercitiul 11.2
 
 Pornind de la codul scris in `index.js`, creati un API urmarind pasii de mai jos:
 

@@ -1,5 +1,14 @@
 # Laborator 1 - [HTML] - Introducere
 
+## Cuprins
+
+- [🦉 Introducere](#🦉-Introducere)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
+Informatii de cum e construita o pagina web putem gasi pe [www.internetingishard.com](https://www.internetingishard.com/html-and-css/introduction).
+
 HTML sau `Hyper Text Markup Language` este limbajul de definire al continutului (text, imagini, etc.) paginilor web, ca in exemplul urmator:
 
 ```HTML
@@ -27,14 +36,16 @@ HTML sau `Hyper Text Markup Language` este limbajul de definire al continutului 
 </html>
 ```
 
-## Exercitiul 1.1
+## 🎢 Exercitii
+
+### 💪 Exercitiul 1.1
 
 Creati un document HTML (*index.html*) cu descrierea personala (incluzand si o poza a voastra) folosind tagurile semantice cunoscute: ``<img>``,``<article>``, ``<section>``, ``<p>``, ``<h1>``, …, ``<h6>``, … .
 
-## Exercitiul 1.2
+### 💪 Exercitiul 1.2
 
 Creati un document HTML (*cv.html*) cu CV-ul personal care va contine cel putin 2 sectiuni (Experienta profesionala, Educatie), cuprinzand o lista cu cel putin 3 elemente (pozitii ocupate, formele de invatamant absolvite, etc.). Totodata, adaugati si lista cu abilitati pe care le aveti in sectiunea ``<aside>`` a documentului.
 
-### Exemplu de website care contine si CV-ul personal:
+Exemplu de website care contine si CV-ul personal:
 
 ![Design website personal - resume](personal-website-resume.png)

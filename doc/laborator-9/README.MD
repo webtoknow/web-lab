@@ -1,5 +1,12 @@
 # Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua
 
+## Cuprins
+
+- [🦉 Introducere](#🦉-Introducere)
+- [🎢 Exercitii](##🎢-Exercitii)
+
+## 🦉 Introducere
+
 In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
 | Operatii CRUD  | Metode HTTP | URL       | Parametrii URL | Request body | Exemple                  |
@@ -12,9 +19,11 @@ In tabelul de mai jos avem operatiile CRUD (_Create_, _Read_, _Update_ si _Delet
 
 Metodele POST si PUT trebuie sa contine in header `Content-Type: application/json` alaturi de informatiile din `body`.
 
-## Exercitiul 9.1
+## 🎢 Exercitii
 
-### Pornire mock server
+### 💪 Exercitiul 9.1
+
+#### Pornire mock server
 
 - Porniti JSON Server folosind comanda de mai jos (fisierul db.json a fost creat in laboratorul trecut):
 
@@ -28,9 +37,9 @@ json-server --watch db.json
 { "id": 1, "title": "json-server", "author": "typicode" }
 ```
 
-## Exercitiul 9.2
+### 💪 Exercitiul 9.2
 
-### Operatii CRUD folosind [REST](https://restfulapi.net/) pe endoint-ul /dogs
+#### Operatii CRUD folosind [REST](https://restfulapi.net/) pe endoint-ul /dogs
 
 Pornind de la codul scris in cadrul laboratorului precedent:
 
