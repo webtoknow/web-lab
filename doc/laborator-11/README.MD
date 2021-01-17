@@ -164,11 +164,21 @@ sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs
 
 ### 💪 Exercitiul 11.2
 
+Importati colectia [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json) in [Postwoman](https://postwoman.io/) pentru a va ajuta la testatea serverului
+
+### 💪 Exercitiul 11.3
+
 Pornind de la codul scris in `index.js`, creati un API urmarind pasii de mai jos:
 
-- Importati colectia [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json) in [Postwoman](https://postwoman.io/) pentru a va ajuta la testatea serverului
 - Salvati noile entitati de la client in fisierul `db.json` - actiune de tip [POST](https://spring.io/understanding/REST#post) - _Create_.
 - Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read One_
 - Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read All_
 - Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip [PUT](https://spring.io/understanding/REST#put) - _Update_.
 - Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip [DELETE](https://spring.io/understanding/REST#delete) - _Delete_.
+
+> La fiecare pas, asigurati-va ca faceti urmatoarele actiuni:
+> - 1 - Interceptare REQUEST
+> - 2 - Interactiune cu baza de date
+> - 3 - Trimitere RESPONSE inapoi CLIENT
+
+![CRUD](CRUD.png)
