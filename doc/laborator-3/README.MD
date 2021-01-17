@@ -10,7 +10,9 @@
 
 Ghidul complet de folosire al flexbox-ului il putem gasi pe [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-Pe [web.dev](https://web.dev/) putem gasi toate informatiile de baza legate de [responsing web design](https://web.dev/responsive-web-design-basics/).
+Pe [web.dev](https://web.dev/) putem gasi toate informatiile de baza legate de [responsive web design](https://web.dev/responsive-web-design-basics/).
+
+Iar Vojtech Ruzicka a scris un articol bun despre [CSS positioning](https://www.vojtechruzicka.com/css-position).
 
 ## 🚀 Playground
 
