@@ -306,14 +306,14 @@ Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
 - marginea de sus si de jos sa fie de `25px`
 - border-ul sa fie de `1px`, `solid` si sa aiba culoarea `#f1f1f1`
 
-### 💪 Exercitiul 2.7
+### 🎁 Exercitiul 2.7
 
 Stilizati sectiunea _Experienta profesionala_ si _Educatie_.
 
-### 💪 Exercitiul 2.8
+### 🎁 Exercitiul 2.8
 
 Stilizati sectiunea _Aptitudini_.
-> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator: 
+> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator:
 
 ```CSS
 .skills-bg:before {
