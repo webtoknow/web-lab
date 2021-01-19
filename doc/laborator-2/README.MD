@@ -241,7 +241,7 @@ La finalul tuturor exercitiilor pagina trebuie sa arate asemanator cu imaginea d
 
 ## 💪 Exercitiul 2.2
 
-Aplicati in pagina voastra fonturile `Open Sans` si `Lato`, folosind [Google Fonts](https://fonts.google.com/).
+Aplicati in pagina voastra fonturile `Open Sans` si `Lato` cu grosimile 400, 700 si 900, folosind [Google Fonts](https://fonts.google.com/).
 
 ### 💪 Exercitiul 2.3
 
@@ -250,7 +250,7 @@ Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
 - marginea sa fie `0`
 - tipul fontului sa fie `Lato`
 - marimea fontului sa fie de `38px`
-- grosimea fontului sa fie `700`
+- grosimea fontului sa fie `900`
 - textul sa fie scris numai cu litere mari
 - textul sa fie aliniat la centru
 
