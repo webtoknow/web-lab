@@ -294,7 +294,7 @@ Optiunile din meniu:
 Optiune meniu activa:
 
 - pozitia sa fie relativa
-- elementul sa fie mai jos cu `1px` (_buttom_: `-1px`)
+- elementul sa fie mai jos cu `1px` (_bottom_: `-1px`)
 - culoarea sa fie `#c0392b`
 - padding-ul sa fie de `15px 40px 15px 40px;`
 - marginea de sus sa fie `0`
