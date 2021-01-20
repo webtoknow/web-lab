@@ -195,20 +195,6 @@ hr {
     .header {
         display: none;
     }
-    .menu {
-        margin: 0;
-    }
-    .menu-item {
-        display: block;
-        margin: 0;
-        padding: 15px 40px 15px 40px;
-        border-top: 1px solid #ccc;
-    }
-    .menu-item-active {
-        position: static;
-        margin: 0;
-        padding: 15px 40px 15px 40px;
-    }
     .footer {
         margin-top: 3px;
     }
@@ -217,6 +203,12 @@ hr {
 ```
 
 ### 💪 Exercitiul 3.1
+
+Completati markup-ul de mai sus cu stilurile meniului pentru mobil (la rezolutie mai mica de 768px) si tableta (la rezolutie mai mica de 990px)  folosind [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries) astfel incat sa arate ca in imaginea de mai jos.
+
+![Menu mobile](menu-mobile.png)
+
+### 💪 Exercitiul 3.2
 
 Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe imagini (ca in exemplu). Putem folosi serviciul [picsum.photos](https://picsum.photos/) pentru URL-ul imaginilor:
 
@@ -236,17 +228,17 @@ Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in funct
 
 ![Design website personal - portfolio](personal-website-portfolio.png)
 
-### 💪 Exercitiul 3.2
+### 💪 Exercitiul 3.3
 
 Creati un document HTML (_contact.html_) si includeti libraria [Font Awesome](https://fontawesome.com/v4.7.0/get-started/) folosind-o pentru a afisa o iconita in pagina.
 
-### 💪 Exercitiul 3.3
+### 💪 Exercitiul 3.4
 
 Completati si stilizati _contact.html_ pentru a arata ca in designul de mai jos:
 
 ![Design website personal - contact](personal-website-contact.png)
 
-### 💪 Exercitiul 3.4
+### 💪 Exercitiul 3.5
 
 Folosing proprietatea [CSS position](https://www.vojtechruzicka.com/css-position), [Font Awesome](https://fontawesome.com/v4.7.0/icon/bell-o) si imaginea [background](https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/background.jpg), construiti si stilizati _position.html_ astfel incat sa arate ca mai jos.
 
