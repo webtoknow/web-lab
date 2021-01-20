@@ -3,7 +3,7 @@
 ## Cuprins
 
 - [🦉 Introducere](#-Introducere)
-- [🎢 Exercitii](##-Exercitii)
+- [🎢 Exercitii](#-Exercitii)
 
 ## 🦉 Introducere
 

@@ -4,7 +4,7 @@
 
 - [🦉 Introducere](#-Introducere)
 - [🚀 Playground](#-Playground)
-- [🎢 Exercitii](##-Exercitii)
+- [🎢 Exercitii](#-Exercitii)
 
 ## 🦉 Introducere
 
