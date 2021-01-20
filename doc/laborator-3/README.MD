@@ -226,7 +226,7 @@ Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in funct
 - rezolutie mai mica de 990px - 2 coloane (tableta)
 - rezolutie mai mare de 990px - 3 coloane (desktop)
 
-![Design website personal - portfolio](personal-website-portfolio.png)
+![Design website personal - portfolio](personal-website-portfolio.PNG)
 
 ### 💪 Exercitiul 3.3
 
