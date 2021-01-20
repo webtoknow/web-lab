@@ -206,7 +206,7 @@ hr {
 
 Completati markup-ul de mai sus cu stilurile meniului pentru mobil (la rezolutie mai mica de 768px) si tableta (la rezolutie mai mica de 990px)  folosind [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries) astfel incat sa arate ca in imaginea de mai jos.
 
-![Menu mobile](menu-mobile.png)
+![Menu mobile](menu-mobile.PNG)
 
 ### 💪 Exercitiul 3.2
 
