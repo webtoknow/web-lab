@@ -2,8 +2,8 @@
 
 ## Cuprins
 
-- [🦉 Introducere](#🦉-Introducere)
-- [🎢 Exercitii](##🎢-Exercitii)
+- [🦉 Introducere](#-Introducere)
+- [🎢 Exercitii](##-Exercitii)
 
 ## 🦉 Introducere
 

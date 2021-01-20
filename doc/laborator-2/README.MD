@@ -2,9 +2,9 @@
 
 ## Cuprins
 
-- [🦉 Introducere](#🦉-Introducere)
-- [🚀 Playground](#🚀-Playground)
-- [🎢 Exercitii](##🎢-Exercitii)
+- [🦉 Introducere](#-Introducere)
+- [🚀 Playground](#-Playground)
+- [🎢 Exercitii](##-Exercitii)
 
 ## 🦉 Introducere
 
