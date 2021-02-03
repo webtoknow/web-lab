@@ -4,6 +4,7 @@
 
 - [🦉 Introducere](#-Introducere)
 - [🎢 Exercitii](#-Exercitii)
+- [📹 Video](#-Video)
 
 ## 🦉 Introducere
 
@@ -109,3 +110,7 @@ json-server --watch db.json
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Aduceti de la server lista de entitati _dog_ folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get).
 - Creati dinamic si afisati lista de entitati in pagina (nume si imagine) folosind [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement).
+
+## 📹 Video
+
+[Tony Alicea](https://twitter.com/anthonypalicea) are un tutorial foarte bun [Don't Imitate, Understand #2 - Promises, Async, and Await](https://www.youtube.com/watch?v=fyGSyqEX2dw&t=146s) care ne ajuta sa intelegem mai bine cum sa facem requesturi la server.

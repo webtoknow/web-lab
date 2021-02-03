@@ -31,6 +31,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 
 - 🦉 - "Bufnita Atena" ne aduce informatiile necesare pentru rezolvarea exercitiilor
 - 🚀 - "Racheta Musk" ne arata ca e timpul sa ne jucam
+- 📹 - "Video camera" ne aduce informatii mai usor de asimilat
 - 🎢 - "Caruselul Kody" ne indica zona unde se afla exercitiile
 - 💪 - "Domnul Muschi" marcheaza exercitiile pe care trebuie sa le rezolvam
 - 🎁 - "Cadoul Bonus" ne ajuta sa ne depasim limitele cu exercitii avansate
