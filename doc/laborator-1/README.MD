@@ -4,6 +4,7 @@
 
 - [🦉 Introducere](#-Introducere)
 - [🎢 Exercitii](#-Exercitii)
+- [📹 Video](#-Video)
 
 ## 🦉 Introducere
 
@@ -49,3 +50,11 @@ Creati un document HTML (*cv.html*) cu CV-ul personal care va contine cel putin 
 Exemplu de website care contine si CV-ul personal:
 
 ![Design website personal - resume](personal-website-resume.png)
+
+## 📹 Video
+
+Video-urile de mai jos ne ajuta sa intelegem mai bine cum s-a nascut internetul si cum au evoluat browserele:
+
+- [Ce este internetul? | Istoria internetului pe scurt](https://www.youtube.com/watch?v=ZEBlBo89QnQ).
+
+- [Razboiul browserelor | Istoria browserelor pe scurt](https://www.youtube.com/watch?v=mrfK4DK4HW4)

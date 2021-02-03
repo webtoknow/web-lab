@@ -3,6 +3,7 @@
 ## Cuprins
 
 - [🦉 Introducere](#-Introducere)
+- [📹 Video](#-Video)
 - [🎢 Exercitii](#-Exercitii)
 - [🚀 Playground](#-Playground)
 
@@ -18,6 +19,8 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 - un formular a fost trimis (submitted);
 - pagina s-a terminat de incarcat;
 - a aparut o eroare;
+
+## 📹 Video
 
 Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-loop”, “non-blocking”, “callback”, “asynchronous”, “single-threaded” si “concurrency”. Pentru a ne familiariza cu aceste notiuni, propun sa urmarim urmatorul video:
 [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=420s).
