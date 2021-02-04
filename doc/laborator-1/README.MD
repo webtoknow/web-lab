@@ -8,9 +8,35 @@
 
 ## 🦉 Introducere
 
-Informatii de cum e construita o pagina web putem gasi pe [www.internetingishard.com](https://www.internetingishard.com/html-and-css/introduction).
+Informatii despre cum este construita o pagina web putem gasi pe [www.internetingishard.com](https://www.internetingishard.com/html-and-css/introduction).
 
-HTML sau `Hyper Text Markup Language` este limbajul de definire al continutului (text, imagini, etc.) paginilor web, ca in exemplul urmator:
+Cand a pus bazele internetului, prin crearea [WWW](https://en.wikipedia.org/wiki/World_Wide_Web) si a [primei pagini web](http://info.cern.ch/hypertext/WWW/TheProject.htm), [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) s-a folosit de HTTP, URL si HTML.
+
+### HTTP
+
+HTTP sau `Hypertext Transfer Protocol` permite aplicatiilor web sa comunice intre ele si sa schimbe date de tip text, imagini, videoclipuri etc.
+
+![HTTP Request/Response](HTTP-request-response-animation.gif)
+![HTTP Request](http-request.png)
+![HTTP Response](http-response.png)
+
+### URL
+
+URL sau `Uniform Resource Locator` nu este alceva decat adresa website-ului. 
+
+```sh
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+```
+
+![HTTP Response](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png)
+
+> Mai multe informatii despre URL putem gasi pe [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL).
+
+### HTML
+
+HTML sau `Hyper Text Markup Language` este limbajul de definire al continutului paginilor web, ca in exemplul urmator:
 
 ```HTML
 <!DOCTYPE html>
