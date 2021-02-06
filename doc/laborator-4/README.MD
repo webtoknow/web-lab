@@ -5,6 +5,7 @@
 - [🦉 Introducere](#-Introducere)
 - [🚀 Playground](#-Playground)
 - [🎢 Exercitii](#-Exercitii)
+- [📹 Video](#-Video)
 
 ## 🦉 Introducere
 
@@ -37,3 +38,7 @@ Folositi _CSS media queries_ pentru a schimba pozitionarea elementelor in functi
 ### 🎁 Exercitiul 4.3
 
 In continuare, creati un stil specific pentru printare.
+
+## 📹 Video
+
+Pentru ca am inceput sa ne facem o idee despre activitatile pe care le are un Frontend developer, putem regasi in continuare un video care le explica mai pe larg: [Ce face un Frontend developer?](https://youtu.be/akt2gpjbiRU).
