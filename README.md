@@ -17,11 +17,11 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - [Laborator 5 - [JS] - Obiecte si functii](doc/laborator-5)
 - [Laborator 6 - [JS] - DOM](doc/laborator-6)
 - [Laborator 7 - [JS] - Evenimente si Event loop](doc/laborator-7)
-- [Laborator 8 - [JS] - AJAX si randarea pe client - Partea intai](doc/laborator-8)
-- [Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua](doc/laborator-9)
+- [Laborator 8 - [JS] - AJAX si redarea dinamica a continutului pe client - Partea intai](doc/laborator-8)
+- [Laborator 9 - [JS] - AJAX si redarea dinamica a continutului pe client - Partea a doua](doc/laborator-9)
 - [Laborator 10 - [NodeJS] - Introducere](doc/laborator-10)
 - [Laborator 11 - [NodeJS] - CRUD API](doc/laborator-11)
-- [Laborator 12 - [NodeJS] - Randare pe server](doc/laborator-12)
+- [Laborator 12 - [NodeJS] - Redarea dinamica a continutului pe server](doc/laborator-12)
 - Laborator 13 - Prezentare proiecte
 - Laborator 14 - Workshop Frontend
   - [Workshop Angular](doc/workshop-angular-laborator-11-12)

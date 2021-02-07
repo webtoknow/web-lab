@@ -1,4 +1,4 @@
-# Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
+# Laborator 8 - [JS] - AJAX si redarea dinamica a continutului pe client - Partea intai
 
 ## Cuprins
 
