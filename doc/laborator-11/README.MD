@@ -1,5 +1,12 @@
 # Laborator 11 - [NodeJS] - CRUD API
 
+## Cuprins
+
+- [🦉 Introducere](#-Introducere)
+- [🎢 Exercitii](#-Exercitii)
+
+## 🦉 Introducere
+
 In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles/what-is-crud) (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
 
 | CRUD Operation | HTTP method | URL       | URL params | Request body | example                  |
@@ -10,9 +17,11 @@ In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles
 | _Update_       | PUT         | /dogs/:id | :id        | body: {...}  | PUT /dogs/123 body:{...} |
 | _Delete_       | DELETE      | /dogs/:id | :id        |              | DELETE /dogs/123         |
 
-## Exercitiul 11.1
+## 🎢 Exercitii
 
-### Creare proiect si instalare pachete
+### 💪 Exercitiul 11.1
+
+#### Creare proiect si instalare pachete
 
 - Creati un nou proiect folosind npm:
 
@@ -153,13 +162,38 @@ sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs
 
 > Putem sa comparam rezultatele noastre cu solutia finala folosind serverul: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs).
 
-## Exercitiul 11.2
+### 💪 Exercitiul 11.2
 
-Pornind de la codul scris in `index.js`, creati un API urmarind pasii de mai jos:
+Importati colectia [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json) in [Postwoman](https://postwoman.io/) pentru a va ajuta la testatea serverului
 
-- Importati colectia [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json) in [Postwoman](https://postwoman.io/) pentru a va ajuta la testatea serverului
-- Salvati noile entitati de la client in fisierul `db.json` - actiune de tip [POST](https://spring.io/understanding/REST#post) - _Create_.
-- Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read One_
-- Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read All_
-- Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip [PUT](https://spring.io/understanding/REST#put) - _Update_.
-- Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip [DELETE](https://spring.io/understanding/REST#delete) - _Delete_.
+### 💪 Exercitiul 11.3
+
+Pornind de la codul scris in `index.js`, creati un API rezolvand exercitiile urmatoare.
+
+> La fiecare pas, asigurati-va ca faceti urmatoarele actiuni:
+>
+> - 1 - Interceptare REQUEST
+> - 2 - Interactiune cu baza de date
+> - 3 - Trimitere RESPONSE inapoi CLIENT
+
+![CRUD](CRUD.png)
+
+### 💪 Exercitiul 11.3.1
+
+Salvati noile entitati de la client in fisierul `db.json` - actiune de tip [POST](https://spring.io/understanding/REST#post) - _Create_.
+
+#### 💪 Exercitiul 11.3.2
+
+Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read One_
+
+#### 💪 Exercitiul 11.3.3
+
+Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read All_
+
+#### 💪 Exercitiul 11.3.4
+
+Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip [PUT](https://spring.io/understanding/REST#put) - _Update_.
+
+#### 💪 Exercitiul 11.3.5
+
+Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip [DELETE](https://spring.io/understanding/REST#delete) - _Delete_.

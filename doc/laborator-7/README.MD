@@ -1,5 +1,13 @@
 # Laborator 7 - [JS] - Evenimente
 
+## Cuprins
+
+- [🦉 Introducere](#-Introducere)
+- [🎢 Exercitii](#-Exercitii)
+- [🚀 Playground](#-Playground)
+
+## 🦉 Introducere
+
 [Evenimentele](https://developer.mozilla.org/en-US/docs/Web/Events) in JavaScript sunt actiuni sau intamplari care sunt declansate de utilizator sau de browser.
 Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 
@@ -14,9 +22,11 @@ Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
 Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-loop”, “non-blocking”, “callback”, “asynchronous”, “single-threaded” si “concurrency”. Pentru a ne familiariza cu aceste notiuni, propun sa urmarim urmatorul video:
 [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=420s).
 
-## Exercitiul 7.1
+## 🎢 Exercitii
 
-### Povesti de calatorie
+### 💪 Exercitiul 7.1
+
+#### Povesti de calatorie
 
 - Creati un document HTML (_calatorii.html_) cu template-ul de mai jos inclus in `<body>`:
 
@@ -42,9 +52,9 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
   - creati o poveste cu ajutorul lor (ex: "Diana a vizitat frumoasa Barcelona");
   - afisati povestea in tag-ul identificat prin id-ul _story_;
 
-## Exercitiul 7.2
+### 💪 Exercitiul 7.2
 
-### Calculator
+#### Calculator
 
 - Creati un document HTML (_calculator.html_) cu template-ul de mai jos inclus in `<body>`:
 
@@ -90,9 +100,9 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 
 - Folositi evenimentul _keypress_ pe unul dintre input-uri astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.
 
-## Exercitiul 7.3
+### 💪 Exercitiul 7.3
 
-### Catelus cu parul cret
+#### Catelus cu parul cret
 
 - Creati un document HTML (_index.html_) cu template-ul de mai jos inclus in `<body>`:
 
@@ -141,8 +151,12 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 - Simulati functionalitatea de expirare a sesiunii astfel incat dupa 30 secunde de inactivitate (nu a fost apasat niciun buton) sa fie afisata o alerta cu mesajul "Sesiune expirata". Folositi functia _setTimeout_.
 - Dezactivati butonul _Start_ folosind atributul _disabled_ atunci cand catelul este in miscare;
 
-## Exercitiul 7.4
+### 🎁 Exercitiul 7.4
 
-### Catelus cu parul cret eXtreme
+#### Catelus cu parul cret eXtreme
 
 - Folositi _[Object literal pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript)_ pentru a rescrie exerciutul anterior.
+
+## 🚀 Playground
+
+[Elevator Saga](https://play.elevatorsaga.com/) ne ajuta sa ne obisnuim cu functiile si evenimentele din Javascript. Pana data viitoare, sa vedem cine rezolva cele mai multe nivele!

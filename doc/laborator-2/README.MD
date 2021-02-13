@@ -1,5 +1,13 @@
 # Laborator 2 - [CSS] - Introducere
 
+## Cuprins
+
+- [🦉 Introducere](#-Introducere)
+- [🚀 Playground](#-Playground)
+- [🎢 Exercitii](#-Exercitii)
+
+## 🦉 Introducere
+
 CSS sau `Cascading Style Sheets` este limbajul descriptiv ce se foloseste pentru stilizarea documentului HTML (paginii web):
 
 ![CSS Rules](https://www.teaching-materials.org/css/img/cssrule.png)
@@ -25,7 +33,7 @@ h1, h2, h3 {
   color: #000;
 }
 
-nav {
+nav > a {
   background-color: #fff;
 }
 ```
@@ -55,11 +63,15 @@ Iata cum adaugam stiluri paginilor web:
 
 Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-cheat-sheet.pdf).
 
-## Exercitiul 2.1
+Totodata, ne putem ajuta de developer.mozilla.org pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
+
+## 🚀 Playground
 
 [CSS Diner](https://flukeout.github.io/) ne ajuta sa invatam selectorii CSS. Hai sa ne jucam!
 
-## Exercitiul 2.2
+## 🎢 Exercitii
+
+### 💪 Exercitiul 2.1
 
 Creati un document HTML (_cv.html_) cu markup-ul de mai jos si 2 fisiere CSS (_style.css_ si _resume-style.css_) care vor contine stilurile.
 
@@ -227,22 +239,22 @@ La finalul tuturor exercitiilor pagina trebuie sa arate asemanator cu imaginea d
 
 ![Design website personal - resume](personal-website-resume.png)
 
-## Exercitiul 2.3
+## 💪 Exercitiul 2.2
 
-Aplicati in pagina voastra fonturile `Open Sans` si `Lato`, folosind [Google Fonts](https://fonts.google.com/).
+Aplicati in pagina voastra fonturile `Open Sans` si `Lato` cu grosimile 400, 700 si 900, folosind [Google Fonts](https://fonts.google.com/).
 
-## Exercitiul 2.4
+### 💪 Exercitiul 2.3
 
 Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
 
 - marginea sa fie `0`
 - tipul fontului sa fie `Lato`
 - marimea fontului sa fie de `38px`
-- grosimea fontului sa fie `700`
+- grosimea fontului sa fie `900`
 - textul sa fie scris numai cu litere mari
 - textul sa fie aliniat la centru
 
-## Exercitiul 2.5
+### 💪 Exercitiul 2.4
 
 Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
 
@@ -254,7 +266,7 @@ Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
 - textul sa fie scris numai cu litere mari
 - textul sa fie aliniat la centru
 
-## Exercitiul 2.6
+### 💪 Exercitiul 2.5
 
 Stilizati meniul de navigare astfel incat sa aiba urmatoarele proprietati:
 
@@ -282,26 +294,26 @@ Optiunile din meniu:
 Optiune meniu activa:
 
 - pozitia sa fie relativa
-- elementul sa fie mai jos cu `1px` (_buttom_: `-1px`)
+- elementul sa fie mai jos cu `1px` (_bottom_: `-1px`)
 - culoarea sa fie `#c0392b`
 - padding-ul sa fie de `15px 40px 15px 40px;`
 - marginea de sus sa fie `0`
 
-## Exercitiul 2.7
+### 💪 Exercitiul 2.6
 
 Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
 
 - marginea de sus si de jos sa fie de `25px`
 - border-ul sa fie de `1px`, `solid` si sa aiba culoarea `#f1f1f1`
 
-## Exercitiul 2.8
+### 🎁 Exercitiul 2.7
 
 Stilizati sectiunea _Experienta profesionala_ si _Educatie_.
 
-## Exercitiul 2.9
+### 🎁 Exercitiul 2.8
 
 Stilizati sectiunea _Aptitudini_.
-> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator: 
+> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator:
 
 ```CSS
 .skills-bg:before {

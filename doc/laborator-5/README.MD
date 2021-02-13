@@ -1,12 +1,21 @@
 # Laborator 5 - [JS] - Obiecte si functii
 
+## Cuprins
+
+- [🦉 Introducere](#-Introducere)
+- [🎢 Exercitii](#-Exercitii)
+
+## 🦉 Introducere
+
 [JavaScript](https://ro.wikipedia.org/wiki/JavaScript) (JS) este unul dintre cele mai populare limbaje de programare din lume, fiind utilizat atat pe partea de client ([browser](https://en.wikipedia.org/wiki/Web_browser)) cat si pe partea de server ([NodeJs](https://nodejs.org/en/)).
 
-## Exercitiul 5.1
+## 🎢 Exercitii
+
+### 💪 Exercitiul 5.1
 
 Intr-un document HTML, link-uiti cate un fisier JavaScript pentru fiecare exercitiu de mai jos (_ex1.js_, _ex2.js_ etc.).
 
-## Exercitiul 5.2
+### 💪 Exercitiul 5.2
 
 ### Care sunt oamenii care v-au influentat viata?
 
@@ -22,7 +31,7 @@ Sincera
 Iubitoare de animale
 ```
 
-## Exercitiul 5.3
+### 💪 Exercitiul 5.3
 
 ### E ca IMDB-ul, dar mult mai mic...
 
@@ -33,7 +42,7 @@ Iubitoare de animale
 "La Moara cu noroc" a durat 130 minute. Actori: Constantin Codrescu, Olga Tudorache, Geo Barton"
 ```
 
-## Exercitiul 5.4
+### 💪 Exercitiul 5.4
 
 ### E Black Friday!
 
@@ -54,7 +63,7 @@ var blackFridayCart = {
 getCartValue(blackFridayCart); // 1103.3
 ```
 
-## Exercitiul 5.5
+## 🎁 Exercitiul 5.5
 
 ### Map
 

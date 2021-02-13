@@ -1,10 +1,19 @@
 # Laborator 6 - [JS] - DOM
 
+## Cuprins
+
+- [🦉 Introducere](#-Introducere)
+- [🎢 Exercitii](#-Exercitii)
+
+## 🦉 Introducere
+
 DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor DOM](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor pot fi reflectate in afisarea documentului.
 
-## Exercitiul 6.1
+## 🎢 Exercitii
 
-### Hack Google
+### 💪 Exercitiul 6.1
+
+#### Hack Google
 
 - Deschideti [google.com](https://www.google.com) in Chrome sau Firefox si afisati consola.
 - Gasiti logo-ul Google si stocati-l intr-o variabila.
@@ -12,9 +21,9 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 - Gasiti butonul de search Google si stocati-l intr-o variabila.
 - Modificati textul buttonului astfel incat sa scrie Yahoo.
 
-## Exercitiul 6.2
+### 💪 Exercitiul 6.2
 
-### Toate site-urile ar trebui sa aiba o sectiune "Despre noi"
+#### Toate site-urile ar trebui sa aiba o sectiune "Despre noi"
 
 - Creati un document HTML (_aboutme.html_) cu template-ul de mai jos inclus in `<body>`:
 
@@ -34,16 +43,16 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 - Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei _list-item_ pentru a avea un text rosu.
 - Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acel element in pagina.
 
-## Exercitiul 6.3
+### 💪 Exercitiul 6.3
 
-### My IMDB
+#### My IMDB
 
 - Creati un document HTML (_filme.html_) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa _titlu_ (string), _durata_ (number), _actori_ (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
 - Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina elemente `<p>` care sa contina titlul filmului.
 
-### Bonus
+### 🎁 Exercitiul 6.4
 
 - Folositi `<ul>` si `<li>` pentru a afisa filmele, alaturi de celelalte informatii despre acestea.
 - Adaugati in fiecare obiect din vector o proprietate reprezentand imaginea filmului si reflectati schimbarea in pagina.
