@@ -70,9 +70,20 @@ Accesand link-ul [http://localhost:4000/dogs/1](http://localhost:4000/dogs/1), v
 
 Creati proiectul folosind interfata de comanda [Angular CLI](https://cli.angular.io/).
 
-```sh
+```bash
 npm install -g @angular/cli
 ng new my-dogs
+```
+
+```bash
+? Do you want to enforce stricter type checking and stricter bundle budgets in the workspace?
+  This setting helps improve maintainability and catch bugs ahead of time.
+  For more information, see https://angular.io/strict No
+? Would you like to add Angular routing? No
+? Which stylesheet format would you like to use? CSS
+```
+
+```bashcd my
 cd my-dogs
 ng serve
 ```
@@ -86,7 +97,14 @@ Accesand link-ul [http://localhost:4200](http://localhost:4200), veti vedea apli
 ```sh
 ng add @angular/material
 ```
+
 Selectam optiunea "YES" la toate intrebarile in timpul instalarii.
+
+```sh
+? Choose a prebuilt theme name, or "custom" for a custom theme: Indigo/Pink [ Preview: https://material.angular.io?theme=indigo-pink ]
+? Set up global Angular Material typography styles? Yes
+? Set up browser animations for Angular Material? Yes
+```
 
 Observam ca toate dependentele sale s-au salvat in `package.json`.
 
@@ -95,8 +113,6 @@ Observam ca toate dependentele sale s-au salvat in `package.json`.
 Sa inlaturam din componenta nou creata `app.component.html` tot html-ul.
 
 ## Aducerea datelor de la server
-
-
 
 Cream o noua interfata in directorul `src/app`:
 
@@ -266,8 +282,6 @@ si in `app.component.html` evenimentul pe buton:
 
 ## Adaugarea si editarea unui element din lista de catei
 
-
-
 Inseram butonul de *Adaugare* deasupra tabelului:
 
 ```html
@@ -370,6 +384,7 @@ export class FormComponent {
 ```
 
 Stilizam modala:
+
 ```css
 .container {
   display: flex;

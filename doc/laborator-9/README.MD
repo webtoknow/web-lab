@@ -1,4 +1,4 @@
-# Laborator 9 - [JS] - AJAX si randarea pe client - Partea a doua
+# Laborator 9 - [JS] - AJAX si redarea dinamica a continutului pe client - Partea a doua
 
 ## Cuprins
 

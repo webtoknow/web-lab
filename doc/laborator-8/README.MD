@@ -1,21 +1,46 @@
-# Laborator 8 - [JS] - AJAX si randarea pe client- Partea intai
+# Laborator 8 - [JS] - AJAX si redarea dinamica a continutului pe client - Partea intai
 
 ## Cuprins
 
 - [🦉 Introducere](#-Introducere)
 - [🎢 Exercitii](#-Exercitii)
+- [📹 Video](#-Video)
 
 ## 🦉 Introducere
 
-HTTP permite aplicatiilor web sa comunice intre ele si sa schimbe date fie ele text, imagini, videoclipuri, sunete sau documente.
+### AJAX
 
-![HTTP](http.png)
-![HTTP Request](http-request.png)
-![HTTP Response](http-response.png)
+AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in pagina.
 
-AJAX este prescurtarea pentru Asynchronous JavaScript and XML (JavaScript si XML asincron) si reprezinta o colectie de tehnologii utilizate in dezvoltarea aplicatiilor web. AJAX presupune un schimb redus de date intre browser si server, astfel incat sa nu mai fie necesara reincarcarea intregii pagini web de fiecare data cand utilizatorul face o schimbare in continutul sau.
+![Ajax](AJAX-animation.gif)
 
-![Ajax](AJAX.png)
+### Redarea continutului in browser - Client side rendering
+
+Odata cu cresterea performantei dispozitivelor (calculatoare, telefoane mobile, tablete etc.), a aparut conceputul de a reda continutul paginii web direct in browser cu ajutorul Javascript-ului (nu pe server cum se intampla pana atunci). Acest tip de aplicatie se mai numeste si *Single Page Application* deoarece rescrie dinamic pagina curenta, fara a mai fi nevoie de reincarcarea acesteia (refresh).
+
+![Client side rendering](Client-side-rendering-animation.gif)
+
+In animatia de mai sus este prezentat modul de comunicare dintre client (browser) si server cand se reda continutul dinamic in browser:
+
+ 1. Browser-ul face prima cerere catre server pentru a aduce documentul HTML;
+
+ 2. Server-ul raspunde cu documentul HTML, care contine doar link-urile catre fisierele de CSS si Javascript;
+
+ 3. Browser-ul parseaza HTML-ul;
+
+ 4. Browser-ul face noi cereri pentru fisierele cu referinta in HTML;
+
+ 5. Server-ul raspunde cu fisierele CSS si Javascript cerute;
+
+ 6. Browser-ul executa codul Javascript si creeaza structura paginii (layout/template);
+
+ 7. Browser-ul face noi cereri pentru fisierele JSON cu informatiile necesare redarii continutului;
+
+ 8. Server-ul interogheaza baza de date si creeaza fisierele JSON cu informatiile cerute;
+
+ 9. Server-ul raspunde catre browser cu fisierele JSON;
+
+ 10. Browser-ul reda continutul in structura paginii.
 
 ## 🎢 Exercitii
 
@@ -109,3 +134,7 @@ json-server --watch db.json
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Aduceti de la server lista de entitati _dog_ folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get).
 - Creati dinamic si afisati lista de entitati in pagina (nume si imagine) folosind [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement).
+
+## 📹 Video
+
+[Tony Alicea](https://twitter.com/anthonypalicea) are un tutorial foarte bun [Don't Imitate, Understand #2 - Promises, Async, and Await](https://www.youtube.com/watch?v=fyGSyqEX2dw&t=146s) care ne ajuta sa intelegem mai bine cum sa facem requesturi la server.
