@@ -10,7 +10,7 @@
 
 Informatii despre cum este construita o pagina web putem gasi pe [www.internetingishard.com](https://www.internetingishard.com/html-and-css/introduction).
 
-Cand a pus bazele internetului, prin crearea [WWW](https://en.wikipedia.org/wiki/World_Wide_Web) si a [primei pagini web](http://info.cern.ch/hypertext/WWW/TheProject.htm), [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) s-a folosit de HTTP, URL si HTML.
+Cand a pus bazele internetului, prin crearea [WWW](https://en.wikipedia.org/wiki/World_Wide_Web) si a [primei pagini web](http://info.cern.ch/hypertext/WWW/TheProject.html), [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) s-a folosit de HTTP, URL si HTML.
 
 ### HTTP
 
