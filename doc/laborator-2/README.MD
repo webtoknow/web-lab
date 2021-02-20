@@ -308,15 +308,15 @@ Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
 
 ### 💪 Exercitiul 2.7
 
-Stilizati sectiunea _Experienta profesionala_ si _Educatie_. conform specificatiilor:
+Stilizati sectiunile _Experienta profesionala_ si _Educatie_ conform specificatiilor:
 
-![Specificatii sectiune Experienta profesionala si Educatie](work-experience-specs.png)
+![Specificatii sectiunile Experienta profesionala si Educatie](work-experience-specs.png)
 
-### 🎁 Exercitiul 2.8
+### 💪 Exercitiul 2.8
 
-Stilizati sectiunea Aptitudini conform specificatiilor:
+Stilizati sectiunea _Aptitudini_ conform specificatiilor:
 
-![Specificatii sectiune Experienta profesionala si Educatie](skills-specs.png)
+![Specificatii sectiune Aptitudini](skills-specs.png)
 
 > Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator:
 
