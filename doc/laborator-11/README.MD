@@ -164,7 +164,7 @@ sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs
 
 ### 💪 Exercitiul 11.2
 
-Importati colectia [dogs-API-postwoman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) in [Postman](https://www.postman.com/downloads/) pentru a va ajuta la testatea serverului.
+Importati colectia [dogs-API-postman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) in [Postman](https://www.postman.com/downloads/) pentru a va ajuta la testatea serverului.
 
 ### 💪 Exercitiul 11.3
 
