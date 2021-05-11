@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Travel blog</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav__container">
+                <li class="nav__item">
+                    <button class="nav__link" id="article-link">Articles</button>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__link" id="about-link">About</button>
+                </li>
+            </ul>
+        </nav>
+       
+        <main id='main'>
+            <div class="add__container">
+                <button id="add" type="button" class="button"> + Add Article</button>
+            </div>
+        </main>
+    </div>
+    <div class="modal__overlay">
+        <div class="modal">
+            <div class="modal__content">
+                <h2 class="title">Add/Edit article</h2>
+                <div class="inputs__container">
+                    <input id="formTitle" type="text" class="input" placeholder="Please enter title">
+                    <input id="formTag" type="text" class="input" placeholder="Please enter tag">
+                    <input id="formAuthor" type="text" class="input" placeholder="Please enter author">
+                    <input id="formDate" type="text" class="input" placeholder="Please enter date">
+                    <input id="formImgUrl" type="text" class="input input--img" placeholder="Please enter image url">
+                </div>
+                <textarea id="formSummary" class="textarea" name="content" cols="28" rows="3" placeholder="Please enter summary"></textarea>
+                <textarea id="formContent" class="textarea" name="content" cols="28" rows="7" placeholder="Please enter content"></textarea>
+                <div class="modal__buttons">
+                    <button id="cancel" type="button" class="button">Cancel</button>
+                    <button id="save" type="button" class="button button--pink">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
