@@ -25,6 +25,8 @@ Creati fisierul _index.html_ astfel incat sa arate precum imaginea de mai jos, f
 
 ![Design website personal - about me](personal-website-about-me.png)
 
+> Poza lui Sunny o puteti gasi la `https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/Sunny-Luthra.png`.
+
 Pentru a facilita rezolvarea acestui exercitiu, puteti consulta intructiunile din workshop-ul [CSS-Workshop-Personal-Page](https://github.com/bmnicolae/CSS-Workshop-Personal-Page/tree/master/doc/exercise-1).
 
 ### 💪 Exercitiul 4.2

@@ -164,7 +164,7 @@ sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs
 
 ### 💪 Exercitiul 11.2
 
-Importati colectia [dogs-API-postwoman-collection.json](dogs-API-postwoman-collection.json) in [Postwoman](https://postwoman.io/) pentru a va ajuta la testatea serverului
+Importati colectia [dogs-API-postman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) in [Postman](https://www.postman.com/downloads/) pentru a va ajuta la testatea serverului.
 
 ### 💪 Exercitiul 11.3
 
@@ -180,20 +180,20 @@ Pornind de la codul scris in `index.js`, creati un API rezolvand exercitiile urm
 
 ### 💪 Exercitiul 11.3.1
 
-Salvati noile entitati de la client in fisierul `db.json` - actiune de tip [POST](https://spring.io/understanding/REST#post) - _Create_.
+Salvati noile entitati de la client in fisierul `db.json` - actiune de tip POST - _Create_.
 
 #### 💪 Exercitiul 11.3.2
 
-Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read One_
+Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip GET - _Read One_
 
 #### 💪 Exercitiul 11.3.3
 
-Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip [GET](https://spring.io/understanding/REST#get) - _Read All_
+Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip GET - _Read All_
 
 #### 💪 Exercitiul 11.3.4
 
-Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip [PUT](https://spring.io/understanding/REST#put) - _Update_.
+Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip PUT - _Update_.
 
 #### 💪 Exercitiul 11.3.5
 
-Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip [DELETE](https://spring.io/understanding/REST#delete) - _Delete_.
+Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip DELETE - _Delete_.

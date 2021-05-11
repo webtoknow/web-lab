@@ -43,16 +43,24 @@ Pornind de la codul scris in cadrul laboratorului precedent:
 
 #### 💪 Exercitiul 9.2.1
 
-Adaugati in pagina voastra doua taguri [input](https://www.w3schools.com/tags/tag_input.asp) care sa contina informatiile _name_ si _img_ pentru a putea modifica lista de catei.
+Adaugati in pagina voastra doua taguri [input](https://www.w3schools.com/tags/tag_input.asp) care sa contina informatiile _name_ si _img_ pentru a putea modifica lista de catei si, totodata, adaugati si butonul `Add`.
+
+![Inputs](inputs.jpg)
 
 #### 💪 Exercitiul 9.2.2
 
-Salvati noi entitati pe server - actiune de tip [POST](https://restfulapi.net/http-methods/#post) - _Create_.
+Salvati noi entitati pe server - actiune de tip [POST](https://restfulapi.net/http-methods/#post) - _Create_. folosind input-urile si butonul din exercitiul anterior.
+
+![POST animation](POST-dogs-animation.gif)
 
 #### 💪 Exercitiul 9.2.3
 
-Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://restfulapi.net/http-methods/#put) - _Update_.
+Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://restfulapi.net/http-methods/#put) - _Update_ folosind input-urile si doua butoane noi: `Edit` si `Update`.
+
+![PUT animation](PUT-dogs-animation.gif)
 
 #### 💪 Exercitiul 9.2.4
 
-Stergeti una din entitatile existente din lista, dar si de pe server - actiune de tip [DELETE](https://restfulapi.net/http-methods/#delete) - _Delete_.
+Stergeti una din entitatile existente din lista, dar si de pe server - actiune de tip [DELETE](https://restfulapi.net/http-methods/#delete) - _Delete_. folosind un nou buton: `Delete`.
+
+![Delete animation](DELETE-dogs-animation.gif)

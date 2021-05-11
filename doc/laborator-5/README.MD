@@ -70,14 +70,15 @@ getCartValue(blackFridayCart); // 1103.3
 - Implementati functia _[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)_, astfel incat aceasta sa se comporte ca mai jos:
 
 ```JS
-function multiplicator(element) {
-    return 2 * element;
-}
-
 Array.prototype.myMap = function(callbackFunction) {
+  const array = this;
   let newArray = [];
   ...
   return newArray
+}
+
+function multiplicator(element) {
+    return 2 * element;
 }
 
 [1,2,3].map(multiplicator); // [2,4,6]

@@ -132,8 +132,10 @@ json-server --watch db.json
 
 - Creati un document HTML `index.html`.
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
-- Aduceti de la server lista de entitati _dog_ folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get).
+- Aduceti de la server lista de entitati _dog_ folosind [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) - actiune de tip [GET](https://spring.io/understanding/REST#get). In timp ce aduceti lista de la server, afisati textul `loading...`.
 - Creati dinamic si afisati lista de entitati in pagina (nume si imagine) folosind [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement).
+
+![GET dogs](GET-dogs-animation.gif)
 
 ## 📹 Video
 
