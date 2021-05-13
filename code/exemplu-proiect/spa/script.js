@@ -372,8 +372,8 @@ function renderAboutPage() {
     removeOldArticlesFromDOM();
 
     // Create and append tags
-    let articleDOMNode = createAboutDOMNodes();
-    main.appendChild(articleDOMNode);
+    let aboutDOMNode = createAboutDOMNodes();
+    main.appendChild(aboutDOMNode);
 }
 
 
