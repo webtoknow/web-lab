@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog List</title>
+</head>
+
+<body>
+    <form action="/dogs" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="name"><br>
+        <label for="img">URL:</label><br>
+        <input type="text" id="img" name="img" placeholder="Image URL"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <ul>
+        <% dogs.forEach(function(dog){ %>
+            <li>
+                <a href="/dogs/<%= dog.id %>">
+                    <strong>
+                        <%= dog.name %>
+                    </strong>
+                </a>
+                <a href="/dogs/<%= dog.id %>">
+                    <img src="<%= dog.img %>" alt="Dog">
+                </a>
+                <a href="/dogs/delete/<%= dog.id %>">Delete</a>
+                <a href="/dogs/edit/<%= dog.id %>">Edit</a>
+            </li>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
