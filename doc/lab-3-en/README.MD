@@ -226,9 +226,9 @@ Use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to style 
 
 The number of columns used to display the images must be different based on rezolution (please use [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries)):
 
-- rezolution smaller than 768px - 1 column (mobile)
-- rezolution between 768px and 990px - 2 columns (tablet)
-- rezolution bigger than 990px - 3 columns (desktop)
+- resolution smaller than 768px - 1 column (mobile)
+- resolution between 768px and 990px - 2 columns (tablet)
+- resolution bigger than 990px - 3 columns (desktop)
 
 ![Design website personal - portfolio](personal-website-portfolio.png)
 
