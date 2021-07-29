@@ -39,6 +39,64 @@ Use [_CSS media queries_](https://web.dev/responsive-web-design-basics/#media-qu
 
 Create a ["printer friendly"](https://www.sitepoint.com/css-printer-friendly-pages/) page.
 
+### 🎁 Exercise 4.4
+
+Use portofolio page markup from previous exercises to create new pages (_grid-portofolio.html_, _explicitly-placed-portofolio.html_, _overlap-portofolio.html_). Also, use CSS Grid and media queries to style the pages to look like below:
+
+#### Grid
+
+![Design website personal - portofolio](portofolio.png)
+
+#### Explicitly placed
+
+![Design website personal - portofolio explicitly-placed](explicitly-placed.png)
+
+#### Overlap
+
+![Design website personal - portofolio overlap](overlap.png)
+
+#### Resolution
+
+- resolution smaller than 768px - mobile
+- resolution between 768px and 990px - tablet
+- resolution bigger than 990px - desktop
+
+### 🎁 Exercise 4.5
+
+Create a new page _lab.html_ and add the below markup and use CSS Grid to style  "The Experimental Layout Lab" like in the design below. Please choose the responsive design break point for different devices.
+
+![Lab](lab.png)
+
+#### Example markup
+
+```HTML
+<header>
+    <div class="header-wrapper">
+      <h1>The Experimental Layout Lab</h1>
+      <h1>of Jen Simmons</h1>
+      <div class="demo-list">
+        <h2>The Conference Talks</h2>
+        <ul>
+          <li>1. <a href="https://youtu.be/jreccgYLfx8">Modern Layouts: Getting Out of Our Ruts</a></li>
+          <li>2. <a href="https://youtu.be/aYgMExb-mlo">Revolutionize Your Page: Real Art Direction on the Web</a>
+          </li>
+          <li>3. <a href="https://youtu.be/t0b3uBoDkBs">Designing with Grid</a></li>
+          <li>4. <a href="https://youtu.be/jBwBACbRuGY">Everything You Know About Web Design Just Changed</a></li>
+          <li>5. <a href="https://youtu.be/AMPKmh98XLY">Designing Intrinsic Layouts</a></li>
+        </ul>
+      </div>
+      <p class="follow-links">Follow <a href="http://twitter.com/jensimmons">@jensimmons</a> on Twitter for more as
+        it happens.</p>
+      <div class="workshop-link">
+        <ul>
+          <li><a href="https://youtube.com/layoutland">Layout Land videos</a></li>
+          <li><a href="http://jensimmons.com">jensimmons.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+```
+
 ## 📹 Video
 
-To recap all we have learn about CSS Grid, let's watch [Free Code Camp CSS Grid video](https://www.youtube.com/watch?v=t6CBKf8K_Ac).
+To recap all info we have learned about CSS Grid, let's watch [Free Code Camp CSS Grid video](https://www.youtube.com/watch?v=t6CBKf8K_Ac).
