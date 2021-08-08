@@ -7,7 +7,7 @@
 
 ## 🦉 Introducere
 
-DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor DOM](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor pot fi reflectate in afisarea documentului.
+DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)) este o interfata de programare (API) a aplicatiilor care trateaza un document HTML, XHTML sau XML ca o structura de arbore in care fiecare nod este un obiect reprezentand o parte a documentului. Obiectele pot fi manipulate in mod programat, cu ajutorul [functiilor DOM](https://www.impressivewebs.com/10-essential-dom-methods-techniques-for-practical-javascript/), iar eventualele schimbari vizibile aparute in urma executarii lor vor fi reflectate in afisarea documentului.
 
 ## 🎢 Exercitii
 
@@ -19,7 +19,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 - Gasiti logo-ul Google si stocati-l intr-o variabila.
 - Modificati sursa imaginii (url-ul) astfel incat sa apara logo-ul de la Yahoo. Puteti cauta url-ul logo-ului de la Yahoo intr-un motor de cautare.
 - Gasiti butonul de search Google si stocati-l intr-o variabila.
-- Modificati textul buttonului astfel incat sa scrie Yahoo.
+- Modificati textul buttonului astfel incat sa scrie "Yahoo".
 
 ### 💪 Exercitiul 6.2
 
@@ -38,10 +38,10 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Schimbati stilul din `<body>` astfel incat sa avem font-family: _Arial, sans-serif_.
-- Inlocuiti ficare `<span>` (_nickname, favorites, hometown_) cu informatiile voastre.
+- Inlocuiti fiecare `<span>` (_nickname, favorites, hometown_) cu informatiile voastre.
 - Iterati prin fiecare `<li>` si adaugati clasa _list-item_.
 - Creati un fisier CSS (conectati-l la document) cu stilurile necesare clasei _list-item_ pentru a avea un text rosu.
-- Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acel element in pagina.
+- Creati un nou element `<img>` cu atributul `src` catre o imagine cu voi. Adaugati acest element in pagina.
 
 ### 💪 Exercitiul 6.3
 
@@ -50,7 +50,7 @@ DOM ([Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Do
 - Creati un document HTML (_filme.html_) cu titlul "Filmele mele favorite:", folosind tag-ul `<h1>`.
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Creati un vector cu obiecte care sa contina informatiile filmelor favorite. Obiectul trebuie sa includa _titlu_ (string), _durata_ (number), _actori_ (array of strings) si o propietate de tip boolean care sa indice daca filmul a fost vizualizat sau nu.
-- Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina elemente `<p>` care sa contina titlul filmului.
+- Iterati prin vector si creati dinamic (folosind `document.createElement`) in pagina cate un element`<p>` care sa contina titlul filmului.
 
 ### 🎁 Exercitiul 6.4
 
