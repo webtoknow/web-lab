@@ -67,13 +67,13 @@ getCartValue(blackFridayCart); // 1103.3
 
 ### Map
 
-- Implementati functia _[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)_, astfel incat aceasta sa se comporte ca mai jos:
+- Implementati functia _[map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)_ care creeaza un nou vector (array) continand rezultatele executiei unei functii date (callbackFunction) pentru fiecare element.
 
 ```JS
 Array.prototype.myMap = function(callbackFunction) {
   const array = this;
   let newArray = [];
-  ...
+  // codul tau aici
   return newArray
 }
 
@@ -83,4 +83,46 @@ function multiplicator(element) {
 
 [1,2,3].map(multiplicator); // [2,4,6]
 [1,2,3].myMap(multiplicator); // [2,4,6]
+```
+
+## 🎁 Exercitiul 5.6
+
+### Filter
+
+- Implementati functia _[filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)_ care creeaza un nou vector (array) continand elementele care trec testul dat de o functie (callbackFunction):
+
+```JS
+Array.prototype.myFilter = function(callbackFunction) {
+  const array = this;
+  let newArray = [];
+  // codul tau aici
+  return newArray
+}
+
+function biggerThanFive(element) {
+    return element > 4;
+}
+
+[1,2,3,4,5,6,7,8,9].filter(biggerThanFive); // [5,6,7,8,9]
+[1,2,3,4,5,6,7,8,9].myFilter(biggerThanFive); // [5,6,7,8,9]
+```
+
+## 🎁 Exercitiul 5.7
+
+### Reduce
+
+- Implementati functia _[reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)_ care executa o functie `reducer` pe fiecare element din vector rezultand la final o singura valoare.
+
+```JS
+Array.prototype.myReduce = function(callbackFunction, initialVal) {
+  const array = this;
+  let accumulator = (initialVal === undefined) ? undefined : initialVal;
+  // codul tau aici
+  return accumulator
+}
+
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+[1,2,3,4].reduce(reducer); // 10
+[1,2,3,4].myReduce(reducer); // 10
 ```
