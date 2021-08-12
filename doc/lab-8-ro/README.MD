@@ -24,21 +24,21 @@ In animatia de mai sus este prezentat modul de comunicare dintre client (browser
 
  1. Browser-ul face prima cerere catre server pentru a aduce documentul HTML;
 
- 2. Server-ul raspunde cu documentul HTML, care contine doar link-urile catre fisierele de CSS si Javascript;
+ 2. Server-ul raspunde cu documentul HTML, care contine doar link-urile catre fisierele de CSS si JavaScript;
 
  3. Browser-ul parseaza HTML-ul;
 
  4. Browser-ul face noi cereri pentru fisierele cu referinta in HTML;
 
- 5. Server-ul raspunde cu fisierele CSS si Javascript cerute;
+ 5. Server-ul raspunde cu fisierele CSS si JavaScript cerute;
 
- 6. Browser-ul executa codul Javascript si creeaza structura paginii (layout/template);
+ 6. Browser-ul executa codul JavaScript si creeaza structura paginii (layout/template);
 
  7. Browser-ul face noi cereri pentru fisierele JSON cu informatiile necesare redarii continutului;
 
  8. Server-ul interogheaza baza de date si creeaza fisierele JSON cu informatiile cerute;
 
- 9. Server-ul raspunde catre browser cu fisierele JSON;
+ 9. Server-ul ii raspunde browser-ului cu fisierele JSON;
 
  10. Browser-ul reda continutul in structura paginii.
 
