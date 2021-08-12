@@ -94,7 +94,7 @@ npm install -g json-server
 json-server --watch db.json
 ```
 
-- By accessing the link [http://localhost:3000/dogs](http://localhost:3000/dogs), you will be able to see the dog list:
+- By accessing the link [http://localhost:3000/dogs](http://localhost:3000/dogs), if you started the server correctly, you will be able to see the dog list:
 
 ```json
 [
