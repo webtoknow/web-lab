@@ -149,7 +149,7 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 - Add an event on _Stop_ button and create the function to stop to dog's movement.
 - Add an event on _Go Faster!_ button and create the function to increase the dog's movement speed.
 - Display in the tag identified by _info_ id the movement speed calculated in pixels per second (Speed: 300px/second).
-- Dinamically create the _Reset speed_ button with _reset-button_ id.
+- Dynamically create the _Reset speed_ button with _reset-button_ id.
 - Add an event on _Reset speed_ button and create the function to reset the speed.
 - Simulate the session expiration functionality so that after 30 seconds of inactivity (no button was pressed), an alert is displayed with the following message: "Session expired!". Use the _setTimeout_ function.
 - Disable the _Start_ button using the _disabled_ attribute when the dog is moving.
