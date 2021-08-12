@@ -25,7 +25,7 @@ Metodele POST si PUT trebuie sa contine in header `Content-Type: application/jso
 
 #### Pornire mock server
 
-- Porniti JSON Server folosind comanda de mai jos (fisierul db.json a fost creat in laboratorul trecut):
+- Porniti JSON Server folosind comanda de mai jos (fisierul *db.json* a fost creat in laboratorul trecut):
 
 ```bash
 json-server --watch db.json
@@ -55,7 +55,7 @@ Salvati noi entitati pe server - actiune de tip [POST](https://restfulapi.net/ht
 
 #### 💪 Exercitiul 9.2.3
 
-Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://restfulapi.net/http-methods/#put) - _Update_ folosind input-urile si doua butoane noi: `Edit` si `Update`.
+Editati entitatile existente si salvati-le pe server - actiune de tip [PUT](https://restfulapi.net/http-methods/#put) - _Update_, folosind input-urile si doua butoane noi: `Edit` si `Update`.
 
 ![PUT animation](PUT-dogs-animation.gif)
 
