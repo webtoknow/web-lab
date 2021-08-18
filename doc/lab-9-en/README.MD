@@ -1,4 +1,4 @@
-# Laborator 9 - [JS] - AJAX and client side rendering - Second part
+# Lab 9 - [JS] - AJAX and client side rendering - Second part
 
 ## Content
 
