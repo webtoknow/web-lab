@@ -10,7 +10,7 @@
 ## 🦉 Introducere
 
 [Evenimentele](https://developer.mozilla.org/en-US/docs/Web/Events) in JavaScript sunt actiuni sau intamplari care sunt declansate de utilizator sau de browser.
-Sunt multe tipuri de evenimente care sunt chemate, iar cateva dintre ele sunt:
+Sunt multe tipuri de evenimente care pot fi chemate, iar cateva dintre ele sunt:
 
 - utilizatorul da click pe un element din pagina;
 - utilizatorul pune cursorul pe un element din pagina;
@@ -38,8 +38,8 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 
 <ul>
   <li>Locuri vizitate: <input type="text" id="places" /></li>
-  <li>Adjective: <input type="text" id="adjective" /></li>
-  <li>Nume: <input type="text" id="person" /></li>
+  <li>Caracteristici: <input type="text" id="characteristics" /></li>
+  <li>Nume: <input type="text" id="people" /></li>
 </ul>
 
 <button id="story-button">Creaza povestea!</button>
@@ -151,8 +151,8 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 - Afisati in tag-ul identificat prin id-ul _info_ viteza de miscare, calculata in pixeli pe secunda (Viteza: 300px/secunda).
 - Creati dinamic butonul _Reset speed_ cu id-ul _reset-button_.
 - Adaugati un eveniment pe butonul _Reset speed_ si creati functia pentru a reseta viteza.
-- Simulati functionalitatea de expirare a sesiunii astfel incat dupa 30 secunde de inactivitate (nu a fost apasat niciun buton) sa fie afisata o alerta cu mesajul "Sesiune expirata". Folositi functia _setTimeout_.
-- Dezactivati butonul _Start_ folosind atributul _disabled_ atunci cand catelul este in miscare;
+- Simulati functionalitatea de expirare a sesiunii astfel incat dupa 30 secunde de inactivitate (nu a fost apasat niciun buton) sa fie afisata o alerta cu mesajul "Sesiune expirata!". Folositi functia _setTimeout_.
+- Dezactivati butonul _Start_ folosind atributul _disabled_ atunci cand catelul este in miscare.
 
 ### 🎁 Exercitiul 7.4
 
