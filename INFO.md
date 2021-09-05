@@ -60,7 +60,7 @@ e. raspuns la intrebarile bonus adresate pe parcurs (2 puncte/raspuns corect)
 - Creare server Backend (2 puncte)
 - CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului (6 puncte)
 
-### Punctaj subiectiv (maxim 5 puncte)
+#Ai## Punctaj subiectiv (maxim 5 puncte)
 
 Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de exemplu:
 
