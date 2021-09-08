@@ -71,7 +71,7 @@ Let's create a HTML document (*index.html*) with your personal description (incl
 
 ### 💪 Exercise 1.2
 
-Create a HTML document (*cv.html*) with your personal CV containing at least 2 sections (Professional experience,, Education), including a list of at least 3 elements (jobs, graduations and so on). Also, add the list of skills you have in the ``<aside>`` section of the document.
+Create a HTML document (*cv.html*) with your personal CV containing at least 2 sections (Work experience, Education), including a list of at least 3 elements (jobs, graduations and so on). Also, add the list of skills you have in the ``<aside>`` section of the document.
 
 Example of website containing also the personal CV:
 
