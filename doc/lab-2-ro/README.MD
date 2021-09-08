@@ -63,7 +63,7 @@ Iata cum adaugam stiluri paginilor web:
 
 Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-cheat-sheet.pdf).
 
-Totodata, ne putem ajuta de developer.mozilla.org pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
+Totodata, ne putem ajuta de [developer.mozilla.org](developer.mozilla.org) pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
 
 ## 🚀 Playground
 
@@ -235,9 +235,9 @@ body {
 
 ```
 
-La finalul tuturor exercitiilor pagina trebuie sa arate asemanator cu imaginea de mai jos:
+La finalul tuturor exercitiilor, pagina trebuie sa arate asemanator cu imaginea de mai jos:
 
-![Design website personal - resume](personal-website-resume.png)
+![Design personal website - resume](personal-website-resume.png)
 
 ## 💪 Exercitiul 2.2
 
