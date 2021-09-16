@@ -1,15 +1,15 @@
-# Laborator 11 - [NodeJS] - CRUD API
+# Lab 11 - [NodeJS] - CRUD API
 
-## Cuprins
+## Content
 
-- [🦉 Introducere](#-Introducere)
-- [🎢 Exercitii](#-Exercitii)
+- [🦉 Intro](#-Intro)
+- [🎢 Exercises](#-Exercises)
 
-## 🦉 Introducere
+## 🦉 Intro
 
-In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles/what-is-crud) (_Create_, _Read_, _Update_ si _Delete_) asociate cu metodele HTTP corespunzatoare:
+In the table below we can see the [CRUD](https://www.codecademy.com/articles/what-is-crud) (_Create_, _Read_, _Update_ and _Delete_) operations linked with the appropriate HTTP methods:
 
-| CRUD Operation | HTTP method | URL       | URL params | Request body | example                  |
+| CRUD Operation | HTTP method | URL       | URL params | Request body | Example                  |
 | -------------- | ----------- | --------- | ---------- | ------------ | ------------------------ |
 | _Create_       | POST        | /dogs     |            | body: {...}  | POST /dogs body: {...}   |
 | _Read One_     | GET         | /dogs/:id | :id        |              | GET /dogs/123            |
@@ -17,19 +17,19 @@ In tabelul de mai jos avem operatiile [CRUD](https://www.codecademy.com/articles
 | _Update_       | PUT         | /dogs/:id | :id        | body: {...}  | PUT /dogs/123 body:{...} |
 | _Delete_       | DELETE      | /dogs/:id | :id        |              | DELETE /dogs/123         |
 
-## 🎢 Exercitii
+## 🎢 Exercises
 
-### 💪 Exercitiul 11.1
+### 💪 Exercise 11.1
 
-#### Creare proiect si instalare pachete
+#### Project creation and installation of packages
 
-- Creati un nou proiect folosind npm:
+- Create a new project using npm:
 
 ```bash
 npm init
 ```
 
-- Instalati toate pachetele [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), [cors](https://expressjs.com/en/resources/middleware/cors.html), [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/), folosind comenzile de mai jos:
+- Install all the [express](https://expressjs.com/), [bodyParser](https://github.com/expressjs/body-parser), [cors](https://expressjs.com/en/resources/middleware/cors.html), [uuid](https://github.com/kelektiv/node-uuid#readme), [morgan](https://github.com/expressjs/morgan) and [nodemon](https://nodemon.io/) packages by running the commands below:
 
 ```bash
 npm install --save express body-parser cors uuid
@@ -43,7 +43,7 @@ npm install --save-dev morgan nodemon
 npm install -g nodemon
 ```
 
-- Creati un fisier `db.json` cu continutul de mai jos:
+- Create a `db.json` file with the following content:
 
 ```json
 {
@@ -77,7 +77,7 @@ npm install -g nodemon
 }
 ```
 
-- Creati un fisier `index.js` cu continutul de mai jos:
+- Create an `index.js` file with the content below:
 
 ```javascript
 // Import packages
@@ -89,7 +89,7 @@ const uuid = require("uuid");
 
 const fs = require("fs");
 
-// Aplicatia
+// Application
 const app = express();
 
 // Middleware
@@ -100,39 +100,39 @@ app.use(cors());
 // Create
 app.post("/dogs", (req, res) => {
   const dogsList = readJSONFile();
-  // Completati cu codul vostru aici
+  // Fill in your code here
 });
 
 // Read One
 app.get("/dogs/:id", (req, res) => {
   const dogsList = readJSONFile();
-  // Completati cu codul vostru aici
+  // Fill in your code here
 });
 
 // Read All
 app.get("/dogs", (req, res) => {
   const dogsList = readJSONFile();
-  // Completati cu codul vostru aici
+  // Fill in your code here
 });
 
 // Update
 app.put("/dogs/:id", (req, res) => {
   const dogsList = readJSONFile();
-  // Completati cu codul vostru aici
+  // Fill in your code here
 });
 
 // Delete
 app.delete("/dogs/:id", (req, res) => {
   const dogsList = readJSONFile();
-  // Completati cu codul vostru aici
+  // Fill in your code here
 });
 
-// Functia de citire din fisierul db.json
+// Reading function from db.json file
 function readJSONFile() {
   return JSON.parse(fs.readFileSync("db.json"))["dogs"];
 }
 
-// Functia de scriere in fisierul db.json
+// Writing function from db.json file
 function writeJSONFile(content) {
   fs.writeFileSync(
     "db.json",
@@ -146,54 +146,54 @@ function writeJSONFile(content) {
   );
 }
 
-// Pornim server-ul
+// Starting the server
 app.listen("3000", () =>
   console.log("Server started at: http://localhost:3000")
 );
 ```
 
-- Porniti server-ul de dezvoltare folosind nodemone:
+- Let's start the development server by using nodemone:
 
 ```bash
 nodemon index.js
 ```
 
-sau folosind [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
+or by using [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging).
 
-> Putem sa comparam rezultatele noastre cu solutia finala folosind serverul: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs).
+> We can compare our results with the final solution using the: [https://morning-cheddar.glitch.me/dogs](https://morning-cheddar.glitch.me/dogs) server.
 
-### 💪 Exercitiul 11.2
+### 💪 Exercise 11.2
 
-Importati colectia [dogs-API-postman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) in [Postman](https://www.postman.com/downloads/) pentru a va ajuta la testarea serverului.
+Import the [dogs-API-postman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) collection in [Postman](https://www.postman.com/downloads/) to help you to test the server.
 
-### 💪 Exercitiul 11.3
+### 💪 Exercise 11.3
 
-Pornind de la codul scris in `index.js`, creati un API rezolvand exercitiile urmatoare.
+Starting from the code in the `index.js` file, create an API by solving the following exercises.
 
-> La fiecare pas, asigurati-va ca faceti urmatoarele actiuni:
+> At each step, make sure you do the actions below::
 >
-> - 1 - Interceptare REQUEST
-> - 2 - Interactiune cu baza de date
-> - 3 - Trimitere RESPONSE inapoi CLIENT
+> - 1 - REQUEST interception
+> - 2 - Interaction with the database
+> - 3 - Sending RESPONSE back to the CLIENT
 
 ![CRUD](CRUD.png)
 
-### 💪 Exercitiul 11.3.1
+### 💪 Exercise 11.3.1
 
-Salvati noile entitati de la client in fisierul `db.json` - actiune de tip POST - _Create_.
+Save the new entities from client in the `db.json` file - POST action - _Create_.
 
-#### 💪 Exercitiul 11.3.2
+#### 💪 Exercise 11.3.2
 
-Trimiteti la client o anumita entitate in functie de _id_ din fisierul `db.json` - actiune de tip GET - _Read One_
+Send to the client a specific entity from the `db.json` file conisdering the _id_ - GET action - _Read One_
 
-#### 💪 Exercitiul 11.3.3
+#### 💪 Exercise 11.3.3
 
-Trimiteti la client toate entitatile din fisierul `db.json` - actiune de tip GET - _Read All_
+Send back to the client all the entities from the `db.json` file - GET action - _Read All_
 
-#### 💪 Exercitiul 11.3.4
+#### 💪 Exercise 11.3.4
 
-Actualizati o anumita entitate in functie de _id_ in fisierul `db.json` - actiune de tip PUT - _Update_.
+Update a specific entity in the `db.json` file considering the _id_ - PUT action - _Update_.
 
-#### 💪 Exercitiul 11.3.5
+#### 💪 Exercise 11.3.5
 
-Stergeti una din entitatile existente din lista in functie de _id_ din fisierul `db.json` - actiune de tip DELETE - _Delete_.
+Delete one specific entity in the list from the `db.json` file considering the _id_ - DELETE action - _Delete_.

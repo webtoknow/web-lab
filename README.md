@@ -1,10 +1,66 @@
-# Exercitii laborator Tehnici Web + Informatii proiecte
+# HTML, CSS & JS Labs
+
+## Content/Continut
+
+- [English](#english)
+  - [Intro](#intro)
+  - [Exercises](#exercises)
+- [Romana](#romana)
+  - [Introducere](#introducere)
+  - [Exercitii](#exercitii)
+
+## English
+
+### Intro
+
+A web developer needs to deeply understand many concepts from various subdomains of the IT industry, such as: computer operation, web/Linux/Windows server administration, networking and, last but not least, programming languages useful for application development (HTML, CSS, Javascript, Java, PHP, Nodejs, Python and so on).
+
+Here we have an example regarding what we should follow as [frontend developer](https://frontendchecklist.io) and [backend developer](https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture) when we build web applications.
+
+### Exercises
+
+This repo contains all the HTML, CSS and JS exercises we will go through:
+
+- [Lab 1 - [HTML] - Intro](doc/lab-1-en)
+- [Lab 2 - [CSS] - Intro](doc/lab-2-en)
+- [Lab 3 - [CSS] - Layout and Flexbox](doc/lab-3-en)
+- [Lab 4 - [CSS] - CSS Grid](doc/lab-4-en)
+- [Lab 5 - [JS] - Objects and functions](doc/lab-5-en)
+- [Lab 6 - [JS] - DOM](doc/lab-6-en)
+- [Lab 7 - [JS] - Events](doc/lab-7-en)
+- [Lab 8 - [JS] - AJAX and client side rendering - First part](doc/lab-8-en)
+- [Lab 9 - [JS] - AJAX and client side rendering - Second part](doc/lab-9-en)
+- [Lab 10 - [NodeJS] - Intro](doc/lab-10-en)
+- [Lab 11 - [NodeJS] - CRUD API](doc/lab-11-en)
+
+#### Helpful icons
+
+- 🦉 - "Owl Atena" brings us the information we need to solve the exercises
+- 🚀 - "Rocket Musk" shows us it's time to play
+- 📹 - "Video camera" brings us some easy to assimilate info
+- 🎢 - "Carousel Kody" points the area where the exercises are
+- 💪 - "Mr. Muscle" mark the exercises we should solve
+- 🎁 - "Bonus Gift" helps us to go beyond our limits with advanced exercises
+
+#### Requirements
+
+To solve the exercises, we need:
+
+- a text editor, for example:
+  - [Visual Studio Code](https://code.visualstudio.com/Download)
+  - [Atom](https://atom.io)
+  - [Brackets](http://brackets.io/)
+- [Nodejs](https://nodejs.org/en/) installed on our computer
+
+## Romana
+
+### Introducere
 
 Un dezvoltator web are nevoie sa inteleaga in profunzime multe concepte din diverse subdomenii ale industriei IT, precum operare pe calculator, administrare servere web/Linux/Windows, retelistica si, nu in ultimul rand, limbaje de programare necesare pentru dezvoltarea aplicatiilor (HTML, CSS, Javascript, Java, PHP, Nodejs, Python etc.).
 
 Iata aici un exemplu de ce trebuie urmarit ca [frontend developer](https://frontendchecklist.io) si [backend developer](https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture) in dezvoltarea unei aplicatii web.
 
-## 🎢  Exercitii
+### Exercitii
 
 Acest repository contine exercitiile pe care le vom parcurge in cadrul laboratorului de Tehnici Web.
 
@@ -27,7 +83,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
   - [Workshop Angular](doc/workshop-angular-lab-11-12-ro)
   - [Workshop React](doc/workshop-react-lab-11-12-ro)
 
-### Iconite ajutatoare
+#### Iconite ajutatoare
 
 - 🦉 - "Bufnita Atena" ne aduce informatiile necesare pentru rezolvarea exercitiilor
 - 🚀 - "Racheta Musk" ne arata ca e timpul sa ne jucam
@@ -36,7 +92,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - 💪 - "Domnul Muschi" marcheaza exercitiile pe care trebuie sa le rezolvam
 - 🎁 - "Cadoul Bonus" ne ajuta sa ne depasim limitele cu exercitii avansate
 
-### Cerinte
+#### Cerinte
 
 Pentru efectuarea exercitiilor de laborator este nevoie de:
 
@@ -45,77 +101,3 @@ Pentru efectuarea exercitiilor de laborator este nevoie de:
   - [Atom](https://atom.io)
   - [Brackets](http://brackets.io/)
 - [Nodejs](https://nodejs.org/en/) instalat pe calculator
-
-## Informatii laborator si proiect
-
-Punctajul maxim care poate fi obtinut in cadrul laboratorului este de 40 puncte: 10 puncte activitate laborator si 30 puncte proiect.
-Punctajul minim de intrare in examen este 20 puncte.
-
-### Activitate laborator (maxim 10 puncte)
-
-Punctele pentru activitatea din cadrul laboratorului se pot obtine astfel:
-
-a. minim 10 prezente (maxim 5 puncte)
-
-b. toate laboratoarele rezolvate (maxim 5 puncte)
-
-c. rezolvarea tuturor exercitiilor (fara proiecte) de pe [Free Code Camp](https://www.freecodecamp.org/learn), pana in saptamana 7, din sectiunile:
-
-- Responsive Web Design Certification (3 puncte)
-- JavaScript Algorithms and Data Structures Certification (3 puncte)
-
-d. maxim 2 prezentari tehnice (in Power Point sau un program similar) de 5-7 minute legate de cate o problema intampinata la proiect (maxim 2 puncte/prezentare)
-
-e. raspuns la intrebarile bonus adresate pe parcurs (2 puncte/raspuns corect)
-
-> Se acorda punctaje partiale **doar** pentru a, b si d.
-
-### Proiect (maxim 30 puncte)
-
-**Tema:** Construiti o aplicatie web care respecte criteriile de acceptanta si cerintele de mai jos. Tematica site-ului este la libera alegere.
-
-**Criterii de acceptanta:**
-
-- aplicatia sa fie [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application)
-- codul sursa (nearhivat) al proiectului trebuie sa fie salvat pe [GitHub](https://github.com/)
-- nu puteti folosi librarii, framework-uri [CSS](https://en.wikipedia.org/wiki/CSS_framework) sau [JavaScript](https://en.wikipedia.org/wiki/JavaScript_framework) (cum ar fi jQuery, Bootstrap, Angular, React, etc) pentru realizarea frontend-ului
-
-> **Atentie!** Orice proiect care nu respecta criteriile de acceptanta este evaluat la 0 puncte.
-
-#### Frontend (maxim 17 puncte)
-
-##### HTML si CSS (maxim 8 puncte)
-
-- Fisiere separate pentru HTML si CSS (0.5 puncte)
-- In interiorul documentelor HTML, sa se foloseasca minim 4 [taguri semantice](https://www.w3schools.com/html/html5_semantic_elements.asp) (1 punct)
-- Stilurile CSS sa fie definite folosind clase direct pe elementele care trebuie stilizate (minim 80% din selectori) (0.5 punct)
-- Layout-ul sa fie impartit in minim 2 coloane si sa fie realizat cu [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) si/sau [CSS grid](https://css-tricks.com/snippets/css/complete-guide-grid/) (2 puncte)
-- Site-ul sa fie [responsive](https://www.w3schools.com/html/html_responsive.asp), respectand rezolutiile urmatoarelor dispozitive folosind [media queries](https://www.uxpin.com/studio/blog/media-queries-responsive-web-design/): (4 puncte)
-  - telefon mobil - latime mai mica 768px
-  - tableta - latime intre 768px si 1280px
-  - desktop - latime mai mare de 1280px
-
-##### Javascript (maxim 9 puncte)
-
-- Fisier separat JavaScript (0.5 puncte)
-- Manipularea DOM-ului (crearea, editarea si stergerea elementelor/nodurilor HTML) (3 puncte)
-- Folosirea evenimentelor JavaScript declansate de mouse/tastatura (1 punct)
-- Utilizarea [AJAX](https://www.w3schools.com/xml/ajax_intro.asp) ([GET, POST, PUT, DELETE](http://www.restapitutorial.com/lessons/httpmethods.html)) (4 puncte)
-- Folosirea localStorage (0.5 puncte)
-
-#### Backend API (maxim 8 puncte)
-
-- Creare server Backend (2 puncte)
-- CRUD API (Create, Read, Update si Delete) pentru a servi Frontend-ului (6 puncte)
-
-#### Punctaj subiectiv (maxim 5 puncte)
-
-Ne vom imagina ca aplicatia trebuie prezentata unui client, care va aprecia, de exemplu:
-
-- calitatea sustinerii prezentarii proiectului
-- designul (sa arate placut si ingrijit)
-- utilitatea (sa rezolve probleme reale)
-- stabilitatea (sa NU contina defecte evidente)
-- complexitatea (sa aiba mai multe ecrane, layout-ul sa fie mai complex etc.)
-
-> Pana in saptamana 12 inclusiv, studentii pot veni cu intrebari legate de proiect pentru a fi ajutati. Dupa aceea, criteriile de acceptanta si cerintele vor fi considerate ca fiind intelese pe deplin.

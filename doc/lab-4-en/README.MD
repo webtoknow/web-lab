@@ -21,7 +21,7 @@ The following exercises will continue our journey to build a personal website.
 
 ### 💪 Exercise 4.1
 
-Use the [template page](lab-3-ro) from previous exercises to create a new HTML document (_index.html_). Fill in the markup and use CSS Grid to style the page as in the design below.
+Use the [template page](../lab-3-en) from previous exercises to create a new HTML document (_index.html_). Fill in the markup and use [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) to style the page as in the design below:
 
 ![Design website personal - about me](personal-website-about-me.png)
 
@@ -29,7 +29,7 @@ Use the [template page](lab-3-ro) from previous exercises to create a new HTML d
 
 ### 💪 Exercise 4.2
 
-Use [_CSS media queries_](https://web.dev/responsive-web-design-basics/#media-queries) to change how the website looks on diferent devices:
+Use [_CSS media queries_](https://web.dev/responsive-web-design-basics/#media-queries) to change how the website looks on different devices:
 
 - resolution smaller than 768px - mobile
 - resolution between 768px and 990px - tablet
@@ -45,15 +45,15 @@ Use portofolio page markup from previous exercises to create new pages (_grid-po
 
 #### Grid
 
-![Design website personal - portofolio](portofolio.png)
+![Personal website design - portofolio](portofolio.png)
 
 #### Explicitly placed
 
-![Design website personal - portofolio explicitly-placed](explicitly-placed.png)
+![Personal website design - portofolio explicitly-placed](explicitly-placed.png)
 
 #### Overlap
 
-![Design website personal - portofolio overlap](overlap.png)
+![Personal website design - portofolio overlap](overlap.png)
 
 #### Resolution
 
@@ -63,7 +63,7 @@ Use portofolio page markup from previous exercises to create new pages (_grid-po
 
 ### 🎁 Exercise 4.5
 
-Create a new page _lab.html_ and add the below markup and use CSS Grid to style  "The Experimental Layout Lab" like in the design below. Please choose the responsive design break point for different devices.
+Create a new page named _lab.html_, then add the below markup and use CSS Grid to style  it like in the design below. Please choose your own values of responsive design break points for different devices.
 
 ![Lab](lab.png)
 
@@ -99,4 +99,4 @@ Create a new page _lab.html_ and add the below markup and use CSS Grid to style 
 
 ## 📹 Video
 
-To recap all info we have learned about CSS Grid, let's watch [Free Code Camp CSS Grid video](https://www.youtube.com/watch?v=t6CBKf8K_Ac).
+To recap all info we have learned about CSS Grid, let's watch [Free Code Camp CSS Grid video](https://www.youtube.com/watch?v=t6CBKf8K_Ac). Also, because we started to know something about what a Frontend developer does, here is a video which deeply explains that: [Ce face un Frontend developer?](https://youtu.be/akt2gpjbiRU).

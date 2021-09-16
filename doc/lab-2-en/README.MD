@@ -1,14 +1,14 @@
-# Laborator 2 - [CSS] - Introducere
+# Lab 2 - [CSS] - Intro
 
-## Cuprins
+## Content
 
-- [🦉 Introducere](#-Introducere)
+- [🦉 Intro](#-Intro)
 - [🚀 Playground](#-Playground)
-- [🎢 Exercitii](#-Exercitii)
+- [🎢 Exercises](#-Exercises)
 
-## 🦉 Introducere
+## 🦉 Intro
 
-CSS sau `Cascading Style Sheets` este limbajul descriptiv ce se foloseste pentru stilizarea documentului HTML (paginii web):
+CSS or `Cascading Style Sheets` is the descriptive language used for styling the HTML document (the webpage:
 
 ![CSS Rules](https://www.teaching-materials.org/css/img/cssrule.png)
 
@@ -38,7 +38,7 @@ nav > a {
 }
 ```
 
-Iata cum adaugam stiluri paginilor web:
+Here is how we add styles to the webpages:
 
 ```HTML
 <!-- Inline Style -->
@@ -61,19 +61,19 @@ Iata cum adaugam stiluri paginilor web:
 </head>
 ```
 
-Pentru a invata mai usor proprietatile CSS putem folosi un [Cheat Sheet](css-cheat-sheet.pdf).
+To easily learn the CSS properties, we can use a [Cheat Sheet](css-cheat-sheet.pdf).
 
-Totodata, ne putem ajuta de [developer.mozilla.org](developer.mozilla.org) pentru a aprofunda [selectorii](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
+Also, [developer.mozilla.org](developer.mozilla.org) will help us to exercise [the selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors).
 
 ## 🚀 Playground
 
-[CSS Diner](https://flukeout.github.io/) ne ajuta sa invatam selectorii CSS. Hai sa ne jucam!
+[CSS Diner](https://flukeout.github.io/) helps us to have a better understanding of CSS selectors. Let's play!
 
-## 🎢 Exercitii
+## 🎢 Exercises
 
-### 💪 Exercitiul 2.1
+### 💪 Exercise 2.1
 
-Creati un document HTML (_cv.html_) cu markup-ul de mai jos si 2 fisiere CSS (_style.css_ si _resume-style.css_) care vor contine stilurile.
+Create a HTML document (_cv.html_) with the following markup and 2 CSS files (_style.css_ and _resume-style.css_) with its styles.
 
 ```HTML
 <!DOCTYPE html>
@@ -198,7 +198,7 @@ Creati un document HTML (_cv.html_) cu markup-ul de mai jos si 2 fisiere CSS (_s
 </html>
 ```
 
-Pentru inceput, adaugam urmatoarele stiluri in _style.css_:
+For the beginning, let's add the styles below in _style.css_ file:
 
 ```CSS
 * {
@@ -235,90 +235,90 @@ body {
 
 ```
 
-La finalul tuturor exercitiilor, pagina trebuie sa arate asemanator cu imaginea de mai jos:
+At the end of all the exercises, the page should look like this image:
 
 ![Design personal website - resume](personal-website-resume.png)
 
-## 💪 Exercitiul 2.2
+## 💪 Exercise 2.2
 
-Aplicati in pagina voastra fonturile `Open Sans` si `Lato` cu grosimile 400, 700 si 900, folosind [Google Fonts](https://fonts.google.com/).
+Let's apply in our page the `Open Sans` and `Lato` fonts with a thickness of 400, 700 and 900, using [Google Fonts](https://fonts.google.com/).
 
-### 💪 Exercitiul 2.3
+### 💪 Exercise 2.3
 
-Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
+Style the title of the page to have the following properties:
 
-- marginea sa fie `0`
-- tipul fontului sa fie `Lato`
-- marimea fontului sa fie de `38px`
-- grosimea fontului sa fie `900`
-- textul sa fie scris numai cu litere mari
-- textul sa fie aliniat la centru
+- its margin to be `0`
+- the font to be `Lato`
+- the size of the font to be `38px`
+- the font thickness to be `900`
+- the text to be written in block letters
+- the text to be aligned to the centre
 
-### 💪 Exercitiul 2.4
+### 💪 Exercise 2.4
 
-Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
+Style the subtitle of the page to have the properties below:
 
-- culoarea textului sa fie `#999`
-- marginea de jos sa fie de `1em`
-- tipul fontului sa fie `Lato`
-- marimea fontului sa fie de `1.5em`
-- distanta intre randuri sa fie de `1em`
-- textul sa fie scris numai cu litere mari
-- textul sa fie aliniat la centru
+- the text color to be `#999`
+- its bottom margin to be `1em`
+- the font to be `Lato`
+- the size of the font to be `1.5em`
+- the distance between rows to be `1em`
+- the text to be written in block letters
+- the text to be aligned to the centre
 
-### 💪 Exercitiul 2.5
+### 💪 Exercise 2.5
 
-Stilizati meniul de navigare astfel incat sa aiba urmatoarele proprietati:
+Style the navigation menu to have the following properties:
 
-Containerul meniului:
+The menu container:
 
-- lungimea sa fie de `990px`
-- marginile sa fie de `80px auto 0 auto`
-- textul sa fie aliniat la centru
+- the width to be `990px`
+- the margins to be `80px auto 0 auto`
+- the text to be aligned to the centre
 
-Optiunile din meniu:
+The menu options:
 
-- elementul sa fie de tip `inline-block`
-- marginea din dreapta sa fie de `10px`
-- marginea din stanga sa fie de `20px`
-- padding-ul sa fie de `10px 40px 10px 40px`
-- fundalul sa fie alb
-- scoateti _text-decoration_
-- grosimea fontului sa fie `bold`
-- textul sa fie scris numai cu litere mari
-- tipul fontului sa fie `Lato`
-- marimea fontului sa fie de `14px`
-- culoarea sa fie `#999`
-- alinierea verticala sa fie la baza de jos
+- the element to be of `inline-block` type
+- the right margin to be `10px`
+- the left margin to be `20px`
+- the padding to be `10px 40px 10px 40px`
+- the background to be white
+- remove _text-decoration_
+- the font thickness to be `bold`
+- the text to be written in block letters
+- the type of the font to be `Lato`
+- the size of the font to be `14px`
+- the color to be `#999`
+- the vertical alignment to be at baseline
 
-Optiune meniu activa:
+The active menu option:
 
-- pozitia sa fie relativa
-- elementul sa fie mai jos cu `1px` (_bottom_: `-1px`)
-- culoarea sa fie `#c0392b`
-- padding-ul sa fie de `15px 40px 15px 40px;`
-- marginea de sus sa fie `0`
+- the position to be relative
+- the element to be lower by `1px` (_bottom_: `-1px`)
+- the color to be `#c0392b`
+- the padding to be `15px 40px 15px 40px;`
+- the top margin to be `0`
 
-### 💪 Exercitiul 2.6
+### 💪 Exercise 2.6
 
-Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
+Style the `<hr>` tag to have the properties below:
 
-- marginea de sus si de jos sa fie de `25px`
-- border-ul sa fie de `1px`, `solid` si sa aiba culoarea `#f1f1f1`
+- the top margin to be `25px`
+- the border to be `1px`, `solid` and to have the `#f1f1f1` color
 
-### 💪 Exercitiul 2.7
+### 💪 Exercise 2.7
 
-Stilizati sectiunile _Experienta profesionala_ si _Educatie_ conform specificatiilor:
+Style the _Work experience_ and _Education_ sections according to the specifications:
 
-![Specificatii sectiunile Experienta profesionala si Educatie](work-experience-specs.png)
+![Specs for Work experience and Education sections](work-experience-specs.png)
 
-### 💪 Exercitiul 2.8
+### 💪 Exercise 2.8
 
-Stilizati sectiunea _Aptitudini_ conform specificatiilor:
+Style the _Skills_ section according to the specifications:
 
-![Specificatii sectiune Aptitudini](skills-specs.png)
+![Specs for Skills section](skills-specs.png)
 
-> Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator:
+> You can improve the design of the Skills bar using `background` and `linear-gradient`, like in the example below:
 
 ```CSS
 .skills-bg:before {
