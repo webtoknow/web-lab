@@ -7,7 +7,7 @@ const cors = require("cors");
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectId
 
-// Aplicatia
+// App
 const app = express();
 
 // Middleware
@@ -15,47 +15,55 @@ app.use(morgan("tiny"));
 app.use(bodyParser.json());
 app.use(cors());
 
-// URL-ul Mongodb
+// URL Mongodb
 const dbConnectionString = 'mongodb://localhost:27017'
 
-// Clientul Mongodb
-MongoClient.connect(dbConnectionString, {useNewUrlParser: true, useUnifiedTopology: true})
+// Client Mongodb
+MongoClient.connect(dbConnectionString, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(client => {
     console.log('db connected')
-    // Baza de date "dogs"
+    
+    // Database "dogs"
     const db = client.db('dogs');
-    // Colectia "dog"
+    // Collection "dog"
     const dogCollection = db.collection('dog')
 
     // Create
     app.post("/dogs", (req, res) => {
       const newDog = req.body;
-      dogCollection.insertOne(newDog).then(result => {
-        res.json(result.ops[0]);
-      }).catch((error) => {
-      })
+      dogCollection.insertOne(newDog).then((response) => {
+        const insertedDogId = response.insertedId;
+
+        dogCollection.findOne({ _id: new ObjectId(insertedDogId) })
+          .then((dog) => {
+            res.json(dog);
+          });
+      });
     });
 
-    // Citire informatii un sigur catel
+    // Read One
     app.get("/dogs/:id", (req, res) => {
       const id = req.params.id;
       dogCollection.findOne({
         _id: new ObjectId(id)
       })
-        .then(result => {
-          console.log(result);
-          res.json(result);
-        }).catch((error) => {
+        .then(response => {
+          res.json(response);
         })
+        .catch((error) => {
+          console.log(error);
+        });
     });
 
-    // Citire informatii lista
+    // Read All
     app.get("/dogs", (req, res) => {
       dogCollection.find().toArray()
-        .then(result => {
-          res.json(result)
-        }).catch((error) => {
+        .then((dogsList) => {
+          res.json(dogsList);
         })
+        .catch((error) => {
+          console.log(error);
+        });
     });
 
     // Update
@@ -63,38 +71,38 @@ MongoClient.connect(dbConnectionString, {useNewUrlParser: true, useUnifiedTopolo
       const id = req.params.id;
       const newDog = req.body;
 
-      var myquery = {
-        _id: new ObjectId(id),
-      }
-      var newvalues = { $set: newDog };
+      const dogQuerry = { _id: new ObjectId(id) };
+      const newDogValue = { $set: newDog };
 
-      dogCollection.updateOne(myquery, newvalues)
-        .then(result => {
-          console.log(result);
+      dogCollection.updateOne(dogQuerry, newDogValue)
+        .then(() => {
           res.json({ ...newDog, id: id });
-        }).catch((error) => {
         })
+        .catch((error) => {
+          console.log(error);
+        });;
+
     });
 
-    // Stergere
+    // Delete
     app.delete("/dogs/:id", (req, res) => {
       const id = req.params.id;
-      dogCollection.remove({
-        _id: new ObjectId(id)
-      })
-        .then(result => {
-          console.log(result);
-          res.send('ok');
-        }).catch((error) => {
+      dogCollection.deleteOne({ _id: new ObjectId(id) })
+        .then((response) => {
+          res.send(`The dog with ${id} was deleted`);
+          console.log(response);
         })
+        .catch((error) => {
+          console.log(error);
+        });
     });
 
   }).catch((error) => {
-    console.log('db not connected')
+    console.log('db not connected: ', error);
   })
 
 
-// Pornim server-ul
+// Starting the server
 app.listen("3000", () =>
   console.log("Server started at: http://localhost:3000")
 );
