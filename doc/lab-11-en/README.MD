@@ -164,7 +164,7 @@ or by using [VS Code debugger](https://code.visualstudio.com/docs/nodejs/nodejs-
 
 ### 💪 Exercise 11.2
 
-Import the [dogs-API-postman-collection.json](https://github.com/WebToLearn/laborator-tehnici-web/blob/rezolvari/code/laborator-11/dogs-API-postman-collection.json) collection in [Postman](https://www.postman.com/downloads/) to help you to test the server.
+Import the [dogs-API-postman-collection.json](https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-11-en/dogs-API-postman-collection.json) collection in [Postman](https://www.postman.com/downloads/) to help you to test the server.
 
 ### 💪 Exercise 11.3
 
