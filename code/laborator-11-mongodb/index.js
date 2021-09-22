@@ -19,7 +19,7 @@ app.use(cors());
 const dbConnectionString = 'mongodb://localhost:27017'
 
 // Clientul Mongodb
-MongoClient.connect(dbConnectionString)
+MongoClient.connect(dbConnectionString, {useNewUrlParser: true, useUnifiedTopology: true})
   .then(client => {
     console.log('db connected')
     // Baza de date "dogs"
