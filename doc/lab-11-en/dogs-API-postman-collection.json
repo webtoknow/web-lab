@@ -1,0 +1,82 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Laborator AJAX",
+		"_postman_id": "b7b62b05-5fa1-9442-9fd4-372e72098da1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"url": "http://localhost:3000/dogs",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"url": "http://localhost:3000/dogs",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"SMALL LHASA\",\n  \"img\": \"https://dog.ceo//api//img//lhasa//n02098413_3033.jpg\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"url": "http://localhost:3000/dogs/3",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"SMALL 2 LHASA\",\n  \"img\": \"https://dog.ceo//api//img//lhasa//n02098413_3033.jpg\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"url": "http://localhost:3000/dogs/4",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"SMALL 2 LHASA\",\n  \"img\": \"https://dog.ceo//api//img//lhasa//n02098413_3033.jpg\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
