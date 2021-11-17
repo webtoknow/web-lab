@@ -224,7 +224,7 @@ Use the template to create a new HTML document (_portfolio.html_) containing the
 
 Use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to style the gallery as in the design below.
 
-The number of columns used to display the images must be different based on rezolution (please use [CSS media queries](https://web.dev/learn/design/media-queries/)):
+The number of columns used to display the images must be different based on resolution (please use [CSS media queries](https://web.dev/learn/design/media-queries/)):
 
 - resolution smaller than 768px - 1 column (mobile)
 - resolution between 768px and 990px - 2 columns (tablet)
