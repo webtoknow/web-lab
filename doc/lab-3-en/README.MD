@@ -207,7 +207,7 @@ hr {
 
 ### 💪 Exercise 3.2
 
-Update the template styles with new menu styles for tablet and mobile (below 990px), as in the image below, and don't forget to use [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries):
+Update the template styles with new menu styles for tablet and mobile (below 990px), as in the image below, and don't forget to use [CSS media queries](https://web.dev/learn/design/media-queries/):
 
 ![Menu mobile](menu-mobile.PNG)
 
@@ -224,7 +224,7 @@ Use the template to create a new HTML document (_portfolio.html_) containing the
 
 Use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to style the gallery as in the design below.
 
-The number of columns used to display the images must be different based on rezolution (please use [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries)):
+The number of columns used to display the images must be different based on rezolution (please use [CSS media queries](https://web.dev/learn/design/media-queries/)):
 
 - resolution smaller than 768px - 1 column (mobile)
 - resolution between 768px and 990px - 2 columns (tablet)

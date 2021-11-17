@@ -204,7 +204,7 @@ hr {
 
 ### 💪 Exercitiul 3.1
 
-Completati markup-ul de mai sus cu stilurile meniului pentru mobil (la rezolutie mai mica de 768px) si tableta (la rezolutie mai mica de 990px)  folosind [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries) astfel incat sa arate ca in imaginea de mai jos.
+Completati markup-ul de mai sus cu stilurile meniului pentru mobil (la rezolutie mai mica de 768px) si tableta (la rezolutie mai mica de 990px)  folosind [CSS media queries](https://web.dev/learn/design/media-queries/) astfel incat sa arate ca in imaginea de mai jos.
 
 ![Menu mobile](menu-mobile.PNG)
 
@@ -220,7 +220,7 @@ Creati un document HTML (_portfolio.html_) al carui layout va contine mai multe 
 - https://picsum.photos/seed/f/400/400"
 
 Stilizati imaginile cu ajutorul [Flexbox-ului](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) astfel incat sa respecte aspectul designul de mai jos.
-Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in functie de rezolutie (folositi [CSS media queries](https://web.dev/responsive-web-design-basics/#media-queries)):
+Numarul de coloane folosit pentru afisarea imaginilor trebuie sa difere in functie de rezolutie (folositi [CSS media queries](https://web.dev/learn/design/media-queries/)):
 
 - rezolutie mai mica de 768px - 1 coloana (telefon mobil)
 - rezolutie mai mica de 990px - 2 coloane (tableta)
