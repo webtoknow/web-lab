@@ -18,7 +18,7 @@ There are many types of events that can be called, some of them are:
 - the user changes the size of the browser window or closes it;
 - a form was submitted;
 - the page has finished loading;
-- an error occured;
+- an error occurred;
 
 ## 📹 Video
 
