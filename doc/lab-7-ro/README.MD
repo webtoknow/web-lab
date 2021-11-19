@@ -118,7 +118,7 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 <div id="info"></div>
 <img
   style="position:absolute; left: 0px; top: 80px;"
-  src="https://raw.githubusercontent.com/WebToLearn/laborator-tehnici-web/master/doc/laborator-7/dog.gif"
+  src="https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-7-ro/dog.gif"
 />
 
 <script>
