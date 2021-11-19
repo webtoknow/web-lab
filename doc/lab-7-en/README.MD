@@ -118,7 +118,7 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 <div id="info"></div>
 <img
   style="position:absolute; left: 0px; top: 80px;"
-  src="https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-7-ro/dog.gif"
+  src="https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-7-en/dog.gif"
 />
 
 <script>
