@@ -122,22 +122,22 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 />
 
 <script>
-  var movePixels = 10; // number of pixels
-  var delayMs = 50; // number of miliseconds
+  var movePixels = 10; // numarul de pixeli
+  var delayMs = 50; // numarul de milisecunde
   var dogTimer = null;
 
-  // Move the image on screen with 10px
+  // Muta imaginea pe ecran cu 10px
   function dogWalk() {
     var img = document.getElementsByTagName("img")[0];
     var currentLeft = parseInt(img.style.left);
     img.style.left = currentLeft + movePixels + "px";
-    // reset image position to start
+    // reseteaza imaginea la pozitia de pornite
     if (currentLeft > window.innerWidth - img.width) {
       img.style.left = "0px";
     }
   }
 
-  // Call dogWalk function every 50 ms
+  // Apeleaza functia dogWalk la fiecare 50 ms
   function startDogWalk() {
     dogTimer = window.setInterval(dogWalk, delayMs);
   }
