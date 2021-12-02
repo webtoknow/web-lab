@@ -7,7 +7,7 @@
 
 ## 🦉 Intro
 
-In the table below we can find the CRUD operations (_Create_, _Read_, _Update_ si _Delete_) associated with the appropiate HTTP methods:
+In the table below we can find the CRUD operations (_Create_, _Read_, _Update_ si _Delete_) associated with the appropriate HTTP methods:
 
 | CRUD Operations | HTTP Methods | URL       | URL Parameters | Request body | Examples                 |
 | -------------- | ----------- | --------- | -------------- | ------------ | ------------------------ |
