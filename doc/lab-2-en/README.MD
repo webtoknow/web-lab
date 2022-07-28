@@ -251,7 +251,7 @@ Style the title of the page to have the following properties:
 - the font to be `Lato`
 - the size of the font to be `38px`
 - the font thickness to be `900`
-- the text to be written in block letters
+- the text to be written using uppercase letters
 - the text to be aligned to the centre
 
 ### 💪 Exercise 2.4
@@ -263,7 +263,6 @@ Style the subtitle of the page to have the properties below:
 - the font to be `Lato`
 - the size of the font to be `1.5em`
 - the distance between rows to be `1em`
-- the text to be written in block letters
 - the text to be aligned to the centre
 
 ### 💪 Exercise 2.5
