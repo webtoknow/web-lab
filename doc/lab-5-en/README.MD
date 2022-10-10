@@ -118,7 +118,6 @@ Array.prototype.myReduce = function(callbackFunction, initialVal) {
   const array = this;
   let accumulator = (initialVal === undefined) ? undefined : initialVal;
 
-  let newArray = [];
   // your code here
   return accumulator
 }
