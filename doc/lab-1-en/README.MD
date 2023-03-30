@@ -30,7 +30,7 @@ https://developer.mozilla.org/en-US/docs/Learn/
 https://developer.mozilla.org/en-US/search?q=URL
 ```
 
-![HTTP Response](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL/mdn-url-all.png)
+![HTTP Response](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-all.png)
 
 > Many info about URL we can find at [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL).
 
