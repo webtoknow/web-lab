@@ -248,7 +248,7 @@ Adaugati in pagina voastra, folosind [Google Fonts](https://fonts.google.com/) u
 
 ### 💪 Exercitiul 2.3
 
-Stilizati titlul (`.title`) paginii astfel incat sa aiba urmatoarele proprietati:
+Stilizati titlul paginii (`.title`) astfel incat sa aiba urmatoarele proprietati:
 
 - marginea sa fie `0`
 - tipul fontului sa fie `Lato`
@@ -259,7 +259,7 @@ Stilizati titlul (`.title`) paginii astfel incat sa aiba urmatoarele proprietati
 
 ### 💪 Exercitiul 2.4
 
-Stilizati subtitlul (`.subtitle`) paginii astfel incat sa aiba urmatoarele proprietati:
+Stilizati subtitlul paginii (`.subtitle`) astfel incat sa aiba urmatoarele proprietati:
 
 - culoarea textului sa fie `#999`
 - marginea de jos sa fie de `1em`
