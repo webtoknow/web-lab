@@ -241,11 +241,14 @@ La finalul tuturor exercitiilor, pagina trebuie sa arate asemanator cu imaginea 
 
 ## 💪 Exercitiul 2.2
 
-Aplicati in pagina voastra fonturile `Open Sans` si `Lato` cu grosimile 400, 700 si 900, folosind [Google Fonts](https://fonts.google.com/).
+Adaugati in pagina voastra, folosind [Google Fonts](https://fonts.google.com/) urmatoarele fonturi:
+* `Open Sans` cu grosimile 400, 700
+* `Lato` cu grosimile 400, 700 si 900
+> Un tutorial complet cum sa adaugam fonturile Google in site-ul nostru putem gasi la [Linux hint - How to Use Google Fonts in HTML and CSS](https://linuxhint.com/google-fonts-html/).
 
 ### 💪 Exercitiul 2.3
 
-Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
+Stilizati titlul paginii (`.title`) astfel incat sa aiba urmatoarele proprietati:
 
 - marginea sa fie `0`
 - tipul fontului sa fie `Lato`
@@ -256,7 +259,7 @@ Stilizati titlul paginii astfel incat sa aiba urmatoarele proprietati:
 
 ### 💪 Exercitiul 2.4
 
-Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
+Stilizati subtitlul paginii (`.subtitle`) astfel incat sa aiba urmatoarele proprietati:
 
 - culoarea textului sa fie `#999`
 - marginea de jos sa fie de `1em`
@@ -270,13 +273,13 @@ Stilizati subtitlul paginii astfel incat sa aiba urmatoarele proprietati:
 
 Stilizati meniul de navigare astfel incat sa aiba urmatoarele proprietati:
 
-Containerul meniului:
+Containerul meniului (`.menu`):
 
 - lungimea sa fie de `990px`
 - marginile sa fie de `80px auto 0 auto`
 - textul sa fie aliniat la centru
 
-Optiunile din meniu:
+Optiunile din meniu (`.menu-item`):
 
 - elementul sa fie de tip `inline-block`
 - marginea din dreapta sa fie de `10px`
@@ -291,7 +294,7 @@ Optiunile din meniu:
 - culoarea sa fie `#999`
 - alinierea verticala sa fie la baza de jos
 
-Optiune meniu activa:
+Optiune meniu activa (`.menu-item-active`):
 
 - pozitia sa fie relativa
 - elementul sa fie mai jos cu `1px` (_bottom_: `-1px`)
@@ -308,19 +311,22 @@ Stilizati tag-ul `<hr>` astfel incat sa aiba urmatoarele proprietati:
 
 ### 💪 Exercitiul 2.7
 
-Stilizati sectiunile _Experienta profesionala_ si _Educatie_ conform specificatiilor:
+Stilizati sectiunile _Experienta profesionala_ si _Educatie_ conform specificatiilor folosind clasele `resume` (`.resume-title`, `resume-info`, `.resume-subtitle`, etc.):
 
 ![Specificatii sectiunile Experienta profesionala si Educatie](work-experience-specs.png)
 
 ### 💪 Exercitiul 2.8
 
-Stilizati sectiunea _Aptitudini_ conform specificatiilor:
+Stilizati sectiunea _Aptitudini_ conform specificatiilor folosind clasele `skills` (`.skills`, `.skills-title`, `skills-item`, `.skills-bg`, etc.):
 
 ![Specificatii sectiune Aptitudini](skills-specs.png)
 
 > Puteti imbunatati design-ul barii de aptitudini folosind `background` si `linear-gradient`, ca in exemplul urmator:
 
 ```CSS
+.skills-bg {
+  position: relative;
+}
 .skills-bg:before {
   content: "";
   position: absolute;

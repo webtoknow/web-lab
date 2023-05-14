@@ -241,11 +241,14 @@ At the end of all the exercises, the page should look like this image:
 
 ## 💪 Exercise 2.2
 
-Let's apply in our page the `Open Sans` and `Lato` fonts with a thickness of 400, 700 and 900, using [Google Fonts](https://fonts.google.com/).
+Let's add in our page, using [Google Fonts](https://fonts.google.com/) the following fonts:
+* `Open Sans` with a thickness of 400 and 700
+* `Lato` with a thickness of 400, 700 and 900
+> A complete tutorial how to add Google font to our website we can find at [Linux hint - How to Use Google Fonts in HTML and CSS](https://linuxhint.com/google-fonts-html/).
 
 ### 💪 Exercise 2.3
 
-Style the title of the page to have the following properties:
+Style the title (`.title`) of the page to have the following properties:
 
 - its margin to be `0`
 - the font to be `Lato`
@@ -256,7 +259,7 @@ Style the title of the page to have the following properties:
 
 ### 💪 Exercise 2.4
 
-Style the subtitle of the page to have the properties below:
+Style the subtitle (`.subtitle`) of the page to have the properties below:
 
 - the text color to be `#999`
 - its bottom margin to be `1em`
@@ -269,13 +272,13 @@ Style the subtitle of the page to have the properties below:
 
 Style the navigation menu to have the following properties:
 
-The menu container:
+The menu container (`.menu`):
 
 - the width to be `990px`
 - the margins to be `80px auto 0 auto`
 - the text to be aligned to the centre
 
-The menu options:
+The menu options (`.menu-item`):
 
 - the element to be of `inline-block` type
 - the right margin to be `10px`
@@ -290,7 +293,7 @@ The menu options:
 - the color to be `#999`
 - the vertical alignment to be at baseline
 
-The active menu option:
+The active menu option (`.menu-item-active`):
 
 - the position to be relative
 - the element to be lower by `1px` (_bottom_: `-1px`)
@@ -307,19 +310,23 @@ Style the `<hr>` tag to have the properties below:
 
 ### 💪 Exercise 2.7
 
-Style the _Work experience_ and _Education_ sections according to the specifications:
+Style the _Work experience_ and _Education_ sections according to the specifications and using the `resume` classes (`.resume-title`, `resume-info`, `.resume-subtitle`, etc.):
 
 ![Specs for Work experience and Education sections](work-experience-specs.png)
 
 ### 💪 Exercise 2.8
 
-Style the _Skills_ section according to the specifications:
+Style the _Skills_ section according to the specifications using the skills classes (`.skills`, `.skills-title`, `skills-item`, `.skills-bg`, etc.):
 
 ![Specs for Skills section](skills-specs.png)
 
 > You can improve the design of the Skills bar using `background` and `linear-gradient`, like in the example below:
 
 ```CSS
+.skills-bg {
+  position: relative;
+}
+
 .skills-bg:before {
   content: "";
   position: absolute;
