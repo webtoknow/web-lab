@@ -97,6 +97,6 @@ The markup should resemble this:
 ## 💗 Credits
 
 Exercises 6.1, 6.2 and 6.3/6.4 are modified versions of [The Logo Hijack
-](https://www.teaching-materials.org/jsweb/exercises/dom_manipulation), [About Me
+](https://www.teaching-materials.org/javascript/exercises/dom), [About Me
 ](https://www.teaching-materials.org/jsweb/exercises/dom_manipulation_advanced) and [The Book List
 ](https://www.teaching-materials.org/jsweb/exercises/dom_manipulation_advanced) originally found on [teaching-materials.org](teaching-materials.org). For additional exercises similar to this, please visit [teaching-materials.org](teaching-materials.org).
