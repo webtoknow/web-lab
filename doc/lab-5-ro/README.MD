@@ -126,3 +126,9 @@ const reducer = (accumulator, currentValue) => accumulator + currentValue;
 [1,2,3,4].reduce(reducer); // 10
 [1,2,3,4].myReduce(reducer); // 10
 ```
+## 💗 Recunoastere a meritelor
+
+Exercitiile 5.2, 5.3 si 5.4 sunt versiuni modificate ale [The Recipe Card
+](https://www.teaching-materials.org/javascript/exercises/objects), [Objects as Arguments
+](https://www.teaching-materials.org/javascript/exercises/objectarguments) si [The Cash Register
+](https://www.teaching-materials.org/javascript/exercises/cashregister) gasite initial pe [teaching-materials.org](teaching-materials.org). Pentru exercitii suplimentare similare, va rog sa vizitati [teaching-materials.org](teaching-materials.org).
