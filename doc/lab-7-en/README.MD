@@ -35,16 +35,24 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 
 ```html
 <h1>Travel stories</h1>
+<form>
+  <p>
+    <label for="places">Visited places:</label>
+    <input type="text" id="places" />
+  </p>
+  <p>
+    <label for="characteristics">Characteristics:</label>
+    <input type="text" id="characteristics" />
+  </p>
 
-<ul>
-  <li>Visited places: <input type="text" id="places" /></li>
-  <li>Characteristics: <input type="text" id="characteristics" /></li>
-  <li>People: <input type="text" id="people" /></li>
-</ul>
+  <p>
+    <label for="people">People:</label>
+    <input type="text" id="people" />
+  </p>
 
-<button id="story-button">Create the story!</button>
-
-<div id="story"></div>
+  <button type="button" id="story-button">Create the story!</button>
+</form>
+<p id="story"></p>
 ```
 
 - Create a JavaScript file named `script.js` and link it to the HTML document using `<script>` tag at the end of it.
@@ -62,45 +70,50 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 - Create a HTML document (_calculator.html_) with the template below included in the `<body>`:
 
 ```html
-<label
-  >1. Square:
-  <input type="number" id="square-input" size="2" />
-</label>
-<button id="square-button">Calculate</button>
-<br /><br />
+<h1>Calculator</h1>
+<form>
+  <label for="square-input">
+    1. Square:
+    <input type="number" id="square-input"/>
+  </label>
+  <button type="button" type="button" id="square-button">Calculate</button>
+</form>
 
-<label
-  >2. Half:
-  <input type="number" id="half-input" size="2" />
-</label>
-<button id="half-button">Calculate</button>
-<br /><br />
+<form>
+  <label for="half-input">
+    2. Half:
+    <input type="number" id="half-input" />
+  </label>
+  <button type="button" id="half-button">Calculate</button>
+</form>
 
-<label>
-  3. Percent:
-  <input type="number" id="percent1-input" size="2" />
-</label>
-<label>
-  Number:
-  <input type="number" id="percent2-input" size="2" />
-</label>
-<button id="percent-button">Calculate</button>
-<br /><br />
+<form>
+  <label>
+    3. Percent:
+    <input type="number" id="percent1-input" />
+  </label>
+  <label for="percent2-input">
+    Number:
+    <input type="number" id="percent2-input" />
+  </label>
+  <button type="button" id="percent-button">Calculate</button>
+</form>
 
-<label
-  >4. Area of a circle with radius:
-  <input type="number" id="area-input" size="2" />
-</label>
-<button id="area-button">Calculate</button>
-<br /><br />
-<div id="solution"></div>
+<form>
+  <label for="area-input">
+    4. Area of a circle with radius:
+    <input type="number" id="area-input" />
+  </label>
+  <button type="button" id="area-button">Calculate</button>
+</form>
+
+<p id="solution"></p>
 ```
 
 - Create a JavaScript file named `script.js` and link it to the HTML file using `<script>` tag at the end of it.
 - Add events to the buttons to make the calculation functions to be called every time they are pressed.
 - Create the functions that return the correct results for all the above cases.
 - Display the results of the calculations in the tag identified by _solution_ id.
-
 - Use the _keypress_ event on one of the inputs so that the user doesn't have to click on the button.
 
 ### 💪 Exercise 7.3
@@ -110,12 +123,13 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 - Create a HTML document (_index.html_) with the template below being included into `<body>`:
 
 ```html
-<div id="buttons">
-  <button id="start-button">Start</button>
-  <button id="speed-button">Go Faster!</button>
-  <button id="stop-button">Stop</button>
-</div>
-<div id="info"></div>
+<h1>Puppy dog eyes</h1>
+<a id="buttons">
+  <button type="button" id="start-button">Start</button>
+  <button type="button" id="speed-button">Go Faster!</button>
+  <button type="button" id="stop-button">Stop</button>
+</a>
+<p id="info"></p>
 <img
   style="position:absolute; left: 0px; top: 80px;"
   src="https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-7-en/dog.gif"
@@ -163,3 +177,9 @@ The JavaScript developers often use expressions like: “event-loop”, “non-b
 ## 🚀 Playground
 
 [Elevator Saga](https://play.elevatorsaga.com/) helps us to get used to the JavaScript functions and events. Until next time, let's see who solves the most levels!
+
+## 💗 Credits
+
+Exercises 7.1, 7.2 and 7.3 are modified versions of [Events - Mad Libs
+](https://www.teaching-materials.org/jsweb/exercises/events), [Events - Calculator
+](https://www.teaching-materials.org/jsweb/exercises/events) and [Catwalk](https://www.teaching-materials.org/jsweb/exercises/catwalk) originally found on [teaching-materials.org](teaching-materials.org). For additional exercises similar to this, please visit [teaching-materials.org](teaching-materials.org).
