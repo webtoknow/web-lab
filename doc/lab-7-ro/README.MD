@@ -35,16 +35,25 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 
 ```html
 <h1>Povesti de calatorie</h1>
+<form>
+  <p>
+    <label for="places">Locuri vizitate:</label>
+    <input type="text" id="places" />
+  </p>
+  <p>
+    <label for="characteristics">Caracteristici:</label>
+    <input type="text" id="characteristics" />
+  </p>
 
-<ul>
-  <li>Locuri vizitate: <input type="text" id="places" /></li>
-  <li>Caracteristici: <input type="text" id="characteristics" /></li>
-  <li>Nume: <input type="text" id="people" /></li>
-</ul>
+  <p>
+    <label for="people">Persoana:</label>
+    <input type="text" id="people" />
+  </p>
 
-<button id="story-button">Creaza povestea!</button>
+  <button type="button" id="story-button">Creaza povestea!</button>
+</form>
 
-<div id="story"></div>
+<p id="story"></p>
 ```
 
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
@@ -62,45 +71,50 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 - Creati un document HTML (_calculator.html_) cu template-ul de mai jos inclus in `<body>`:
 
 ```html
-<label
-  >1. Ridicare la patrat:
-  <input type="number" id="square-input" size="2" />
-</label>
-<button id="square-button">Calculeaza</button>
-<br /><br />
+<h1>Calculator</h1>
+<form>
+  <label for="square-input">
+    1. Ridicare la patrat:
+    <input type="number" id="square-input"/>
+  </label>
+  <button type="button" id="square-button">Calculeaza</button>
+</form>
 
-<label
-  >2. Jumatate din numar:
-  <input type="number" id="half-input" size="2" />
-</label>
-<button id="half-button">Calculeaza</button>
-<br /><br />
+<form>
+  <label for="half-input">
+    2. Jumatate din numar:
+    <input type="number" id="half-input" />
+  </label>
+  <button id="half-button">Calculeaza</button>
+</form>
 
-<label>
-  3. Procent:
-  <input type="number" id="percent1-input" size="2" />
-</label>
-<label>
-  Numar:
-  <input type="number" id="percent2-input" size="2" />
-</label>
-<button id="percent-button">Calculeaza</button>
-<br /><br />
+<form>
+  <label>
+    3. Procent:
+    <input type="number" id="percent1-input" />
+  </label>
+  <label for="percent2-input">
+    Numar:
+    <input type="number" id="percent2-input" />
+  </label>
+  <button id="percent-button">Calculeaza</button>
+</form>
 
-<label
-  >4. Aria unui cerc cu raza:
-  <input type="number" id="area-input" size="2" />
-</label>
-<button id="area-button">Calculeaza</button>
-<br /><br />
-<div id="solution"></div>
+<form>
+  <label for="area-input">
+    4. Aria unui cerc cu raza:
+    <input type="number" id="area-input" />
+  </label>
+  <button id="area-button">Calculeaza</button>
+</form>
+
+<p id="solution"></p>
 ```
 
 - Creati un fisier JavaScript `script.js` si legati-l de documentul HTML folosind `<script>` la sfarsitul acestuia.
 - Adaugati evenimente pe butoane astfel incat de fiecare data cand sunt apasate sa cheme functiile de calcul.
 - Creati functiile care returneaza rezultatele corecte pentru toate cazurile de mai sus.
 - Afisati rezultatele calculelor in tag-ul identificat prin id-ul _solution_.
-
 - Folositi evenimentul _keypress_ pe unul dintre input-uri astfel incat utilizatorul sa nu fie nevoit sa dea click pe buton.
 
 ### 💪 Exercitiul 7.3
@@ -110,12 +124,13 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 - Creati un document HTML (_index.html_) cu template-ul de mai jos inclus in `<body>`:
 
 ```html
-<div id="buttons">
-  <button id="start-button">Start</button>
-  <button id="speed-button">Go Faster!</button>
-  <button id="stop-button">Stop</button>
-</div>
-<div id="info"></div>
+<h1>Catelus cu parul cret</h1>
+<a id="buttons">
+  <button type="button" id="start-button">Start</button>
+  <button type="button" id="speed-button">Mai repede!</button>
+  <button type="button" id="stop-button">Stop</button>
+</a>
+<p id="info"></p>
 <img
   style="position:absolute; left: 0px; top: 80px;"
   src="https://raw.githubusercontent.com/WebToLearn/web-lab/master/doc/lab-7-ro/dog.gif"
@@ -163,3 +178,9 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 ## 🚀 Playground
 
 [Elevator Saga](https://play.elevatorsaga.com/) ne ajuta sa ne obisnuim cu functiile si evenimentele din Javascript. Pana data viitoare, sa vedem cine rezolva cele mai multe nivele!
+
+## 💗 Recunoastere a meritelor
+
+Exercitiile 7.1, 7.2 si 7.3 sunt versiuni modificate ale [Events - Mad Libs
+](https://www.teaching-materials.org/jsweb/exercises/events), [Events - Calculator
+](https://www.teaching-materials.org/jsweb/exercises/events) si [Catwalk](https://www.teaching-materials.org/jsweb/exercises/catwalk) gasite initial pe [teaching-materials.org](teaching-materials.org). Pentru exercitii suplimentare similare, va rog sa vizitati [teaching-materials.org](teaching-materials.org).

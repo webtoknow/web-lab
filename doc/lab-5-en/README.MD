@@ -127,3 +127,10 @@ const reducer = (accumulator, currentValue) => accumulator + currentValue;
 [1,2,3,4].reduce(reducer); // 10
 [1,2,3,4].myReduce(reducer); // 10
 ```
+
+## 💗 Credits
+
+Exercises 5.2, 5.3 and 5.4 are modified versions of [The Recipe Card
+](https://www.teaching-materials.org/javascript/exercises/objects), [Objects as Arguments
+](https://www.teaching-materials.org/javascript/exercises/objectarguments) and [The Cash Register
+](https://www.teaching-materials.org/javascript/exercises/cashregister) originally found on [teaching-materials.org](teaching-materials.org). For additional exercises similar to this, please visit [teaching-materials.org](teaching-materials.org).

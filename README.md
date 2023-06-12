@@ -41,6 +41,7 @@ This repo contains all the HTML, CSS and JS exercises we will go through:
 - 🎢 - "Carousel Kody" points the area where the exercises are
 - 💪 - "Mr. Muscle" mark the exercises we should solve
 - 🎁 - "Bonus Gift" helps us to go beyond our limits with advanced exercises
+- 💗 - "Credits heart" representing appreciation, recognition, gratitude and acknowledgment
 
 #### Requirements
 
@@ -91,6 +92,7 @@ Exercitiile sunt impartite dupa cum urmeaza:
 - 🎢 - "Caruselul Kody" ne indica zona unde se afla exercitiile
 - 💪 - "Domnul Muschi" marcheaza exercitiile pe care trebuie sa le rezolvam
 - 🎁 - "Cadoul Bonus" ne ajuta sa ne depasim limitele cu exercitii avansate
+- 💗 - "Inimioara Grazie" simbolizeaza aprecierea, recunostinta si recunoasterea meritelor
 
 #### Cerinte
 
