@@ -74,18 +74,18 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
 <h1>Calculator</h1>
 <form>
   <label for="square-input">
-    1. Ridicare la pătrat:
+    1. Ridicare la patrat:
     <input type="number" id="square-input"/>
   </label>
-  <button type="button" id="square-button">Calculează</button>
+  <button type="button" id="square-button">Calculeaza</button>
 </form>
 
 <form>
   <label for="half-input">
-    2. Jumătate din număr:
+    2. Jumatate din numar:
     <input type="number" id="half-input" />
   </label>
-  <button id="half-button">Calculează</button>
+  <button id="half-button">Calculeaza</button>
 </form>
 
 <form>
@@ -94,18 +94,18 @@ Programatorii Javascript obisnuiesc sa foloseasca des expresii precum: “event-
     <input type="number" id="percent1-input" />
   </label>
   <label for="percent2-input">
-    Număr:
+    Numar:
     <input type="number" id="percent2-input" />
   </label>
-  <button id="percent-button">Calculează</button>
+  <button id="percent-button">Calculeaza</button>
 </form>
 
 <form>
   <label for="area-input">
-    4. Aria unui cerc cu rază:
+    4. Aria unui cerc cu raza:
     <input type="number" id="area-input" />
   </label>
-  <button id="area-button">Calculează</button>
+  <button id="area-button">Calculeaza</button>
 </form>
 
 <p id="solution"></p>
