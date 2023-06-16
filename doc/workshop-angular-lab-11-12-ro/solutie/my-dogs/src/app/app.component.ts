@@ -1,39 +1,40 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Dog } from './models/dog';
+import { DogsService } from './services/dogs.service';
+import { Subscription } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
-import { DogsService } from './dogs.service';
-import { Dog } from './dog';
-import { FormComponent } from './form/form.component';
+import { FormComponent } from './components/form/form.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
-  dogs: Dog[] = [];
-  displayedColumns: string[] = ['name', 'img', 'actions']
 
+export class AppComponent implements OnInit, OnDestroy {
+  dogs: Dog[] = [];
+  getDogSubscription = new Subscription();
+  deleteDogSubscription = new Subscription();
+  displayedColumns: string[] = ['name', 'img', 'actions']
+  
   constructor(
     private dogsService: DogsService,
-    public dialog: MatDialog
-  ) { }
+    private dialog: MatDialog
+    ) {
+  }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.getDogs();
   }
 
   getDogs() {
-    this.dogsService.getDogs().subscribe((response) => {
+    this.getDogSubscription = this.dogsService.getDogs().subscribe((response) => {
       this.dogs = response;
     })
   }
 
-  editDog(dog: Dog) {
-    const dialogRef = this.dialog.open(FormComponent, {
-      width: '650px',
-      data: { ...dog }
-    });
-    dialogRef.afterClosed().subscribe(result => {
+  deleteDog(id: number) {
+    this.deleteDogSubscription = this.dogsService.deleteDog(id).subscribe(() => {
       this.getDogs();
     });
   }
@@ -48,9 +49,19 @@ export class AppComponent implements OnInit {
     });
   }
 
-  deleteDog(id: number) {
-    this.dogsService.deleteDog(id).subscribe(() => {
-      this.getDogs()
+  editDog(dog: Dog) {
+    const dialogRef = this.dialog.open(FormComponent, {
+      width: '650px',
+      data: { ...dog }
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      this.getDogs();
     });
   }
+
+  ngOnDestroy(): void {
+    this.getDogSubscription.unsubscribe();
+    this.deleteDogSubscription.unsubscribe();
+  }
+
 }
