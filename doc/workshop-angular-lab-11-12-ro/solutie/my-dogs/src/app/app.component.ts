@@ -15,6 +15,7 @@ export class AppComponent implements OnInit, OnDestroy {
   dogs: Dog[] = [];
   getDogSubscription = new Subscription();
   deleteDogSubscription = new Subscription();
+  dialogRefSubscription = new Subscription();
   displayedColumns: string[] = ['name', 'img', 'actions']
   
   constructor(
@@ -44,7 +45,7 @@ export class AppComponent implements OnInit, OnDestroy {
       width: '650px',
       data: { name: '', img: '' }
     });
-    dialogRef.afterClosed().subscribe(result => {
+    this.dialogRefSubscription = dialogRef.afterClosed().subscribe(() => {
       this.getDogs();
     });
   }
@@ -54,7 +55,7 @@ export class AppComponent implements OnInit, OnDestroy {
       width: '650px',
       data: { ...dog }
     });
-    dialogRef.afterClosed().subscribe(result => {
+    this.dialogRefSubscription = dialogRef.afterClosed().subscribe(() => {
       this.getDogs();
     });
   }
@@ -62,6 +63,7 @@ export class AppComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.getDogSubscription.unsubscribe();
     this.deleteDogSubscription.unsubscribe();
+    this.dialogRefSubscription.unsubscribe();
   }
 
 }
