@@ -1,16 +1,44 @@
 # Aplicatia "My dogs" cu React
 
-## Cuprins
+Acest tutorial va oferi o introducere privind lucrul cu API-uri REST și React, acoperind conceptele și tehnicile cheie necesare pentru construirea aplicațiilor pentru a crea, citi, modifica și șterge (CREATE, READ, UPDATE și DELETE) date de pe un server. Mai exact, vom gestiona o listă de câini de pe un server. 🐶🐕🐶🐕
 
+## Cuprins
+- [Instalare Nodejs](#instalare-nodejs)
 - [Pornirea server-ului de backend](#pornirea-server-ului-de-backend)
 - [Crearea aplicatiei](#crearea-aplicatiei)
-- [Adaugarea librariei Material-UI](#adaugarea-librariei-material-ui)
 - [Eliminarea codului inutil](#eliminarea-codului-inutil)
 - [Aducerea datelor de la server](#aducerea-datelor-de-la-server)
 - [Afisarea listei de catei](#afisarea-listei-de-catei)
-- [Stilizarea listei de catei](#stilizarea-listei-de-catei)
 - [Stergerea unui element din lista de catei](#stergerea-unui-element-din-lista-de-catei)
 - [Adaugarea si editarea unui element din lista de catei](#adaugarea-si-editarea-unui-element-din-lista-de-catei)
+- [Adaugare mesaj de incarcare](#adaugare-mesaj-de-incarcare)
+
+# Instalare Nodejs
+
+> Săriți acestă sectiune dacă aveți Nodejs instalat pe calculator.
+
+Pentru a instala Node.js pe Windows, puteți descărca fisierul de instalare de pe [site-ul Node.js](https://nodejs.org/en/download/) și urmați instrucțiunile pentru a instala ultima versiune de Node.js pe sistemul dvs.
+
+Pentru a instala Node.js pe Linux, puteți utiliza un manager de pachete precum apt-get sau yum. De exemplu, pentru a instala Node.js pe Ubuntu folosind apt-get, puteți rula următoarele comenzi:
+
+```bash
+sudo apt-get update
+sudo apt-get install nodejs
+```
+
+Pentru a instala Node.js pe MacOS, puteți utiliza managerul de pachete Homebrew. În primul rând, va trebui să instalați Homebrew executând următoarea comandă:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+După ce Homebrew este instalat, puteți folosi pentru a instala Node.js executând următoarea comandă:
+
+```bash
+brew install node
+```
+
+După ce Node.js este instalat, puteți verifica instalarea executând comanda node -v, care ar trebui să afișeze versiunea instalată de Node.js. De asemenea, puteți utiliza comanda npm pentru a gestiona pachetele și dependențele pentru proiectele dumneavoastră Node.js.
 
 ## Pornirea server-ului de backend
 
@@ -76,51 +104,20 @@ cd my-dogs
 npm start
 ```
 
-Accesand link-ul [http://localhost:3000](http://localhost:3000), veti vedea noua noastra aplicatie React.
-
-## Adaugarea librariei Material-UI
-
-### NPM
-
-Material-UI este disponibil ca [pachet npm](https://www.npmjs.com/package/@material-ui/core),
-pentru a-l putea folosi acesta trebuie instalat:
-
-```sh
-npm install @material-ui/core
-```
-
-Observam ca toate dependentele sale s-au salvat in `package.json`.
-
-### Roboto Font
-
-Material-UI a fost conceput cu ajutorul font-ului Roboto de la Google. Sa-l adaugam si noi in `index.html`:
-
-```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-```
-
-### Iconitele SVG
-
-Iconitele inbunatatesc experienta utilizatorului. Le instalam folosind:
-
-```sh
-npm install @material-ui/icons
-```
+Accesand link-ul [http://localhost:3000](http://localhost:3000), veti putea vedea noua voastra aplicatie React.
 
 ## Eliminarea codului inutil
 
-Sa inlaturam din componenta nou creata `App.js` tot ce nu ne trebuie:
+Sa inlaturam din componenta nou creata `App.js` codul inutil:
 
 ```js
-import React, { Component } from 'react';
+import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <main>
+    </main>
+  );
 }
 
 export default App;
@@ -128,320 +125,223 @@ export default App;
 
 ## Aducerea datelor de la server
 
-In componenta noastra avem nevoie de o variabila care sa stocheze lista de catei:
+In componenta avem nevoie de o variabila (state) care sa stocheze lista de catei, iar pentru asta folosim `useState([])`:
 
 ```js
-  constructor(props){
-    super(props);
-    this.state = {
-      dogs: [],
-    }
-  }
+const [dogs, setDogs] = useState([]);
 ```
 
 Aducem lista de catei cu ajutorul unui request de tip `GET`:
 
 ```js
-  getDogs() {
-    fetch('http://localhost:4000/dogs')
-    .then((response) => response.json())
-    .then((responseJson) => {
-
-      this.setState({
-        dogs: responseJson,
-      })
-    })
-    .catch((error) =>{
-      console.error(error);
-    });
-  }
+  const fetchDogs = async () => {
+    try {
+      const response = await fetch('http://localhost:4000/dogs');
+      const data = await response.json();
+      setDogs(data);
+    } catch (error) {
+      console.error('Error fetching dogs:', error);
+    }
+  };
 ```
 
-Apelam functia creata anterior in momentul in care se initializeaza componenta:
+Apelam functia creata anterior in momentul in care se initializeaza componenta, folosind `useEffect`:
 
 ```js
-  componentDidMount() {
-    this.getDogs()
-  }
+  useEffect(() => {
+    fetchDogs();
+  }, []);
 ```
 
 ## Afisarea listei de catei
 
-Folosim tabelul dat ca exemplu in [Material-UI](https://material-ui.com/demos/tables/) pentru a afisa lista de catei:
-
-Importam componentele de care avem nevoie:
+Folosim o lista neordonata pentru a afisa cateii:
 
 ```js
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
-
-import EditIcon from '@material-ui/icons/Edit';
-import DeleteIcon from '@material-ui/icons/Delete';
-```
-
-Modificam functia `render` pentru a afisa lista:
-
-```js
- render() {
-    const { dogs } = this.state;
-    return (
-      <Paper>
-      <Table>
-        <TableHead>
-          <TableRow>
-            <TableCell>Nume</TableCell>
-            <TableCell align="center">Imagine</TableCell>
-            <TableCell align="right">Actiuni</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {dogs.map(dog => {
-            return (
-              <TableRow key={dog.id}>
-                <TableCell component="th" scope="row">
-                  {dog.name}
-                </TableCell>
-                <TableCell align="center">
-                  <img src={dog.img} alt={dog.name} />
-                </TableCell>
-                <TableCell align="right">
-                  <Button onClick={() => this.editDog(dog)}>
-                    <EditIcon />
-                     Editeaza
-                  </Button>
-                  <Button onClick={() => this.deleteDog(dog.id)}>
-                    <DeleteIcon />
-                     Sterge
-                  </Button>
-                </TableCell>
-              </TableRow>
-            );
-          })}
-        </TableBody>
-      </Table>
-    </Paper>
-    );
-  }
+  return (
+    <main>
+      <ul>
+        {dogs.map((dog) => (
+          <li key={dog.id}>
+            {dog.name} - <img src={dog.img} alt={dog.name} />
+            <button type='button'>Edit</button>
+            <button type='button'>Delete</button>
+          </li>
+        ))}
+      </ul>
+    </main>
+  );
 ```
 
 Pentru fiecare catel afisam numele, imaginea si butoanele de actiuni: *Editeaza* si *Sterge*.
-
-## Stilizarea listei de catei
-
-Pentru a imbunatati designul, folosim [CSS in JS](https://material-ui.com/css-in-js/basics/#higher-order-component-api) si ne cream un obiect care va contine noile stiluri:
-
-```js
-const styles = theme => ({
-  root: {
-    width: '100%',
-    marginTop: theme.spacing.unit * 3,
-    overflowX: 'auto',
-  },
-  table: {
-    minWidth: 700,
-  },
-  addButton: {
-    margin: '10px'
-  },
-  editButton: {
-    marginRight: '20px'
-  },
-  img: {
-    height: '150px'
-  }
-});
-```
-
-Transmitem obiectul creat anterior componentei `App`:
-
-```js
-import { withStyles } from '@material-ui/core/styles';
-....
-export default withStyles(styles)(App);
-```
-
-In functia `render` folosim stilurile:
-
-```js
-render() {
-  const { classes } = this.props;
-  ...
-  return (
-    ...
-    <Table className={classes.table}>
-    ...
-      <img src={dog.img} alt={dog.name} className={classes.img} />
-    ...
-    <Button className={classes.editButton} onClick={() => this.editDog(dog)}>
-    ...
-  )
-}
-```
 
 ## Stergerea unui element din lista de catei
 
 Stergem un element din lista de catei cu ajutorul unui request de tip `DELETE`:
 
 ```js
-  deleteDog(id) {
-    const self = this;
-
-     fetch(`http://localhost:4000/dogs/${id}`, {
-      method: 'DELETE',
-      }).then(function () {
-        self.getDogs();
-    });
-  }
+   const handleDeleteDog = async (dogId) => {
+    try {
+      await fetch(`http://localhost:4000/dogs/${dogId}`, {
+        method: 'DELETE',
+      });
+      fetchDogs();
+    } catch (error) {
+      console.error('Error deleting dog:', error);
+    }
+  };
 ```
 
 ## Adaugarea si editarea unui element din lista de catei
 
-Adaugam in `state` noile proprietati de care avem nevoie:
+Pentru a modifica lista de catei avem nevoie de noi `state`-uri, mai exact de datele din formularul de adaugare/editare si de id-ul catelului atunci cand vrem sa il editam:
 
 ```js
- this.state = {
-      dogs: [],
-      openModal: false,
-      id: null,
-      name: '',
-      img: '',
-    }
+const [formData, setFormData] = useState({ name: '', img: '' });
+const [editingDogId, setEditingDogId] = useState(null);
 ```
 
-Inseram butonul de *Adaugare* deasupra tabelului:
+HTML-ul formularului arata ca mai jos si putem sa il punem deasupra listei noastre:
 
 ```js
-<Paper>
-  <Button color="secondary" variant="contained" className={classes.addButton} onClick={this.addDog}>
-      <AddIcon />
-    Adauga
-  </Button>
-  <Table className={classes.table}>
-...
+<header>
+  <h2>{editingDogId ? 'Edit Dog' : 'Add Dog'}</h2>
+  <form onSubmit={editingDogId ? handleEditDog : handleAddDog}>
+    <input
+      type="text"
+      name="name"
+      placeholder="Name"
+      value={formData.name}
+      onChange={handleInputChange}
+    />
+    <input
+      type="text"
+      name="img"
+      placeholder="Image URL"
+      value={formData.img}
+      onChange={handleInputChange}
+    />
+    {editingDogId ? (
+      <div>
+        <button type="submit">Save</button>
+       <button type='button' onClick={handleCancelEdit}>Cancel</button>button>
+      </div>
+    ) : (
+      <button type="submit">Add</button>
+    )}
+  </form>
+</header>
 ```
 
-Functia care va adauga un nou element va deschide o modala cu un formular nepopulat:
+Modificam `state`-ul cu numele si URL-ul imaginii gasite in formular:
 
 ```js
-  addDog = () => {
-    this.setState({ openModal: true, id: null, name: '', img: '' });
-  }
-```
-
-Functia care va edita un element va deschide o modala ce va contine detaliile despre catel:
-
-```js
-  editDog(dog) {
-    this.setState({ openModal: true, id: dog.id, name: dog.name, img: dog.img });
-  }
-```
-
-Importam toate componentele necesare modalei:
-
-```js
-import AddIcon from '@material-ui/icons/Add';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import TextField from '@material-ui/core/TextField';
-```
-
-Adaugam modala in functia `render` dupa tabel:
-
-```js
- render() {
-  const { dogs, openModal } = this.state;
-  ...
-  return (
-    ...
-      </Table>
-      <Dialog
-          open={openModal}
-          onClose={this.closeModal}
-          aria-labelledby="form-dialog-title"
-        >
-          <DialogTitle id="form-dialog-title">Subscribe</DialogTitle>
-          <DialogContent>
-            <TextField
-              autoFocus
-              margin="dense"
-              id="name"
-              label="Dog name"
-              type="text"
-              value={this.state.name}
-              onChange={this.handleFieldChange('name')}
-              fullWidth
-            />
-            <TextField
-              margin="dense"
-              id="img"
-              label="Image Url"
-              type="img"
-              value={this.state.img}
-              onChange={this.handleFieldChange('img')}
-              fullWidth
-            />
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={this.closeModal} color="primary">
-              Anulare
-            </Button>
-            <Button onClick={this.saveDogs} color="primary">
-              Salvare
-            </Button>
-          </DialogActions>
-        </Dialog>
-      </Paper>
-    )
- }  
-```
-
-Completam `state`-ul cu numele si imaginea din formular:
-
-```js
-  handleFieldChange = name => event => {
-    this.setState({
-      [name]: event.target.value,
-    });
+ const handleInputChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 ```
 
-Adaugam functia care inchide modala:
+Apoi, adaugam functiile care ne ajuta la editarea catelului:
 
 ```js
- closeModal = () => {
-    this.setState({ openModal: false });
-  };
+const handleEditButtonClick = (dog) => {
+  setFormData({ name: dog.name, img: dog.img });
+  setEditingDogId(dog.id);
+};
 ```
-
-Salvam un element din lista de catei cu ajutorul request-urilor de tip `POST` si `PUT`:
+`handleEditButtonClick` face update la formular si totodata seteaza id-ul catelului editat.
 
 ```js
-  saveDogs = () => {
-    const { id, name, img } = this.state
-    const url = id ===  null ? 'http://localhost:4000/dogs' : `http://localhost:4000/dogs/${id}`;
-    const method = id === null ? 'POST' : 'PUT';
-    const postObject = id === null ? { name, img } : { id, name, img }
-    const self = this;
+const handleCancelEdit = () => {
+  setFormData({ name: '', img: '' });
+  setEditingDogId(null);
+};
+```
+`handleCancelEdit` reseteaza formularul si editingDogId
 
-    fetch(url, {
-      method: method,
+
+Urmatorul pas este sa adaugam sau sa modificam un element in/din lista de catei cu ajutorul request-urilor de tip `POST` si `PUT`:
+
+```js
+const handleAddDog = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch('http://localhost:4000/dogs', {
+      method: 'POST',
       headers: {
-          "Content-type": "application/json"
+        'Content-Type': 'application/json',
       },
-      body: JSON.stringify(postObject)
-    }).then(function () {
-      self.getDogs();
-      self.closeModal();
+      body: JSON.stringify(formData),
     });
+    const newDog = await response.json();
+    setDogs([...dogs, newDog]);
+    setFormData({ name: '', img: '' });
+  } catch (error) {
+    console.error('Error adding dog:', error);
   }
-   closeModal = () => {
-    this.setState({ openModal: false });
-  };
+};
 ```
+
+```js
+const handleEditDog = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch(`http://localhost:4000/dogs/${editingDogId}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+    const updatedDog = await response.json();
+    setDogs(dogs.map((dog) => (dog.id === editingDogId ? updatedDog : dog)));
+    setFormData({ name: '', img: '' });
+    setEditingDogId(null);
+  } catch (error) {
+    console.error('Error editing dog:', error);
+  }
+};
+```
+Si nu in ultimul rand, adaugam evenimentul de click pe butonul de edit:
+
+```js
+<button type='button' onClick={() => handleEditButtonClick(dog)}>Edit</button>
+```
+
+## Adaugare mesaj de incarcare
+
+Prin adaugarea unui mesaj de incarcare (Loading dogs...), de fiecare data cand solicitam lista de caini de la server, putem imbunatati experienta de utilizare:
+
+```js
+const [loading, setLoading] = useState(true);
+...
+const fetchDogs = async () => {
+  try {
+    setLoading(true);
+    const response = await fetch('http://localhost:4000/dogs');
+    const data = await response.json();
+    setDogs(data);
+  } catch (error) {
+    console.error('Error fetching dogs:', error);
+  } finally {
+    setLoading(false);
+  }
+};
+```
+
+```js
+{loading ? (
+        <p>Loading dogs...</p>
+) : (
+  <ul>
+   {dogs.map((dog) => (
+      <li key={dog.id}>
+        {dog.name} - <img src={dog.img} alt={dog.name} />
+        <button type='button' onClick={() => handleEditButtonClick(dog)}>Edit</button>
+        <button onClick={() => handleDeleteDog(dog.id)} type='button'>Delete</button>
+      </li>
+    ))}
+  </ul>
+)}
+```
+
