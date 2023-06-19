@@ -409,7 +409,7 @@ Apoi, in `app.component.ts` inserati functiile care vor adauga sau edita cateii 
       width: '650px',
       data: { name: '', img: '' }
     });
-    dialogRef.afterClosed().subscribe(result => {
+     this.dialogRefSubscription = dialogRef.afterClosed().subscribe(() => {
       this.getDogs();
     });
   }
@@ -421,9 +421,22 @@ Apoi, in `app.component.ts` inserati functiile care vor adauga sau edita cateii 
       width: '650px',
       data: { ...dog }
     });
-    dialogRef.afterClosed().subscribe(result => {
+    this.dialogRefSubscription = dialogRef.afterClosed().subscribe(() => {
       this.getDogs();
     });
+  }
+```
+
+```js
+export class AppComponent implements OnInit, OnDestroy {
+  dogs: Dog[] = [];
+  getDogSubscription = new Subscription();
+  deleteDogSubscription = new Subscription();
+  dialogRefSubscription = new Subscription();
+  ...
+  ngOnDestroy(): void {
+    ...
+    this.dialogRefSubscription.unsubscribe();
   }
 ```
 
